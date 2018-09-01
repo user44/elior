@@ -1,0 +1,1483 @@
+*::-webkit-input-placeholder
+	color: #666
+	opacity: 1
+
+*:-moz-placeholder
+	color: #666
+	opacity: 1
+
+*::-moz-placeholder
+	color: #666
+	opacity: 1
+
+*:-ms-input-placeholder
+	color: #666
+	opacity: 1
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid
+	color: #666
+body input:required:valid,
+body textarea:required:valid
+	color: #666
+
+/*======== grid =========*/
+@import ../app/libs/bootstrap/grid.min
+/*======== fonts =========*/
+@import 'https://use.fontawesome.com/releases/v5.2.0/css/all.css'
+@import fonts
+@import iconfont
+/*======== sprite =========*/
+// @import ../app/img/sprite/sprite
+/*======== css libs =========*/
+@import ../app/libs/carousel/assets/owl.carousel
+@import ../app/libs/slick/slick.scss
+// @import ../app/libs/slick/slick-theme.scss
+@import ../app/libs/magnific-popup/magnific-popup
+@import ../app/libs/sweetalert-master/animate
+@import ../app/libs/sweetalert-master/dist/sweetalert
+
+/*======================= Styles ==========================*/
+$accent: #ce4e4e
+//Common Styles Here
+body
+	font-family: "ProximaNovaRegular"
+	color: #000
+	font-size: 16px
+	background: #F7F7F7
+	// position: relative
+
+a
+	color: #ED4D4D
+	text-decoration: underline
+	&:hover,
+	&:focus
+		color: #ED4D4D
+	&:hover
+		text-decoration: none
+
+.btn-accent
+	padding: 20px 45px
+	display: inline-block
+	font-size: 20px
+	text-align: center
+	border: none
+	background-color: $accent
+	color: #fff
+	font-family: "ProximaNovaRegular"
+	font-weight: 700
+	border-radius: 8px
+	text-decoration: none
+	&.middle
+		padding: 0.7em 2em
+	&:hover,
+	&:active,
+	&:focus
+		color: #fff
+		text-decoration: none
+		outline: none
+	&:hover
+		background: lighten($accent, 7%)
+		transition: .2s
+	&:active
+		position: relative
+		top: 1px
+	&.white
+		background: #fff
+		color: #000
+		&:hover,
+		&:active,
+		&:focus
+			color: #000
+		&:hover
+			// background: #fff
+			background: darken(#fff, 5%)
+
+.section-title-box
+	margin: 30px 0 50px
+	&.white
+		.section-title
+			h1,h2,h3,h4,h5,h6
+				color: #fff
+			.n
+				opacity: 0.1
+		.llt
+			color: #fff
+	.section-title
+		margin: 0 0 30px
+		position: relative
+		h1,h2,h3,h4,h5,h6
+			margin: 0 28px 0 0
+			display: inline-block
+			font-family: "ProximaNovaExtrabld"
+			font-size: 48px
+			color: #2c2c2c
+			position: relative
+			line-height: 54px
+			vertical-align: top
+		.n
+			position: absolute
+			font-family: "ProximaNovaExtrabld"
+			color: #fff
+			font-size: 167px
+			top: 42%
+			left: -4%
+			transform: translate3d(0, -50%, 0)
+.llt
+	display: inline-block
+	margin: 0 0 25px
+	color: #2c2c2c
+	padding-left: 20px
+	border-left: 3px solid $accent
+	font-size: 22px
+	vertical-align: bottom
+	position: relative
+
+.img-box
+	img
+		max-width: 100%
+
+.no-gutter > [class*='col-']
+	padding-right: 0
+	padding-left: 0
+
+section
+	margin: 0 0 50px
+	position: relative
+
+.lbar
+
+
+.lcolumn
+	z-index: 100
+	position: absolute
+	width: 140px
+	left: 0
+	top: 0
+	bottom: 0
+	background: #fff
+	box-shadow: 5px 8px 16px rgba(194, 194, 194, 0.07)
+	.nav-title
+		color: #202020
+		font-size: 16px
+		font-weight: 400
+		transform: rotate(-90deg)
+		border-left: 3px solid $accent
+		padding-left: 10px
+		a
+			text-decoration: underline
+			color: #202020
+			&:hover
+				text-decoration: none
+		&.bottom
+			margin: 600px 0 0
+		&.two
+			margin: 480px 0 0
+
+.lbar
+	z-index: 100
+	position: fixed
+	width: 140px
+	left: 0
+	top: 0
+	bottom: 0
+	background: #fff
+	box-shadow: 5px 8px 16px rgba(194, 194, 194, 0.07)
+	.logo
+		margin: 45px 0 55px
+		text-align: center
+		p
+			margin: 7px 0
+			font-size: 13px
+			line-height: 15px
+	.lbar-title
+		margin: 36vh 0 0
+		color: #202020
+		font-weight: 400
+		transform: rotate(-90deg)
+		border-left: 3px solid $accent
+		padding-left: 10px
+		a
+			text-decoration: underline
+			color: #202020
+			&:hover
+				text-decoration: none
+		ul
+			margin: 0
+			padding: 0
+			li
+				// font-size: 16px
+				font-size: 21px
+				list-style-type: none
+				display: none
+				white-space: nowrap
+				a
+					&:focus
+						outline: none
+				&:first-child
+					display: block
+	.lbar-menu
+		ul
+			padding: 0
+			margin: 0
+			position: absolute
+			left: 100%
+			top: 0
+			background: #fff url(../img/menu-bg.png) no-repeat center bottom
+			background-size: 70%
+			width: 400px
+			height: 100%
+			display: block
+			width: 0px
+			overflow: hidden
+			transition: .4s
+			&.active
+				padding: 7vh 0 100px 40px
+				width: 400px
+				li
+					transform: none
+					opacity: 1
+					&:nth-child(1)
+						transition-delay: 0.05s
+					&:nth-child(2)
+						transition-delay: 0.1s
+					&:nth-child(3)
+						transition-delay: 0.15s
+					&:nth-child(4)
+						transition-delay: 0.2s
+					&:nth-child(5)
+						transition-delay: 0.25s
+					&:nth-child(6)
+						transition-delay: 0.3s
+					&:nth-child(7)
+						transition-delay: 0.35s
+					&:nth-child(8)
+						transition-delay: 0.4s
+					&:nth-child(9)
+						transition-delay: 0.45s
+					&:nth-child(10)
+						transition-delay: 0.5s
+					&:nth-child(11)
+						transition-delay: 0.55s
+					&:nth-child(12)
+						transition-delay: 0.6s
+					&:nth-child(13)
+						transition-delay: 0.65s
+					&:nth-child(14)
+						transition-delay: 0.7s
+					&:nth-child(15)
+						transition-delay: 0.75s
+					&:nth-child(16)
+						transition-delay: 0.8s
+					&:nth-child(17)
+						transition-delay: 0.85s
+			li
+				margin: 0 0 3vh
+				list-style-type: none
+				transform: translate3d(20px, 0, 0)
+				opacity: 0
+				transition: .2s
+				a
+					color: #000
+					font-size: 24px
+					&:hover
+						color: $accent
+
+.navbutton
+	display: block
+	margin: 0 auto 0
+	position: relative
+	// position: absolute
+	// top: 24px
+	// right: 20px
+	width: 35px
+	height: 25px
+	cursor: pointer
+	&.active
+		em
+			opacity: 0
+			background-color: #000
+			transition: opacity .2s，background-color .2s
+			&:first-child
+				opacity: 1
+				transform: rotate(45deg)
+				top: 10px
+				transition: background-color .2s,transform .2s .3s,top .2s
+			&:last-child
+				opacity: 1
+				transform: rotate(-45deg)
+				top: 10px
+				transition: background-color .2s,transform .2s .3s,top .2s
+	em
+		position: absolute
+		top: 10px
+		left: 0
+		width: 100%
+		height: 4px
+		// border-radius: 2px
+		background-color: #000
+		opacity: 1
+		transition: opacity .2s,background-color .2s .7s
+		&:first-child
+			top: 0
+			transform: rotate(0deg)
+			transition: transform .2s,top .2s .3s,background-color .2s .7s
+		&:last-child
+			top: 20px
+			transform: rotate(0deg)
+			transition: transform .2s,top .2s .3s,background-color .2s .7s
+
+.fi
+	display: inline-block
+
+.vertical-text
+	text-shadow: 6px 10px 81px rgba(90, 90, 90, 0.15)
+	color: #ffffff
+	font-family: "ProximaNovaExtrabld"
+	font-size: 97px
+	transform: rotate(-90deg)
+	position: absolute
+	// left: 79%
+	right: 0
+	top: 30%
+
+.secure
+	position: relative
+	padding-left: 44px
+	.icon
+		position: absolute
+		left: 0
+		top: 2px
+		.fi
+			font-size: 35px
+			line-height: 35px
+	p
+		font-family: "ProximaNovaSemibold"
+		font-size: 14px
+
+.centered
+	text-align: center
+
+input,
+textarea
+	padding: 1em 1em
+	border-radius: 5px
+	font-size: 16px
+	border: none
+	outline: none
+	border: 1px solid rgba(0,0,0, .4)
+	width: 100%
+	&:invalid
+		border-color: lighten(red, 15%)
+	&:valid
+		border-color: lighten(green, 15%)
+
+//Custom Styles Here
+.main-head
+	// background: url(../img/header-bg.png) no-repeat right top
+	position: relative
+	overflow: hidden
+	// &.two
+		// background-image: url(../img/header-bg-2.jpg)
+	.header-slider
+		position: absolute
+		right: 0
+		top: 0
+		width: 55%
+		height: 100%
+		.item
+			display: none
+			position: absolute
+			left: 0
+			top: 0
+			width: 100%
+			height: 100%
+			&:first-child
+				display: block
+			img
+				object-fit: cover
+				width: 100%
+				height: 100%
+	.callback-box
+		margin: 20px 0 80px
+		padding-left: 85px
+		position: relative
+		.phone
+			margin: 0
+			font-size: 20px
+			font-family: "ProximaNovaBold"
+		a
+			font-family: "ProximaNovaSemibold"
+			font-size: 16px
+			text-decoration: underline
+			&:hover
+				text-decoration: none
+	.icon-circle
+		width: 65px
+		height: 65px
+		background: #fff
+		border-radius: 50%
+		position: absolute
+		left: 0
+		top: 50%
+		transform: translate3d(0, -50%, 0)
+		a
+			color: #000
+			display: block
+			width: 100%
+			height: 100%
+		i
+			position: absolute
+			left: 50%
+			top: 50%
+			transform: translate3d(-50%, -50%, 0)
+			font-size: 20px
+		&.vk
+			position: absolute
+			left: auto
+			right: 40px
+			top: 46px
+			z-index: 10
+		svg
+			position: absolute
+			left: 50%
+			top: 50%
+			transform: translate3d(-50%, -50%, 0)
+	.main-title
+		margin: 0 0 20px
+		h2
+			// display: inline
+			margin: 0
+			font-size: 52px
+			font-family: "ProximaNovaExtrabld"
+			span
+				background-color: #f7f7f7
+				padding: 7px 0px
+				padding-right: 20px
+	.llt
+		margin: 0 0 25px
+		padding-left: 20px
+		border-left: 3px solid $accent
+		font-family: "ProximaNovaSemibold"
+		font-size: 22px
+	.btn-box
+		margin: 0 0 50px
+	.build-types
+	.bt-item
+		margin: 0 0 40px
+		position: relative
+		padding-left: 82px
+		&.active
+			.bt-box
+				p
+					text-decoration: none
+					font-weight: 700
+				// svg
+				// 	path
+				// 		fill: $accent
+		.bt-box
+			display: inline-block
+			p
+				text-decoration: none
+				font-family: "ProximaNovaSemibold"
+			&:hover
+				// cursor: pointer
+				p
+					text-decoration: none
+			.icon-box
+				svg
+					path
+						fill: $accent
+				.fi
+					color: #ce4e4e
+					font-size: 60px
+					position: relative
+					transform: translate3d(-50%, 0, 0)
+					left: 30px
+					&.fi-venec
+						font-size: 48px
+					&:before
+						vertical-align: bottom
+		.icon-box
+			position: absolute
+			left: 0
+			top: 50%
+			transform: translate3d(0, -50%, 0)
+		p
+			font-size: 18px
+			margin: 0
+			text-decoration: underline
+	.mouse-down-box
+		// text-align: center
+		margin: 150px 0 0
+		position: relative
+		z-index: 10
+		&:after
+			content: ""
+			display: block
+			width: 3px
+			height: 99px
+			background-color: #ce4e4e
+			position: absolute
+			left: 50%
+			top: 100%
+			margin-top: 30px
+		.circle
+			margin: 0 auto
+			width: 74px
+			height: 74px
+			background: $accent
+			border-radius: 50%
+			box-shadow: 4px 17px 62px rgba(68, 68, 67, 0.14), 0 0 0 50px rgba(255,255,255, 0.3)
+			position: relative
+		.mouse
+			display: inline-block
+			position: absolute
+			left: 50%
+			top: 60%
+			transform: translate3d(-50%, -50%, 0)
+			&:after
+				content: ""
+				display: block
+				width: 4px
+				height: 4px
+				background-color: #c7b079
+				border-radius: 50%
+				opacity: 0.6
+				position: absolute
+				left: 50%
+				top: 30%
+				transform: translate3d(-50%, -50%, 0)
+				animation: ani-mouse 2.5s linear infinite
+	@keyframes ani-mouse
+		0%
+			opacity: 1
+			top: 25%
+		15%
+			opacity: 1
+			top: 40%
+		50%
+			opacity: 0
+			top: 40%
+		100%
+			opacity: 0
+			top: 25%
+
+
+.our-services-section
+	// margin: 0 0 30px
+	background: url(../img/our-services-bg.png) no-repeat right 47%
+	position: relative
+	.elior
+		margin: 35px 0 0
+		text-align: center
+		font-size: 154px
+		color: #fff
+		text-transform: uppercase
+		text-shadow: 3px 11px 43px rgba(139, 123, 86, 0.09)
+		font-family: "ProximaNovaExtrabld"
+	.our-services-box
+		position: relative
+		.img-box
+			img
+				width: 100%
+		.vertical-text
+			text-shadow: 6px 10px 81px rgba(90, 90, 90, 0.15)
+			color: #ffffff
+			font-family: "ProximaNovaExtrabld"
+			font-size: 97px
+			transform: rotate(-90deg)
+			position: absolute
+			// left: 79%
+			right: 0
+			top: 30%
+		.img-box
+			margin-right: 25px
+	.build-types
+		margin: 90px 0 0
+	.bt-item
+		margin: 0 0 40px
+		position: relative
+		padding-left: 82px
+		.bt-box
+			display: inline-block
+			// &:hover
+			// 	cursor: pointer
+			.icon-box
+				svg
+					fill: #ce4e4e
+		.icon-box
+			position: absolute
+			left: 0
+			top: 50%
+			transform: translate3d(0, -50%, 0)
+		p
+			font-size: 24px
+			margin: 0
+			line-height: 30px
+			// font-weight: 700
+			font-family: "ProximaNovaBold"
+
+.success-prj-section
+	position: relative
+	&.nobg
+		&:before
+			display: none
+	&:before
+		content: ""
+		position: absolute
+		right: 0
+		top: 70%
+		width: 244px
+		height: 587px
+		display: block
+		background: url(../img/success-prj-bg.png)
+	.btn-box
+		text-align: center
+	.scs-prjcts
+		margin: 0 0 35px
+		// padding: 0 85px
+		.slide-number
+			font-size: 30px
+			.line
+				display: inline-block
+				width: 42px
+				height: 2px
+				background: $accent
+		.owl-dots
+			margin: 30px 0 0 
+			text-align: center
+			.owl-dot
+				margin: 0 8px
+				display: inline-block
+				width: 8px
+				height: 8px
+				background: #000
+				border-radius: 50%
+				transition: .3s
+				&.active
+					background: $accent
+					box-shadow: 0 0 0 5px $accent
+		.owl-prev,
+		.owl-next
+			width: 72px
+			height: 72px
+			background: #fff
+			border-radius: 50%
+			position: absolute
+			top: 50%
+			transform: translate3d(0, -50%, 0)
+			&:hover
+				background: $accent
+				&:after
+					background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABMAAAAWCAYAAAAinad/AAABNklEQVQ4T62U4VECUQyENxVoB9KBdiAdYAfYgViBWAFQAdiBdEAJ2oF2gBWss0xg3oU83oFm5v7c3fsuu8me4R+K5ADA0v7CInkN4AXARJyLYSQfAcwACLirs2Ekhw65i6p6w9wXdfJQs6YJc1+e3JeDpAx4Eua+yGBNK9YawKi8mcJIyg9Jkj+xPtWlmW1IsgpzSYJoUrG+AUzNbLV/UIWRnAKQN9GXHwBzXWa2Lb9wBPNRLyu+vLmkDqTamcPU+k0iTfdfzewrm15LpmJxFQ6qK8lcNGUGD+SXDo6TTtSdBiDpuzo5zeIlrYag9wn0A8BzczXiQV9aTTnz8z1Gq2+c5GXmZ+f7TVghXZGS9E6EmnHK1qCAKmKC3sb3endW8VPQwypdDPPV0CrtY3j+n7aSBPm5+gWuD4tAXF9JywAAAABJRU5ErkJggg==) no-repeat center
+					transform: translate3d(-50%, -50%, 0) rotate(180deg)
+			&:after
+				content: ""
+				width: 25px
+				height: 24px
+				display: block
+				background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABMAAAAWCAYAAAAinad/AAABbUlEQVQ4T62VQU7CQBSG//cWw1JuIFtBo96AJWlI5AbiCWxPYDmBcAO4ASa0sMQTiDHELd4AlnYxzwyZJk0ZKAUn6aYz7+v7//felJaeN2etu1ez2QpnLlp6nlhGmCg1uB+P16cyszDDWAuRfx1Fo1OAeVjKWGjm4GYymZeB7oOljCFr3TvWzyLYVjqA/jF+umBvAB4c8lYkEtSn0/E+6TuwRhzTV7vdZK37AG7zgSQyF6KgEceLnb1Ma2z3DCw9tPS8LoAQwKUjm2GiVJBtJWdm2cCPTqeqksQHYJ6LHHRNQFiP44F5XwhLg79brZoQhUL06PJTMz+VgmnmFwBGen79aOZuIczKfLYyqznKhojCehSZYh2WaQtgsqk5qjr6rVT8wgLY1ngFcOeQ9G6yPKo1bB81Xb6QiF+qaR2QjR2nftH1dHA2SWREIuG5g/6pmf1zryAjyZg7LHOPpWezMnuJUoW+HPqIgf3bD+UPj9LNbabQfGoAAAAASUVORK5CYII=) no-repeat center
+				position: absolute
+				left: 50%
+				top: 50%
+				transform: translate3d(-50%, -50%, 0)
+		.owl-prev
+			&:hover
+				&:after
+					transform: translate3d(-50%, -50%, 0) rotate(0)	
+			&:after
+				transform: translate3d(-50%, -50%, 0) rotate(180deg)
+		.owl-prev
+			right: 100%
+			margin-right: 4em
+		.owl-next
+			left: 100%
+			margin-left: 4em
+	.slider-nav
+		.slick-slide
+			margin: 10px
+			&.slick-current
+				position: relative
+				&:after
+					content: ""
+					display: block
+					position: absolute
+					left: 0
+					top: 0
+					width: 100%
+					height: 100%
+					box-shadow: inset 0 0 0 6px $accent
+	.desc-prj
+		.title
+			margin: 0 0 20px
+			padding: 0 0 10px
+			border-bottom: 1px solid rgba(0,0,0, 0.05)
+			font-size: 24px
+			color: #2c2c2c
+			font-family: "ProximaNovaExtrabld"
+			a
+				font-size: 18px
+				font-family: "ProximaNovaRegular"
+				font-weight: 700
+				text-decoration: underline
+				&:hover
+					text-decoration: none
+		p
+			margin: 0 0 15px
+			span
+				margin: 0 0 10px
+				display: block
+				font-size: 15px
+				font-family: "ProximaNovaExtrabld"
+				text-transform: uppercase
+	.addr
+		margin: 10px 0
+		position: relative
+		padding-left: 30px
+		.icon
+			position: absolute
+			left: 0
+			top: 0
+		.t
+			margin: 0 0 5px
+			font-size: 13px
+			text-transform: uppercase
+			font-family: "ProximaNovaExtrabld"
+		p
+			margin: 0
+			font-size: 14px
+
+.about-us-section
+	margin: 0 0 100px
+	background: url(../img/about-us-bg.png) no-repeat center bottom
+	.triggers
+		margin: 0 0 60px
+	.tr-box
+		.t
+			font-size: 12px
+			text-transform: uppercase
+			font-family: "ProximaNovaBold"
+			span
+				display: block
+				font-size: 44px
+				font-family: "ProximaNovaExtrabld"
+				color: $accent
+				text-transform: none
+		p
+			margin: 0
+	.c-title
+		margin: 0 0 30px
+		font-size: 30px
+		font-family: "ProximaNovaExtrabld"
+	.certs
+		.item
+		.owl-dots
+			margin: 10px 0 0
+			text-align: center
+			.owl-dot
+				margin: 0 5px
+				width: 5px
+				height: 5px
+				background: #000
+				border-radius: 50%
+				display: inline-block
+				&.active
+					margin: 0 6px
+					background: transparent
+					box-shadow: 0 0 0px 2px #F7F7F7, 0 0 0 4px $accent
+	.video-box
+		margin: 0 0 70px
+		position: relative
+		img
+			width: 100%
+		.get-video
+			a
+				color: #fff
+				text-decoration: none
+				&:hover
+					.play
+						opacity: .8
+			.play
+				margin: 0 auto
+				width: 73px
+				height: 73px
+				background: $accent
+				border-radius: 50%
+				position: relative
+				&:after
+					content: ""
+					display: block
+					width: 22px
+					height: 24px
+					background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABMAAAAWCAYAAAAinad/AAABLUlEQVQ4T62VUVEDQRBEuxWAA3BAJOAACQQFgIIkCkgcgANwAA7AATgABUO91By1HHt3m4Spys/V5t10T8+eI+JZ0tz2uw4sR0QkYylpY/tzX2YJgwHoxvbDPsA+rGO8Srq1jQXNNQTrAPeSVq1+TsE66esWP2uwJ0kXFW1MG+mPQ7r/wGzz7FwS3ZxV/oiPQPH1V1Vh3YmImEsiMicVKH4C/YnSKAxARBwTl/wd9aCAlrY3PJ+EFV2eZpeXA35e7QpbsHoV2Md2JYt12p5hAOXhlHmdMpFc1lfKZFjjMnMAdIPEfrFyrN74ADIad5JmFchLQqajIYkckbN+4QudtIe2AsEXPFlPXU9Tu4kv5Kjp4hyCvaWkg64gJOELq7JzlZ2tWnwZewOwf/ugfAMOaaSR5r9jcwAAAABJRU5ErkJggg==) no-repeat center
+					position: absolute
+					left: 50%
+					top: 50%
+					transform: translate3d(-50%, -50%, 0)
+			position: absolute
+			left: 50%
+			top: 50%
+			color: #fff
+			text-transform: uppercase
+			font-size: 14px
+			transform: translate3d(-50%, -50%, 0)
+	.desc-box
+		padding: 35px 5%
+		box-shadow: 2px 8px 62px rgba(68, 68, 67, 0.07)
+		background-color: #ffffff
+		.icon
+			margin: 0 0 12px
+		p
+			font-size: 18px
+			margin: 0 0 20px
+
+.our-advantages-section
+	padding: 30px 0 45px
+	background: #343232 url(../img/our-advantages-bg.png) no-repeat fixed
+	background-size: cover
+	color: #fff
+	position: relative
+	.tr-item
+		margin: 0 0 25px
+		font-size: 20px
+		font-family: "ProximaNovaExtrabld"
+		.icon
+			// margin: 0 0 10px
+			.fi
+				color: $accent
+				font-size: 60px
+		.title
+			margin: 0 0 10px
+		p
+			margin: 0
+			font-size: 17px
+			font-family: "ProximaNovaRegular"
+	.container
+		// position: relative
+	.vertical-text
+		opacity: 0.1
+		color: #ffffff
+		// color: red
+		font-size: 76px
+		font-family: "ProximaNovaExtrabld"
+		transform: rotate(-90deg)
+		position: absolute
+		// left: 100%
+		right: 0
+		top: -29%
+		margin-left: -25%
+
+.total-price-section
+	padding: 0 0 400px
+	background: url(../img/total-price-bg.png) no-repeat
+	// background-size: cover
+	.llt
+		margin: 0 0 40px
+		p
+			font-size: 18px
+			margin: 0 0 15px
+			&:last-child
+				margin-bottom: 0
+	.btn-box
+		margin: 0 0 35px
+
+.our-team-section
+	margin: 0 0 80px
+	position: relative
+	&:before
+		content: ""
+		display: block
+	// overflow-x: hidden
+	.container
+		// position: relative
+	.vertical-text
+		color: #ffffff
+		// color: red
+		font-size: 97px
+		font-family: "ProximaNovaExtrabld"
+		transform: rotate(-90deg)
+		position: absolute
+		// right: -34%
+		right: 0
+		top: 0
+		top: -90%
+		margin-left: 0%
+	.team-box
+		box-shadow: 2px 8px 62px rgba(68, 68, 67, 0.07)
+		background-color: #ffffff
+	.tabs
+		// padding: 0 8%
+		background: #444142 url(../img/tabs-bg.png) no-repeat center
+		background-size: cover
+		color: #fff
+		.tab-desc
+			padding: 0 8%
+			position: relative
+			padding-left: 100px
+			font-size: 13px
+			display: inline-block
+			font-family: "ProximaNovaExtrabld"
+			span
+					display: block
+					font-size: 16px
+					font-family: "ProximaNovaRegular"
+					text-transform: none
+		.tab
+			padding: 45px 34px
+			display: block
+			position: relative
+			text-transform: uppercase
+			cursor: pointer
+			transition: .3s
+			&:hover,
+			&.active
+				background: $accent
+			img
+				// margin-right: 20px
+				position: absolute
+				left: 0
+				top: 50%
+				transform: translate3d(0, -50%, 0)
+	.tab_content
+		padding: 20px 2%
+		padding-right: 12%
+	.tab_item
+		.name-box
+			margin: 20px 0 0
+		.name
+			font-size: 22px
+			font-family: "ProximaNovaBold"
+		.role
+			font-size: 16px
+		.member
+			margin: 0 0 50px
+		.quote
+			margin: 20px 0 20px
+			padding: 25px 0
+			padding-right: 8%
+			border-top: 1px solid #000
+			border-bottom: 1px solid #000
+			font-size: 18px
+			font-family: "ProximaNovaExtrabld"
+			font-style: italic
+			position: relative
+			.icon
+				padding: 5px 15px 5px 0
+				position: absolute
+				background: #fff
+				left: 0
+				top: -15px
+		.text
+			color: #555555
+			font-size: 17px
+			p
+
+.contacts-section
+	margin-bottom: 0
+	.map-section
+		position: relative
+		min-height: 620px
+		.map
+			position: absolute
+			left: 0
+			top: 0
+			width: 100%
+			height: 100%
+		.contacts-container
+			text-align: right
+			background: #ED4D4D
+			position: absolute
+			left: 0
+			top: 0
+			width: 45%
+			height: 100%
+			z-index: 96
+		.contacts-box
+			display: inline-block
+			margin: 4em 0
+			padding: 20px 13%
+			color: #fff
+			text-align: left
+			ul
+				margin: 0
+				padding: 0
+				li
+					list-style-type: none
+					position: relative
+					padding-left: 44px
+					.icon
+						position: absolute
+						left: 11px
+						top: 3px
+						font-size: 18px
+						transform: translate3d(-50%, 0, 0)
+			p
+				font-size: 18px
+				span
+					font-size: 24px
+					font-weight: 700
+				a
+					color: #fff
+			.get-contract
+				margin: 45px 0
+				position: relative
+				padding-left: 76px
+				.circle
+					width: 69px
+					height: 69px
+					border-radius: 50%
+					background: #fff
+					position: absolute
+					left: 0
+					top: 50%
+					transform: translate3d(0, -50%, 0)
+					.fi
+						position: absolute
+						left: 46%
+						top: 50%
+						margin-top: 3px
+						transform: translate3d(-50%, -50%, 0)
+						color: $accent
+						font-size: 35px
+				a
+					color: #fff
+					font-size: 20px
+					font-family: "ProximaNovaSemibold"
+					text-decoration: none
+					&:hover
+						opacity: 0.8
+						text-decoration: none
+			
+.main-footer
+	padding: 50px 0 0
+	.logo-box
+		a
+			text-decoration: none
+		.logo
+			font-size: 43px
+			color: $accent
+			text-transform: uppercase
+			font-family: "ProximaNovaExtrabld"
+			letter-spacing: 8px
+			line-height: 36px
+		p
+			margin: 0
+			font-size: 14px
+			font-family: 'ProximaNovaRegular'
+			color: #000
+			letter-spacing: normal
+			text-transform: none
+	.info
+		ul
+			margin: 0 0 1.5em
+			&:first-child
+				padding-bottom: 1.5em
+				border-bottom: 1px solid #DEDEDE
+			li
+
+				margin: 0
+				font-size: 15px
+				a
+					// text-decoration: underline
+	ul
+		margin: 0
+		padding: 0
+		li
+			list-style-type: none
+	.footer-menu
+		padding: 0 5%
+		li
+			margin: 0 0 8px
+		a
+			display: inline
+			color: #000
+			font-size: 17px
+			text-decoration: none
+			border-bottom: 1px solid #9A9A9A
+			font-family: "ProximaNovaSemibold"
+			&:hover
+				border-color: transparent
+				color: #ce4e4e
+.icon-boxes
+	.boxes
+		display: flex
+		justify-content: space-between
+	.item-box
+		margin: 0 0.5em
+		padding: 1.4em 1.5em
+		background-color: #ffffff
+		cursor: default
+		&:hover
+			background: $accent
+			box-shadow: 3px 14px 68px rgba(206, 78, 78, 0.6)
+			// transition: background .6s
+			.icon
+				.fi
+					color: #fff
+					transition: 0.4s
+			color: #fff
+			transition: 0.4s
+		.icon
+			.fi
+				font-size: 65px
+				color: $accent
+		.title
+			margin: 0 0 0.5em
+			font-size: 18px
+			font-family: "ProximaNovaBold"
+		p
+			margin: 0
+			font-size: 16px
+.smeta-section
+	margin: 0 0 7em
+	background: url(../img/smeta-section-bg.png) no-repeat 82% top
+	.vertical-text
+		top: 10%
+.chk-list
+	ul
+		margin: 0 0 2em
+		padding: 0
+		li
+			margin: 0 0 0.8em
+			padding-left: 3em
+			list-style-type: none
+			font-size: 18px
+			position: relative
+			&:before
+				content: "✔"
+				display: block
+				width: 30px
+				height: 30px
+				background: $accent
+				color: #fff
+				vertical-align: middle
+				text-align: center
+				position: absolute
+				left: 0
+				top: 5px
+				line-height: 30px
+	.btn-box
+		margin: 0 0 2em
+.our-prices-section
+	.tariffs
+	.tarif-item
+		padding: 1.4em 2em 2em
+		background: #fff
+		&:hover
+			box-shadow: 3px 14px 40px rgba(206, 78, 78, 0.2)
+			transition: .2s
+		.title
+			font-size: 28px
+			font-family: "ProximaNovaBold"
+		.price
+			margin: 0 0 1em
+			font-size: 20px
+			color: $accent
+			font-family: "ProximaNovaSemibold"
+			padding: 0 0 0.7em
+			border-bottom: 1px solid #E6E6E6
+		.desc
+			margin: 0 0 1.5em
+			p
+				margin: 0 0 1em
+				font-size: 16px
+.testimonials-section
+	.tabs
+		margin: 0 0 3em
+		.tab
+			cursor: pointer
+			margin: 0 -4px 0 0
+			display: inline-block
+			padding: 1em 2em
+			background: #fff
+			font-size: 18px
+			border: 2px solid $accent
+			text-decoration: underline
+			font-family: "ProximaNovaBold"
+			&:first-child
+				border-radius: 10px 0 0 10px
+			&:last-child
+				border-radius: 0 10px 10px 0
+			&.active
+				background: $accent
+				color: #fff
+				text-decoration: none
+	.testimonials-slider
+		// padding: 0 5em
+		.item
+			padding: 2em
+			background: #fff
+			.title
+				margin: 0 0 1.8em
+				display: flex
+				text-align: center
+				align-items: center
+				.img
+					margin-right: 1.5em
+				p
+					vertical-align: middle
+					text-align: left
+					font-size: 20px
+					font-family: "ProximaNovaBold"
+					span
+						display: block
+						font-size: 16px
+						font-family: "ProximaNovaRegular"
+						color: #7a7a7a
+				.text
+					font-size: 16px
+		.owl-dots
+			margin: 2em 0 0
+			text-align: center
+			.owl-dot
+				margin: 0 0.7em
+				border-radius: 50%
+				width: 6px
+				height: 6px
+				background: #000
+				display: inline-block
+				&.active
+					background: $accent
+					box-shadow: 0 0 0 5px $accent
+		.owl-prev,
+		.owl-next
+			width: 72px
+			height: 72px
+			background: #fff
+			border-radius: 50%
+			position: absolute
+			top: 50%
+			transform: translate3d(0, -50%, 0)
+			transition: .2s
+			&:hover
+				background: $accent
+		.owl-prev
+			@extend .fi
+			@extend .fi-arrow-left
+			&:before
+				position: absolute
+				left: 50%
+				top: 50%
+				transform: translate3d(-50%, -50%, 0)
+				font-size: 24px
+				color: $accent
+				transition: .2s
+			&:hover
+				&:before
+					color: #fff
+		.owl-next
+			@extend .fi
+			@extend .fi-arrow-right
+			&:before
+				position: absolute
+				right: 50%
+				top: 50%
+				transform: translate3d(50%, -50%, 0)
+				font-size: 24px
+				color: $accent
+				transition: .2s
+			&:hover
+				&:before
+					color: #fff
+		.owl-prev
+			right: 100%
+			margin-right: 4em
+		.owl-next
+			left: 100%
+			margin-left: 4em
+
+.work-steps-section
+	padding: 4em 0 4em
+	background: #343232 url(../img/our-advantages-bg.png) no-repeat fixed
+	background-size: cover
+	color: #fff
+	position: relative
+	.container
+		// position: relative
+	.vertical-text
+		opacity: 0.1
+		font-size: 76px
+		top: -68%
+		// top: -190%
+		margin-left: -25%
+	.st-item
+		.n
+			font-size: 68px
+			font-family: "ProximaNovaBold"
+			color: $accent
+		.title
+			margin: 0 0 0.8em
+			font-size: 20px
+			font-family: "ProximaNovaBold"
+		p
+			margin: 0
+	.centered
+		margin: 4em 0 0
+.director-section
+	.dw
+		margin: 2em 0 1.4em
+		position: relative
+		.icon
+			margin: 0 0 1em
+			.fi
+				color: $accent
+		p
+			margin: 0 0 1em
+			font-size: 18px
+	.name
+		margin: 0 0 1.3em
+		padding: 0.6em 0
+		display: inline-block
+		font-size: 20px
+		border-top: 2px solid $accent
+		border-bottom: 2px solid $accent
+		font-family: "ProximaNovaBold"
+		span
+			display: block
+			font-size: 16px
+			color: #7a7a7a
+			font-family: "ProximaNovaRegular"
+	i
+		color: #2c2c2c
+		font-size: 18px
+	.director-img
+		margin: 5em 0 0
+		box-shadow: 0 0 45px 5px rgba(0,0,0, 0.2)
+		img
+			width: 100%
+		.play-box
+			position: absolute
+			bottom: 0
+			width: 100%
+		.play
+			// display: inline-block
+			margin: 0 0 2em
+			display: flex
+			justify-content: center
+			color: #fff
+			a
+				display: flex
+				align-items: center
+				color: #fff
+				text-decoration: none
+				font-size: 18px
+				line-height: 20px
+				&:hover
+					.icon
+						.fi
+							color: lighten($accent, 10%)
+			.icon
+				margin-right: 0.8em
+				width: 64px
+				height: 64px
+				background: #fff
+				position: relative
+				border-radius: 50%
+				line-height: normal
+				.fi
+					position: absolute
+					left: 50%
+					top: 50%
+					width: 35px
+					height: 35px
+					font-size: 35px
+					color: $accent
+					transform: translate3d(-50%, -50%, 0)
+.gift-section
+	padding: 3em 0
+	background: #f1f1f1
+	.llt
+		margin: 0 0 1.7em
+		p
+			margin: 0 0 1em
+			font-size: 18px
+			&:last-child
+				margin: 0
+	.btn-box
+		margin: 0 0 1em
+.faq-section
+	position: relative
+	.vertical-text
+		top: -165%
+	.faq-box
+		margin: 2em 0 0
+		ul
+			margin: 0
+			padding: 0
+			li
+				margin: 0 0 1.5em
+				list-style-type: none
+				font-size: 20px
+				cursor: pointer
+				position: relative
+				padding-left: 3.2em
+				.toggle
+					position: absolute
+					width: 46px
+					height: 46px
+					background: #fff
+					left: 0
+					top: 15px
+					transform: translate3d(0, -50%, 0)
+					&:before
+						content: "+"
+						font-size: 24px
+						font-weight: 700
+						position: absolute
+						left: 50%
+						top: 50%
+						transform: translate3d(-50%, -50%, 0)
+				&.active
+					.toggle
+						background: $accent
+						&:before
+							content: "-"
+							color: #fff
+				.answer
+					padding: 1em 0
+					display: none
+					font-size: 16px
+
+
+
+
+
+
+//POPUPS
+.mfp-bg
+	background: #fff
+.mpopup
+	background: white
+	padding: 1.7em 2em 2.4em
+	text-align: left
+	max-width: 400px
+	margin: 40px auto
+	position: relative
+	text-align: center
+	border-radius: 8px
+	box-shadow: 0 0 24px 5px rgba(0,0,0, 0.2)
+	.inputs
+		display: flex
+		justify-content: space-between
+		input
+			width: 32%
+			display: block
+	&.long
+		max-width: 800px
+	.title
+		margin: 0 0 1em
+		font-size: 24px
+		font-family: "ProximaNovaBold"
+	input,
+	textarea
+		margin: 0 0 1em
+	textarea
+		height: 120px
+	form
+		button
+			width: 100%
+
+//================== ALWAYS END ================//
+@import "_media.sass"
+

@@ -1,0 +1,281 @@
+/*==========  Desktop First Method  ==========*/
+
+/* own-Large Devices, Wide Screens */
+@media only screen and (max-width : 1430px)
+	/**/
+	.container
+		padding-left: 170px
+	.main-head
+		.main-title
+			h2
+				font-size: 44px
+	.about-us-section
+		.tr-box
+			.t
+				span
+					font-size: 38px
+	.smeta-section
+		background-position: 100% top
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1199px)
+	/**/
+	.main-head
+		background-size: cover
+		.header-slider
+			width: 100%
+			.item
+				&:before
+					content: ""
+					display: block
+					width: 100%
+					height: 100%
+					position: absolute
+					left: 0
+					top: 0
+					background: rgba(255,255,255, 0.8)
+				// z-index: 1
+	.about-us-section
+		.tr-box
+			.t
+				span
+					font-size: 30px
+	.main-footer
+		.footer-menu
+			a
+				font-size: 14px
+		.info
+			ul
+				li
+					font-size: 14px
+	.icon-boxes
+		.boxes
+			flex-wrap: wrap
+		.item-box
+			margin-bottom: 1.5em
+			width: 47%
+	.smeta-section
+		background: none
+
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 991px)
+	/**/
+	.container
+		padding-left: 15px
+	.lbar
+		box-shadow: 0 0 15px 4px rgba(0,0,0, .25)
+		// border-radius: 0 4px 4px 0
+		width: 55px
+		padding: 10px
+		top: 24px
+		bottom: auto
+		.logo
+			display: none
+		.lbar-title
+			display: none
+		.lbar-menu
+			ul.active
+				height: auto
+				width: auto
+				min-width: 280px
+				// position: fixed
+				// padding: 7vh 0 100px 40px
+				padding: 20px
+				li
+					margin: 0 0 10px
+					a
+						font-size: 16px
+	.our-services-section
+		.build-types
+			margin: 0
+	.about-us-section
+		.tr-box
+			.t
+				span
+					font-size: 27px
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 767px)
+	
+	/*Disable Animation on Mobile Devices*/
+	.animated
+		/*CSS transitions*/
+		-o-transition-property: none !important
+		-moz-transition-property: none !important
+		-ms-transition-property: none !important
+		-webkit-transition-property: none !important
+		transition-property: none !important
+		/*CSS transforms*/
+		-o-transform: none !important
+		-moz-transform: none !important
+		-ms-transform: none !important
+		-webkit-transform: none !important
+		transform: none !important
+		/*CSS animations*/
+		-webkit-animation: none !important
+		-moz-animation: none !important
+		-o-animation: none !important
+		-ms-animation: none !important
+		animation: none !important
+
+	.btn-accent
+		font-size: 18px
+
+	.section-title-box
+		margin: 30px 0 50px
+		.section-title
+			margin: 0
+			h1,h2,h3,h4,h5,h6
+				font-size: 22px
+				line-height: normal
+
+	.llt
+		margin: 15px 0 0
+		font-size: 18px
+
+	.main-head
+		.llt
+			font-size: 18px
+		.main-title
+			h2
+				font-size: 33px
+		.callback-box
+			margin-bottom: 2.2em
+			text-align: left
+			display: inline-block
+			float: right
+			padding-left: 72px
+		.icon-circle.vk
+			display: none
+	.our-services-section
+		.elior
+			font-size: 79px
+		.our-services-box
+			.img-box
+				margin-right: 0
+		.build-types
+			margin: 3em 0 0
+		.bt-item
+			p
+				font-size: 18px
+				line-height: normal
+	.about-us-section
+		.triggers
+			margin: 0 0 20px
+			text-align: center
+			.tr-box
+				margin: 0 0 1em
+		.desc-box
+			padding: 20px 4% 5px
+	.total-price-section
+		background: none
+		padding: 0
+	.contacts-section
+		.map-section
+			min-height: 500px
+			.contacts-container
+				.navbutton
+					position: absolute
+					right: 20px
+					top: 14px
+					em
+						background: #fff
+				width: 100%
+				text-align: center
+				height: auto
+			.contacts-box
+				margin: 2em 0
+				padding: 0
+				ul
+					li
+						padding-left: 37px
+	.main-footer
+		text-align: center
+		.logo-box
+			margin: 0 0 1em
+		.info
+			margin: 1.5em 0 0
+			ul
+				margin: 0 0 0.6em
+				&:first-child
+					padding-bottom: 0.6em
+	.director-section
+		.director-img
+			.play-box
+				width: 90%
+	.icon-boxes
+		.item-box
+			margin-bottom: 1em
+			width: 100%
+			.icon
+				.fi
+					font-size: 50px
+	.success-prj-section
+		.scs-prjcts
+			padding: 0
+	.success-prj-section
+		&:before
+			display: none
+		.scs-prjcts
+			.owl-prev,
+			.owl-next
+				top: 20%
+	.our-prices-section
+		.tarif-item
+			margin-bottom: 1em
+	.testimonials-section
+		.tabs
+			.tab
+				padding: 1em 0.3em
+				font-size: 16px
+		.testimonials-slider
+			padding: 0
+			.owl-nav
+				display: none
+
+	//popups
+	.mpopup 
+		.inputs
+			display: block
+			input
+				width: 100%
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 479px)
+	/**/
+
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 319px)
+	/**/
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px)
+	/**/
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px)
+	/**/
+
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px)
+	/**/
+	.contacts-container
+		.navbutton
+			display: none
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px)
+	/**/
+
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px)
+	/**/
+

@@ -1,0 +1,98 @@
+@font-face {
+	font-family: "owniconfont";
+	src: url('../fonts/owniconfont/owniconfont.eot');
+	src: url('../fonts/owniconfont/owniconfont.eot?#iefix') format('eot'),
+		url('../fonts/owniconfont/owniconfont.woff2') format('woff2'),
+		url('../fonts/owniconfont/owniconfont.woff') format('woff'),
+		url('../fonts/owniconfont/owniconfont.ttf') format('truetype'),
+		url('../fonts/owniconfont/owniconfont.svg#owniconfont') format('svg');
+}
+
+.fi:before {
+	font-family: "owniconfont";
+		-webkit-font-smoothing: antialiased;
+		-moz-osx-font-smoothing: grayscale;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	/* speak: none; only necessary if not using the private unicode range (firstGlyph option) */
+	text-decoration: none;
+	text-transform: none;
+}
+
+
+.fi-arrow-left:before {
+	content: "\E001";
+}
+
+.fi-arrow-right:before {
+	content: "\E002";
+}
+
+.fi-dialogs-4:before {
+	content: "\E003";
+}
+
+.fi-guarantee-6:before {
+	content: "\E004";
+}
+
+.fi-guarantee-list:before {
+	content: "\E005";
+}
+
+.fi-list-check:before {
+	content: "\E006";
+}
+
+.fi-list-items:before {
+	content: "\E007";
+}
+
+.fi-list-stamp-2:before {
+	content: "\E008";
+}
+
+.fi-medal-3:before {
+	content: "\E009";
+}
+
+.fi-pdf:before {
+	content: "\E00A";
+}
+
+.fi-pen-ruler:before {
+	content: "\E00B";
+}
+
+.fi-phone-fw:before {
+	content: "\E00C";
+}
+
+.fi-play-circle:before {
+	content: "\E00D";
+}
+
+.fi-shield-check:before {
+	content: "\E00E";
+}
+
+.fi-specialist-5:before {
+	content: "\E00F";
+}
+
+.fi-two-commas:before {
+	content: "\E010";
+}
+
+.fi-valik:before {
+	content: "\E011";
+}
+
+.fi-venec:before {
+	content: "\E012";
+}
+
+.fi-zoom-up:before {
+	content: "\E013";
+}
