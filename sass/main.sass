@@ -638,14 +638,23 @@ textarea
 		margin: 0 0 35px
 		// padding: 0 85px
 		.slide-number
+			margin: 20px 0 0
 			font-size: 30px
+			.first
+				position: relative
+				// margin-right: 55px
 			.line
 				display: inline-block
+				margin: 0 10px
 				width: 42px
 				height: 2px
 				background: $accent
+				position: relative
+				top: -8px
+		.btn-box
+			margin: 12px 0 0
 		.owl-dots
-			margin: 30px 0 0 
+			margin: 30px 0 0
 			text-align: center
 			.owl-dot
 				margin: 0 8px
@@ -685,7 +694,7 @@ textarea
 		.owl-prev
 			&:hover
 				&:after
-					transform: translate3d(-50%, -50%, 0) rotate(0)	
+					transform: translate3d(-50%, -50%, 0) rotate(0)
 			&:after
 				transform: translate3d(-50%, -50%, 0) rotate(180deg)
 		.owl-prev
@@ -864,7 +873,7 @@ textarea
 		transform: rotate(-90deg)
 		position: absolute
 		// left: 100%
-		right: 0
+		right: -9%
 		top: -29%
 		margin-left: -25%
 
@@ -1048,7 +1057,7 @@ textarea
 					&:hover
 						opacity: 0.8
 						text-decoration: none
-			
+
 .main-footer
 	padding: 50px 0 0
 	.logo-box
@@ -1315,6 +1324,7 @@ textarea
 	.centered
 		margin: 4em 0 0
 .director-section
+	padding: 0 0 50px
 	.dw
 		margin: 2em 0 1.4em
 		position: relative
@@ -1480,4 +1490,3 @@ textarea
 
 //================== ALWAYS END ================//
 @import "_media.sass"
-

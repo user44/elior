@@ -11891,14 +11891,26 @@ textarea:valid {
 }
 
 .success-prj-section .scs-prjcts .slide-number {
+  margin: 20px 0 0;
   font-size: 30px;
+}
+
+.success-prj-section .scs-prjcts .slide-number .first {
+  position: relative;
 }
 
 .success-prj-section .scs-prjcts .slide-number .line {
   display: inline-block;
+  margin: 0 10px;
   width: 42px;
   height: 2px;
   background: #ce4e4e;
+  position: relative;
+  top: -8px;
+}
+
+.success-prj-section .scs-prjcts .btn-box {
+  margin: 12px 0 0;
 }
 
 .success-prj-section .scs-prjcts .owl-dots {
@@ -12242,7 +12254,7 @@ textarea:valid {
   -o-transform: rotate(-90deg);
   transform: rotate(-90deg);
   position: absolute;
-  right: 0;
+  right: -9%;
   top: -29%;
   margin-left: -25%;
 }
@@ -12929,6 +12941,10 @@ textarea:valid {
   margin: 4em 0 0;
 }
 
+.director-section {
+  padding: 0 0 50px;
+}
+
 .director-section .dw {
   margin: 2em 0 1.4em;
   position: relative;
@@ -13210,6 +13226,15 @@ textarea:valid {
   }
   .smeta-section {
     background-position: 100% top;
+  }
+  .our-advantages-section .vertical-text {
+    right: -15%;
+  }
+  .success-prj-section .scs-prjcts .owl-nav {
+    display: none;
+  }
+  .testimonials-section .testimonials-slider .owl-nav {
+    display: none;
   }
 }
 

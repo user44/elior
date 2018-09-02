@@ -83,7 +83,7 @@ gulp.task('sprite', ['sprite-nonmin'], function() {
 		progressive: true,
 		svgoPlugins: [{removeViewBox: false}],
 		use: [pngquant()]
-	})) 																
+	}))
 	.pipe(gulp.dest('app/img/sprite/')) //выгружаем назад
 
 })
@@ -104,12 +104,12 @@ gulp.task('iconfont', function(){
 			fontName: 'owniconfont', // required
 			normalize:true,
 			// fontHeight: 1001,
-			prependUnicode: true, // recommended option 
-			formats: ['ttf', 'eot', 'woff', 'svg', 'woff2'], // default, 'woff2' and 'svg' are available 
-			timestamp: runTimestamp, // recommended to get consistent builds when watching files 
+			prependUnicode: true, // recommended option
+			formats: ['ttf', 'eot', 'woff', 'svg', 'woff2'], // default, 'woff2' and 'svg' are available
+			timestamp: runTimestamp, // recommended to get consistent builds when watching files
 		}))
 			.on('glyphs', function(glyphs, options) {
-				// CSS templating, e.g. 
+				// CSS templating, e.g.
 				console.log(glyphs, options);
 			})
 		.pipe(gulp.dest('app/fonts/owniconfont'));
@@ -141,7 +141,7 @@ gulp.task('deploy-production', function() {
       archive: true,
       silent: false,
       compress: true,
-      chmod: "ugo=rwX"
+      // chmod: "ugo=rwX"
     }));
 });
 
@@ -151,7 +151,7 @@ gulp.task('scripts', function() {
 	return gulp.src([ // Берем все необходимые библиотеки
 		'app/libs/jquery/jquery-1.12.3.min.js', // Берем jQuery
 		'app/libs/maskedinput/jquery.maskedinput.min.js',
-		'app/libs/magnific-popup/dist/jquery.magnific-popup.min.js', 
+		'app/libs/magnific-popup/dist/jquery.magnific-popup.min.js',
 		'app/js/main.js' // Берем main.js
 		])
 		.pipe(concat('all.min.js')) // Собираем их в кучу в новом файле all.min.js
@@ -197,9 +197,9 @@ gulp.task('production',  ['clean', 'img', 'styles', 'scripts'], function() {
 		.pipe(gulp.dest('dist'));
 
 // перенос исходников в папку src
-	var moveSass = gulp.src('sass/**/*') 
+	var moveSass = gulp.src('sass/**/*')
 		.pipe(gulp.dest('dist/src/sass'));
-	var moveProjFiles = gulp.src('./*.+(js|json)') 
+	var moveProjFiles = gulp.src('./*.+(js|json)')
 		.pipe(gulp.dest('dist/src'));
 
 });
