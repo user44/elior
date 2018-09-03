@@ -1390,7 +1390,7 @@ hr {
   src: url("../fonts/owniconfont/owniconfont.eot?#iefix") format("eot"), url("../fonts/owniconfont/owniconfont.woff2") format("woff2"), url("../fonts/owniconfont/owniconfont.woff") format("woff"), url("../fonts/owniconfont/owniconfont.ttf") format("truetype"), url("../fonts/owniconfont/owniconfont.svg#owniconfont") format("svg");
 }
 
-.fi:before, .testimonials-section .testimonials-slider .owl-prev:before, .testimonials-section .testimonials-slider .owl-next:before {
+.fi:before, .success-prj-section .scs-prjcts .owl-prev:before, .success-prj-section .scs-prjcts .owl-next:before, .our-prices-section .tarif-item .desc ul li:before, .testimonials-section .testimonials-slider .owl-prev:before, .testimonials-section .testimonials-slider .owl-next:before, .gift-section .items ul li:before {
   font-family: "owniconfont";
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -1402,80 +1402,108 @@ hr {
   text-transform: none;
 }
 
-.fi-arrow-left:before, .testimonials-section .testimonials-slider .owl-prev:before {
+.fi-arrow-left:before, .success-prj-section .scs-prjcts .owl-prev:before, .testimonials-section .testimonials-slider .owl-prev:before {
   content: "\E001";
 }
 
-.fi-arrow-right:before, .testimonials-section .testimonials-slider .owl-next:before {
+.fi-arrow-right:before, .success-prj-section .scs-prjcts .owl-next:before, .testimonials-section .testimonials-slider .owl-next:before {
   content: "\E002";
 }
 
-.fi-dialogs-4:before {
+.fi-check-small:before, .our-prices-section .tarif-item .desc ul li:before, .gift-section .items ul li:before {
   content: "\E003";
 }
 
-.fi-guarantee-6:before {
+.fi-clock:before {
   content: "\E004";
 }
 
-.fi-guarantee-list:before {
+.fi-dialogs-4:before {
   content: "\E005";
 }
 
-.fi-list-check:before {
+.fi-guarantee-6:before {
   content: "\E006";
 }
 
-.fi-list-items:before {
+.fi-guarantee-list:before {
   content: "\E007";
 }
 
-.fi-list-stamp-2:before {
+.fi-iks:before {
   content: "\E008";
 }
 
-.fi-medal-3:before {
+.fi-list-check:before {
   content: "\E009";
 }
 
-.fi-pdf:before {
+.fi-list-check2:before {
   content: "\E00A";
 }
 
-.fi-pen-ruler:before {
+.fi-list-items:before {
   content: "\E00B";
 }
 
-.fi-phone-fw:before {
+.fi-list-stamp-2:before {
   content: "\E00C";
 }
 
-.fi-play-circle:before {
+.fi-medal-3:before {
   content: "\E00D";
 }
 
-.fi-shield-check:before {
+.fi-money:before {
   content: "\E00E";
 }
 
-.fi-specialist-5:before {
+.fi-monitor:before {
   content: "\E00F";
 }
 
-.fi-two-commas:before {
+.fi-pdf:before {
   content: "\E010";
 }
 
-.fi-valik:before {
+.fi-pen-ruler:before {
   content: "\E011";
 }
 
-.fi-venec:before {
+.fi-phone-fw:before {
   content: "\E012";
 }
 
-.fi-zoom-up:before {
+.fi-play-circle:before {
   content: "\E013";
+}
+
+.fi-shield-check:before {
+  content: "\E014";
+}
+
+.fi-specialist-5:before {
+  content: "\E015";
+}
+
+.fi-thumb-up:before {
+  content: "\E016";
+}
+
+.fi-two-commas:before {
+  content: "\E017";
+}
+
+.fi-valik:before {
+  content: "\E018";
+}
+
+.fi-venec:before {
+  content: "\E019";
+}
+
+.fi-zoom-up:before {
+  content: "\E01A";
 }
 
 /*======== sprite =========*/
@@ -11387,7 +11415,7 @@ section {
   transition: transform .2s,top .2s .3s,background-color .2s .7s,-webkit-transform .2s,-moz-transform .2s,-o-transform .2s;
 }
 
-.fi, .testimonials-section .testimonials-slider .owl-prev, .testimonials-section .testimonials-slider .owl-next {
+.fi, .success-prj-section .scs-prjcts .owl-prev, .success-prj-section .scs-prjcts .owl-next, .our-prices-section .tarif-item .desc ul li, .testimonials-section .testimonials-slider .owl-prev, .testimonials-section .testimonials-slider .owl-next, .gift-section .items ul li {
   display: inline-block;
 }
 
@@ -11417,7 +11445,7 @@ section {
   top: 2px;
 }
 
-.secure .icon .fi, .secure .icon .testimonials-section .testimonials-slider .owl-prev, .testimonials-section .testimonials-slider .secure .icon .owl-prev, .secure .icon .testimonials-section .testimonials-slider .owl-next, .testimonials-section .testimonials-slider .secure .icon .owl-next {
+.secure .icon .fi, .secure .icon .success-prj-section .scs-prjcts .owl-prev, .success-prj-section .scs-prjcts .secure .icon .owl-prev, .secure .icon .success-prj-section .scs-prjcts .owl-next, .success-prj-section .scs-prjcts .secure .icon .owl-next, .secure .icon .our-prices-section .tarif-item .desc ul li, .our-prices-section .tarif-item .desc ul .secure .icon li, .secure .icon .testimonials-section .testimonials-slider .owl-prev, .testimonials-section .testimonials-slider .secure .icon .owl-prev, .secure .icon .testimonials-section .testimonials-slider .owl-next, .testimonials-section .testimonials-slider .secure .icon .owl-next, .secure .icon .gift-section .items ul li, .gift-section .items ul .secure .icon li {
   font-size: 35px;
   line-height: 35px;
 }
@@ -11614,7 +11642,7 @@ textarea:valid {
   fill: #ce4e4e;
 }
 
-.main-head .bt-item .bt-box .icon-box .fi, .main-head .bt-item .bt-box .icon-box .testimonials-section .testimonials-slider .owl-prev, .testimonials-section .testimonials-slider .main-head .bt-item .bt-box .icon-box .owl-prev, .main-head .bt-item .bt-box .icon-box .testimonials-section .testimonials-slider .owl-next, .testimonials-section .testimonials-slider .main-head .bt-item .bt-box .icon-box .owl-next {
+.main-head .bt-item .bt-box .icon-box .fi, .main-head .bt-item .bt-box .icon-box .success-prj-section .scs-prjcts .owl-prev, .success-prj-section .scs-prjcts .main-head .bt-item .bt-box .icon-box .owl-prev, .main-head .bt-item .bt-box .icon-box .success-prj-section .scs-prjcts .owl-next, .success-prj-section .scs-prjcts .main-head .bt-item .bt-box .icon-box .owl-next, .main-head .bt-item .bt-box .icon-box .our-prices-section .tarif-item .desc ul li, .our-prices-section .tarif-item .desc ul .main-head .bt-item .bt-box .icon-box li, .main-head .bt-item .bt-box .icon-box .testimonials-section .testimonials-slider .owl-prev, .testimonials-section .testimonials-slider .main-head .bt-item .bt-box .icon-box .owl-prev, .main-head .bt-item .bt-box .icon-box .testimonials-section .testimonials-slider .owl-next, .testimonials-section .testimonials-slider .main-head .bt-item .bt-box .icon-box .owl-next, .main-head .bt-item .bt-box .icon-box .gift-section .items ul li, .gift-section .items ul .main-head .bt-item .bt-box .icon-box li {
   color: #ce4e4e;
   font-size: 60px;
   position: relative;
@@ -11624,11 +11652,11 @@ textarea:valid {
   left: 30px;
 }
 
-.main-head .bt-item .bt-box .icon-box .fi.fi-venec, .main-head .bt-item .bt-box .icon-box .testimonials-section .testimonials-slider .fi-venec.owl-prev, .testimonials-section .testimonials-slider .main-head .bt-item .bt-box .icon-box .fi-venec.owl-prev, .main-head .bt-item .bt-box .icon-box .testimonials-section .testimonials-slider .fi-venec.owl-next, .testimonials-section .testimonials-slider .main-head .bt-item .bt-box .icon-box .fi-venec.owl-next {
+.main-head .bt-item .bt-box .icon-box .fi.fi-venec, .main-head .bt-item .bt-box .icon-box .success-prj-section .scs-prjcts .fi-venec.owl-prev, .success-prj-section .scs-prjcts .main-head .bt-item .bt-box .icon-box .fi-venec.owl-prev, .main-head .bt-item .bt-box .icon-box .success-prj-section .scs-prjcts .fi-venec.owl-next, .success-prj-section .scs-prjcts .main-head .bt-item .bt-box .icon-box .fi-venec.owl-next, .main-head .bt-item .bt-box .icon-box .our-prices-section .tarif-item .desc ul li.fi-venec, .our-prices-section .tarif-item .desc ul .main-head .bt-item .bt-box .icon-box li.fi-venec, .main-head .bt-item .bt-box .icon-box .testimonials-section .testimonials-slider .fi-venec.owl-prev, .testimonials-section .testimonials-slider .main-head .bt-item .bt-box .icon-box .fi-venec.owl-prev, .main-head .bt-item .bt-box .icon-box .testimonials-section .testimonials-slider .fi-venec.owl-next, .testimonials-section .testimonials-slider .main-head .bt-item .bt-box .icon-box .fi-venec.owl-next, .main-head .bt-item .bt-box .icon-box .gift-section .items ul li.fi-venec, .gift-section .items ul .main-head .bt-item .bt-box .icon-box li.fi-venec {
   font-size: 48px;
 }
 
-.main-head .bt-item .bt-box .icon-box .fi:before, .main-head .bt-item .bt-box .icon-box .testimonials-section .testimonials-slider .owl-prev:before, .testimonials-section .testimonials-slider .main-head .bt-item .bt-box .icon-box .owl-prev:before, .main-head .bt-item .bt-box .icon-box .testimonials-section .testimonials-slider .owl-next:before, .testimonials-section .testimonials-slider .main-head .bt-item .bt-box .icon-box .owl-next:before {
+.main-head .bt-item .bt-box .icon-box .fi:before, .main-head .bt-item .bt-box .icon-box .success-prj-section .scs-prjcts .owl-prev:before, .success-prj-section .scs-prjcts .main-head .bt-item .bt-box .icon-box .owl-prev:before, .main-head .bt-item .bt-box .icon-box .success-prj-section .scs-prjcts .owl-next:before, .success-prj-section .scs-prjcts .main-head .bt-item .bt-box .icon-box .owl-next:before, .main-head .bt-item .bt-box .icon-box .our-prices-section .tarif-item .desc ul li:before, .our-prices-section .tarif-item .desc ul .main-head .bt-item .bt-box .icon-box li:before, .main-head .bt-item .bt-box .icon-box .testimonials-section .testimonials-slider .owl-prev:before, .testimonials-section .testimonials-slider .main-head .bt-item .bt-box .icon-box .owl-prev:before, .main-head .bt-item .bt-box .icon-box .testimonials-section .testimonials-slider .owl-next:before, .testimonials-section .testimonials-slider .main-head .bt-item .bt-box .icon-box .owl-next:before, .main-head .bt-item .bt-box .icon-box .gift-section .items ul li:before, .gift-section .items ul .main-head .bt-item .bt-box .icon-box li:before {
   vertical-align: bottom;
 }
 
@@ -11871,6 +11899,11 @@ textarea:valid {
   display: none;
 }
 
+.success-prj-section.graybg {
+  padding: 4em 0;
+  background: #f2f2f2;
+}
+
 .success-prj-section:before {
   content: "";
   position: absolute;
@@ -11953,6 +11986,10 @@ textarea:valid {
   -webkit-transform: translate3d(0, -50%, 0);
   -moz-transform: translate3d(0, -50%, 0);
   transform: translate3d(0, -50%, 0);
+  -webkit-transition: .2s;
+  -o-transition: .2s;
+  -moz-transition: .2s;
+  transition: .2s;
 }
 
 .success-prj-section .scs-prjcts .owl-prev:hover,
@@ -11960,39 +11997,42 @@ textarea:valid {
   background: #ce4e4e;
 }
 
-.success-prj-section .scs-prjcts .owl-prev:hover:after,
-.success-prj-section .scs-prjcts .owl-next:hover:after {
-  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABMAAAAWCAYAAAAinad/AAABNklEQVQ4T62U4VECUQyENxVoB9KBdiAdYAfYgViBWAFQAdiBdEAJ2oF2gBWss0xg3oU83oFm5v7c3fsuu8me4R+K5ADA0v7CInkN4AXARJyLYSQfAcwACLirs2Ekhw65i6p6w9wXdfJQs6YJc1+e3JeDpAx4Eua+yGBNK9YawKi8mcJIyg9Jkj+xPtWlmW1IsgpzSYJoUrG+AUzNbLV/UIWRnAKQN9GXHwBzXWa2Lb9wBPNRLyu+vLmkDqTamcPU+k0iTfdfzewrm15LpmJxFQ6qK8lcNGUGD+SXDo6TTtSdBiDpuzo5zeIlrYag9wn0A8BzczXiQV9aTTnz8z1Gq2+c5GXmZ+f7TVghXZGS9E6EmnHK1qCAKmKC3sb3endW8VPQwypdDPPV0CrtY3j+n7aSBPm5+gWuD4tAXF9JywAAAABJRU5ErkJggg==) no-repeat center;
-  -webkit-transform: translate3d(-50%, -50%, 0) rotate(180deg);
-  -moz-transform: translate3d(-50%, -50%, 0) rotate(180deg);
-  transform: translate3d(-50%, -50%, 0) rotate(180deg);
-}
-
-.success-prj-section .scs-prjcts .owl-prev:after,
-.success-prj-section .scs-prjcts .owl-next:after {
-  content: "";
-  width: 25px;
-  height: 24px;
-  display: block;
-  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABMAAAAWCAYAAAAinad/AAABbUlEQVQ4T62VQU7CQBSG//cWw1JuIFtBo96AJWlI5AbiCWxPYDmBcAO4ASa0sMQTiDHELd4AlnYxzwyZJk0ZKAUn6aYz7+v7//felJaeN2etu1ez2QpnLlp6nlhGmCg1uB+P16cyszDDWAuRfx1Fo1OAeVjKWGjm4GYymZeB7oOljCFr3TvWzyLYVjqA/jF+umBvAB4c8lYkEtSn0/E+6TuwRhzTV7vdZK37AG7zgSQyF6KgEceLnb1Ma2z3DCw9tPS8LoAQwKUjm2GiVJBtJWdm2cCPTqeqksQHYJ6LHHRNQFiP44F5XwhLg79brZoQhUL06PJTMz+VgmnmFwBGen79aOZuIczKfLYyqznKhojCehSZYh2WaQtgsqk5qjr6rVT8wgLY1ngFcOeQ9G6yPKo1bB81Xb6QiF+qaR2QjR2nftH1dHA2SWREIuG5g/6pmf1zryAjyZg7LHOPpWezMnuJUoW+HPqIgf3bD+UPj9LNbabQfGoAAAAASUVORK5CYII=) no-repeat center;
+.success-prj-section .scs-prjcts .owl-prev:before {
   position: absolute;
-  left: 50%;
+  left: 46%;
   top: 50%;
   -webkit-transform: translate3d(-50%, -50%, 0);
   -moz-transform: translate3d(-50%, -50%, 0);
   transform: translate3d(-50%, -50%, 0);
+  font-size: 24px;
+  color: #ce4e4e;
+  -webkit-transition: .2s;
+  -o-transition: .2s;
+  -moz-transition: .2s;
+  transition: .2s;
 }
 
-.success-prj-section .scs-prjcts .owl-prev:hover:after {
-  -webkit-transform: translate3d(-50%, -50%, 0) rotate(0);
-  -moz-transform: translate3d(-50%, -50%, 0) rotate(0);
-  transform: translate3d(-50%, -50%, 0) rotate(0);
+.success-prj-section .scs-prjcts .owl-prev:hover:before {
+  color: #fff;
 }
 
-.success-prj-section .scs-prjcts .owl-prev:after {
-  -webkit-transform: translate3d(-50%, -50%, 0) rotate(180deg);
-  -moz-transform: translate3d(-50%, -50%, 0) rotate(180deg);
-  transform: translate3d(-50%, -50%, 0) rotate(180deg);
+.success-prj-section .scs-prjcts .owl-next:before {
+  position: absolute;
+  right: 46%;
+  top: 50%;
+  -webkit-transform: translate3d(50%, -50%, 0);
+  -moz-transform: translate3d(50%, -50%, 0);
+  transform: translate3d(50%, -50%, 0);
+  font-size: 24px;
+  color: #ce4e4e;
+  -webkit-transition: .2s;
+  -o-transition: .2s;
+  -moz-transition: .2s;
+  transition: .2s;
+}
+
+.success-prj-section .scs-prjcts .owl-next:hover:before {
+  color: #fff;
 }
 
 .success-prj-section .scs-prjcts .owl-prev {
@@ -12222,13 +12262,29 @@ textarea:valid {
   position: relative;
 }
 
+.our-advantages-section.designer {
+  padding: 5em 0 6em;
+}
+
+.our-advantages-section.designer .name span {
+  color: #fff;
+}
+
+.our-advantages-section.designer i {
+  color: #fff;
+}
+
+.our-advantages-section.designer .section-title {
+  margin-bottom: 5em;
+}
+
 .our-advantages-section .tr-item {
   margin: 0 0 25px;
   font-size: 20px;
   font-family: "ProximaNovaExtrabld";
 }
 
-.our-advantages-section .tr-item .icon .fi, .our-advantages-section .tr-item .icon .testimonials-section .testimonials-slider .owl-prev, .testimonials-section .testimonials-slider .our-advantages-section .tr-item .icon .owl-prev, .our-advantages-section .tr-item .icon .testimonials-section .testimonials-slider .owl-next, .testimonials-section .testimonials-slider .our-advantages-section .tr-item .icon .owl-next {
+.our-advantages-section .tr-item .icon .fi, .our-advantages-section .tr-item .icon .success-prj-section .scs-prjcts .owl-prev, .success-prj-section .scs-prjcts .our-advantages-section .tr-item .icon .owl-prev, .our-advantages-section .tr-item .icon .success-prj-section .scs-prjcts .owl-next, .success-prj-section .scs-prjcts .our-advantages-section .tr-item .icon .owl-next, .our-advantages-section .tr-item .icon .our-prices-section .tarif-item .desc ul li, .our-prices-section .tarif-item .desc ul .our-advantages-section .tr-item .icon li, .our-advantages-section .tr-item .icon .testimonials-section .testimonials-slider .owl-prev, .testimonials-section .testimonials-slider .our-advantages-section .tr-item .icon .owl-prev, .our-advantages-section .tr-item .icon .testimonials-section .testimonials-slider .owl-next, .testimonials-section .testimonials-slider .our-advantages-section .tr-item .icon .owl-next, .our-advantages-section .tr-item .icon .gift-section .items ul li, .gift-section .items ul .our-advantages-section .tr-item .icon li {
   color: #ce4e4e;
   font-size: 60px;
 }
@@ -12502,7 +12558,7 @@ textarea:valid {
   transform: translate3d(0, -50%, 0);
 }
 
-.contacts-section .map-section .contacts-box .get-contract .circle .fi, .contacts-section .map-section .contacts-box .get-contract .circle .testimonials-section .testimonials-slider .owl-prev, .testimonials-section .testimonials-slider .contacts-section .map-section .contacts-box .get-contract .circle .owl-prev, .contacts-section .map-section .contacts-box .get-contract .circle .testimonials-section .testimonials-slider .owl-next, .testimonials-section .testimonials-slider .contacts-section .map-section .contacts-box .get-contract .circle .owl-next {
+.contacts-section .map-section .contacts-box .get-contract .circle .fi, .contacts-section .map-section .contacts-box .get-contract .circle .success-prj-section .scs-prjcts .owl-prev, .success-prj-section .scs-prjcts .contacts-section .map-section .contacts-box .get-contract .circle .owl-prev, .contacts-section .map-section .contacts-box .get-contract .circle .success-prj-section .scs-prjcts .owl-next, .success-prj-section .scs-prjcts .contacts-section .map-section .contacts-box .get-contract .circle .owl-next, .contacts-section .map-section .contacts-box .get-contract .circle .our-prices-section .tarif-item .desc ul li, .our-prices-section .tarif-item .desc ul .contacts-section .map-section .contacts-box .get-contract .circle li, .contacts-section .map-section .contacts-box .get-contract .circle .testimonials-section .testimonials-slider .owl-prev, .testimonials-section .testimonials-slider .contacts-section .map-section .contacts-box .get-contract .circle .owl-prev, .contacts-section .map-section .contacts-box .get-contract .circle .testimonials-section .testimonials-slider .owl-next, .testimonials-section .testimonials-slider .contacts-section .map-section .contacts-box .get-contract .circle .owl-next, .contacts-section .map-section .contacts-box .get-contract .circle .gift-section .items ul li, .gift-section .items ul .contacts-section .map-section .contacts-box .get-contract .circle li {
   position: absolute;
   left: 46%;
   top: 50%;
@@ -12629,7 +12685,7 @@ textarea:valid {
   transition: 0.4s;
 }
 
-.icon-boxes .item-box:hover .icon .fi, .icon-boxes .item-box:hover .icon .testimonials-section .testimonials-slider .owl-prev, .testimonials-section .testimonials-slider .icon-boxes .item-box:hover .icon .owl-prev, .icon-boxes .item-box:hover .icon .testimonials-section .testimonials-slider .owl-next, .testimonials-section .testimonials-slider .icon-boxes .item-box:hover .icon .owl-next {
+.icon-boxes .item-box:hover .icon .fi, .icon-boxes .item-box:hover .icon .success-prj-section .scs-prjcts .owl-prev, .success-prj-section .scs-prjcts .icon-boxes .item-box:hover .icon .owl-prev, .icon-boxes .item-box:hover .icon .success-prj-section .scs-prjcts .owl-next, .success-prj-section .scs-prjcts .icon-boxes .item-box:hover .icon .owl-next, .icon-boxes .item-box:hover .icon .our-prices-section .tarif-item .desc ul li, .our-prices-section .tarif-item .desc ul .icon-boxes .item-box:hover .icon li, .icon-boxes .item-box:hover .icon .testimonials-section .testimonials-slider .owl-prev, .testimonials-section .testimonials-slider .icon-boxes .item-box:hover .icon .owl-prev, .icon-boxes .item-box:hover .icon .testimonials-section .testimonials-slider .owl-next, .testimonials-section .testimonials-slider .icon-boxes .item-box:hover .icon .owl-next, .icon-boxes .item-box:hover .icon .gift-section .items ul li, .gift-section .items ul .icon-boxes .item-box:hover .icon li {
   color: #fff;
   -webkit-transition: 0.4s;
   -o-transition: 0.4s;
@@ -12637,7 +12693,7 @@ textarea:valid {
   transition: 0.4s;
 }
 
-.icon-boxes .item-box .icon .fi, .icon-boxes .item-box .icon .testimonials-section .testimonials-slider .owl-prev, .testimonials-section .testimonials-slider .icon-boxes .item-box .icon .owl-prev, .icon-boxes .item-box .icon .testimonials-section .testimonials-slider .owl-next, .testimonials-section .testimonials-slider .icon-boxes .item-box .icon .owl-next {
+.icon-boxes .item-box .icon .fi, .icon-boxes .item-box .icon .success-prj-section .scs-prjcts .owl-prev, .success-prj-section .scs-prjcts .icon-boxes .item-box .icon .owl-prev, .icon-boxes .item-box .icon .success-prj-section .scs-prjcts .owl-next, .success-prj-section .scs-prjcts .icon-boxes .item-box .icon .owl-next, .icon-boxes .item-box .icon .our-prices-section .tarif-item .desc ul li, .our-prices-section .tarif-item .desc ul .icon-boxes .item-box .icon li, .icon-boxes .item-box .icon .testimonials-section .testimonials-slider .owl-prev, .testimonials-section .testimonials-slider .icon-boxes .item-box .icon .owl-prev, .icon-boxes .item-box .icon .testimonials-section .testimonials-slider .owl-next, .testimonials-section .testimonials-slider .icon-boxes .item-box .icon .owl-next, .icon-boxes .item-box .icon .gift-section .items ul li, .gift-section .items ul .icon-boxes .item-box .icon li {
   font-size: 65px;
   color: #ce4e4e;
 }
@@ -12658,8 +12714,69 @@ textarea:valid {
   background: url(../img/smeta-section-bg.png) no-repeat 82% top;
 }
 
+.smeta-section.bg {
+  padding: 4em 0;
+  background: #f2f2f2;
+}
+
+.smeta-section.nobg {
+  margin: 0 0 4em;
+  background: none;
+}
+
 .smeta-section .vertical-text {
   top: 10%;
+}
+
+.smeta-section .description {
+  margin: 0 0 2.5em;
+}
+
+.smeta-section .description p {
+  margin: 0 0 1em;
+  font-size: 18px;
+}
+
+.smeta-section .triggers {
+  margin: 0 0 3.5em;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -moz-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.smeta-section .triggers .tr-item {
+  display: inline-block;
+  position: relative;
+  padding-left: 3.8em;
+  width: 30%;
+}
+
+.smeta-section .triggers .tr-item p {
+  margin: 0;
+  line-height: 16px;
+  font-family: "ProximaNovaBold";
+}
+
+.smeta-section .triggers .tr-item .icon-box {
+  position: absolute;
+  left: 0;
+  height: 62px;
+  top: 50%;
+  -webkit-transform: translate3d(0, -50%, 0);
+  -moz-transform: translate3d(0, -50%, 0);
+  transform: translate3d(0, -50%, 0);
+}
+
+.smeta-section .triggers .tr-item .fi, .smeta-section .triggers .tr-item .success-prj-section .scs-prjcts .owl-prev, .success-prj-section .scs-prjcts .smeta-section .triggers .tr-item .owl-prev, .smeta-section .triggers .tr-item .success-prj-section .scs-prjcts .owl-next, .success-prj-section .scs-prjcts .smeta-section .triggers .tr-item .owl-next, .smeta-section .triggers .tr-item .our-prices-section .tarif-item .desc ul li, .our-prices-section .tarif-item .desc ul .smeta-section .triggers .tr-item li, .smeta-section .triggers .tr-item .testimonials-section .testimonials-slider .owl-prev, .testimonials-section .testimonials-slider .smeta-section .triggers .tr-item .owl-prev, .smeta-section .triggers .tr-item .testimonials-section .testimonials-slider .owl-next, .testimonials-section .testimonials-slider .smeta-section .triggers .tr-item .owl-next, .smeta-section .triggers .tr-item .gift-section .items ul li, .gift-section .items ul .smeta-section .triggers .tr-item li {
+  font-size: 45px;
+  color: #ce4e4e;
 }
 
 .chk-list ul {
@@ -12723,6 +12840,10 @@ textarea:valid {
   border-bottom: 1px solid #E6E6E6;
 }
 
+.our-prices-section .tarif-item .price.small {
+  font-size: 16px;
+}
+
 .our-prices-section .tarif-item .desc {
   margin: 0 0 1.5em;
 }
@@ -12730,6 +12851,27 @@ textarea:valid {
 .our-prices-section .tarif-item .desc p {
   margin: 0 0 1em;
   font-size: 16px;
+}
+
+.our-prices-section .tarif-item .desc ul {
+  margin: 0;
+  padding: 0;
+}
+
+.our-prices-section .tarif-item .desc ul li {
+  margin: 0 0 1em;
+  padding-left: 1.4em;
+  list-style-type: none;
+  font-size: 16px;
+  position: relative;
+}
+
+.our-prices-section .tarif-item .desc ul li::before {
+  position: absolute;
+  left: 0;
+  top: 3px;
+  font-size: 11px;
+  color: #ce4e4e;
 }
 
 .testimonials-section .tabs {
@@ -12857,7 +12999,7 @@ textarea:valid {
 
 .testimonials-section .testimonials-slider .owl-prev:before {
   position: absolute;
-  left: 50%;
+  left: 46%;
   top: 50%;
   -webkit-transform: translate3d(-50%, -50%, 0);
   -moz-transform: translate3d(-50%, -50%, 0);
@@ -12876,7 +13018,7 @@ textarea:valid {
 
 .testimonials-section .testimonials-slider .owl-next:before {
   position: absolute;
-  right: 50%;
+  right: 46%;
   top: 50%;
   -webkit-transform: translate3d(50%, -50%, 0);
   -moz-transform: translate3d(50%, -50%, 0);
@@ -12941,29 +13083,47 @@ textarea:valid {
   margin: 4em 0 0;
 }
 
-.director-section {
+.director-section,
+.designer-box {
   padding: 0 0 50px;
 }
 
-.director-section .dw {
+.director-section .dw,
+.designer-box .dw {
   margin: 2em 0 1.4em;
   position: relative;
 }
 
-.director-section .dw .icon {
+.director-section .dw .icon,
+.designer-box .dw .icon {
   margin: 0 0 1em;
 }
 
-.director-section .dw .icon .fi, .director-section .dw .icon .testimonials-section .testimonials-slider .owl-prev, .testimonials-section .testimonials-slider .director-section .dw .icon .owl-prev, .director-section .dw .icon .testimonials-section .testimonials-slider .owl-next, .testimonials-section .testimonials-slider .director-section .dw .icon .owl-next {
+.director-section .dw .icon .fi, .director-section .dw .icon .success-prj-section .scs-prjcts .owl-prev, .success-prj-section .scs-prjcts .director-section .dw .icon .owl-prev, .director-section .dw .icon .success-prj-section .scs-prjcts .owl-next, .success-prj-section .scs-prjcts .director-section .dw .icon .owl-next, .director-section .dw .icon .our-prices-section .tarif-item .desc ul li, .our-prices-section .tarif-item .desc ul .director-section .dw .icon li, .director-section .dw .icon .testimonials-section .testimonials-slider .owl-prev, .testimonials-section .testimonials-slider .director-section .dw .icon .owl-prev, .director-section .dw .icon .testimonials-section .testimonials-slider .owl-next, .testimonials-section .testimonials-slider .director-section .dw .icon .owl-next, .director-section .dw .icon .gift-section .items ul li, .gift-section .items ul .director-section .dw .icon li,
+.designer-box .dw .icon .fi,
+.designer-box .dw .icon .success-prj-section .scs-prjcts .owl-prev,
+.success-prj-section .scs-prjcts .designer-box .dw .icon .owl-prev,
+.designer-box .dw .icon .success-prj-section .scs-prjcts .owl-next,
+.success-prj-section .scs-prjcts .designer-box .dw .icon .owl-next,
+.designer-box .dw .icon .our-prices-section .tarif-item .desc ul li,
+.our-prices-section .tarif-item .desc ul .designer-box .dw .icon li,
+.designer-box .dw .icon .testimonials-section .testimonials-slider .owl-prev,
+.testimonials-section .testimonials-slider .designer-box .dw .icon .owl-prev,
+.designer-box .dw .icon .testimonials-section .testimonials-slider .owl-next,
+.testimonials-section .testimonials-slider .designer-box .dw .icon .owl-next,
+.designer-box .dw .icon .gift-section .items ul li,
+.gift-section .items ul .designer-box .dw .icon li {
   color: #ce4e4e;
 }
 
-.director-section .dw p {
+.director-section .dw p,
+.designer-box .dw p {
   margin: 0 0 1em;
   font-size: 18px;
 }
 
-.director-section .name {
+.director-section .name,
+.designer-box .name {
   margin: 0 0 1.3em;
   padding: 0.6em 0;
   display: inline-block;
@@ -12973,36 +13133,42 @@ textarea:valid {
   font-family: "ProximaNovaBold";
 }
 
-.director-section .name span {
+.director-section .name span,
+.designer-box .name span {
   display: block;
   font-size: 16px;
   color: #7a7a7a;
   font-family: "ProximaNovaRegular";
 }
 
-.director-section i {
+.director-section i,
+.designer-box i {
   color: #2c2c2c;
   font-size: 18px;
 }
 
-.director-section .director-img {
+.director-section .director-img,
+.designer-box .director-img {
   margin: 5em 0 0;
   -webkit-box-shadow: 0 0 45px 5px rgba(0, 0, 0, 0.2);
   -moz-box-shadow: 0 0 45px 5px rgba(0, 0, 0, 0.2);
   box-shadow: 0 0 45px 5px rgba(0, 0, 0, 0.2);
 }
 
-.director-section .director-img img {
+.director-section .director-img img,
+.designer-box .director-img img {
   width: 100%;
 }
 
-.director-section .director-img .play-box {
+.director-section .director-img .play-box,
+.designer-box .director-img .play-box {
   position: absolute;
   bottom: 0;
   width: 100%;
 }
 
-.director-section .director-img .play {
+.director-section .director-img .play,
+.designer-box .director-img .play {
   margin: 0 0 2em;
   display: -webkit-box;
   display: -webkit-flex;
@@ -13017,7 +13183,8 @@ textarea:valid {
   color: #fff;
 }
 
-.director-section .director-img .play a {
+.director-section .director-img .play a,
+.designer-box .director-img .play a {
   display: -webkit-box;
   display: -webkit-flex;
   display: -moz-box;
@@ -13034,11 +13201,25 @@ textarea:valid {
   line-height: 20px;
 }
 
-.director-section .director-img .play a:hover .icon .fi, .director-section .director-img .play a:hover .icon .testimonials-section .testimonials-slider .owl-prev, .testimonials-section .testimonials-slider .director-section .director-img .play a:hover .icon .owl-prev, .director-section .director-img .play a:hover .icon .testimonials-section .testimonials-slider .owl-next, .testimonials-section .testimonials-slider .director-section .director-img .play a:hover .icon .owl-next {
+.director-section .director-img .play a:hover .icon .fi, .director-section .director-img .play a:hover .icon .success-prj-section .scs-prjcts .owl-prev, .success-prj-section .scs-prjcts .director-section .director-img .play a:hover .icon .owl-prev, .director-section .director-img .play a:hover .icon .success-prj-section .scs-prjcts .owl-next, .success-prj-section .scs-prjcts .director-section .director-img .play a:hover .icon .owl-next, .director-section .director-img .play a:hover .icon .our-prices-section .tarif-item .desc ul li, .our-prices-section .tarif-item .desc ul .director-section .director-img .play a:hover .icon li, .director-section .director-img .play a:hover .icon .testimonials-section .testimonials-slider .owl-prev, .testimonials-section .testimonials-slider .director-section .director-img .play a:hover .icon .owl-prev, .director-section .director-img .play a:hover .icon .testimonials-section .testimonials-slider .owl-next, .testimonials-section .testimonials-slider .director-section .director-img .play a:hover .icon .owl-next, .director-section .director-img .play a:hover .icon .gift-section .items ul li, .gift-section .items ul .director-section .director-img .play a:hover .icon li,
+.designer-box .director-img .play a:hover .icon .fi,
+.designer-box .director-img .play a:hover .icon .success-prj-section .scs-prjcts .owl-prev,
+.success-prj-section .scs-prjcts .designer-box .director-img .play a:hover .icon .owl-prev,
+.designer-box .director-img .play a:hover .icon .success-prj-section .scs-prjcts .owl-next,
+.success-prj-section .scs-prjcts .designer-box .director-img .play a:hover .icon .owl-next,
+.designer-box .director-img .play a:hover .icon .our-prices-section .tarif-item .desc ul li,
+.our-prices-section .tarif-item .desc ul .designer-box .director-img .play a:hover .icon li,
+.designer-box .director-img .play a:hover .icon .testimonials-section .testimonials-slider .owl-prev,
+.testimonials-section .testimonials-slider .designer-box .director-img .play a:hover .icon .owl-prev,
+.designer-box .director-img .play a:hover .icon .testimonials-section .testimonials-slider .owl-next,
+.testimonials-section .testimonials-slider .designer-box .director-img .play a:hover .icon .owl-next,
+.designer-box .director-img .play a:hover .icon .gift-section .items ul li,
+.gift-section .items ul .designer-box .director-img .play a:hover .icon li {
   color: #d97676;
 }
 
-.director-section .director-img .play .icon {
+.director-section .director-img .play .icon,
+.designer-box .director-img .play .icon {
   margin-right: 0.8em;
   width: 64px;
   height: 64px;
@@ -13050,7 +13231,20 @@ textarea:valid {
   line-height: normal;
 }
 
-.director-section .director-img .play .icon .fi, .director-section .director-img .play .icon .testimonials-section .testimonials-slider .owl-prev, .testimonials-section .testimonials-slider .director-section .director-img .play .icon .owl-prev, .director-section .director-img .play .icon .testimonials-section .testimonials-slider .owl-next, .testimonials-section .testimonials-slider .director-section .director-img .play .icon .owl-next {
+.director-section .director-img .play .icon .fi, .director-section .director-img .play .icon .success-prj-section .scs-prjcts .owl-prev, .success-prj-section .scs-prjcts .director-section .director-img .play .icon .owl-prev, .director-section .director-img .play .icon .success-prj-section .scs-prjcts .owl-next, .success-prj-section .scs-prjcts .director-section .director-img .play .icon .owl-next, .director-section .director-img .play .icon .our-prices-section .tarif-item .desc ul li, .our-prices-section .tarif-item .desc ul .director-section .director-img .play .icon li, .director-section .director-img .play .icon .testimonials-section .testimonials-slider .owl-prev, .testimonials-section .testimonials-slider .director-section .director-img .play .icon .owl-prev, .director-section .director-img .play .icon .testimonials-section .testimonials-slider .owl-next, .testimonials-section .testimonials-slider .director-section .director-img .play .icon .owl-next, .director-section .director-img .play .icon .gift-section .items ul li, .gift-section .items ul .director-section .director-img .play .icon li,
+.designer-box .director-img .play .icon .fi,
+.designer-box .director-img .play .icon .success-prj-section .scs-prjcts .owl-prev,
+.success-prj-section .scs-prjcts .designer-box .director-img .play .icon .owl-prev,
+.designer-box .director-img .play .icon .success-prj-section .scs-prjcts .owl-next,
+.success-prj-section .scs-prjcts .designer-box .director-img .play .icon .owl-next,
+.designer-box .director-img .play .icon .our-prices-section .tarif-item .desc ul li,
+.our-prices-section .tarif-item .desc ul .designer-box .director-img .play .icon li,
+.designer-box .director-img .play .icon .testimonials-section .testimonials-slider .owl-prev,
+.testimonials-section .testimonials-slider .designer-box .director-img .play .icon .owl-prev,
+.designer-box .director-img .play .icon .testimonials-section .testimonials-slider .owl-next,
+.testimonials-section .testimonials-slider .designer-box .director-img .play .icon .owl-next,
+.designer-box .director-img .play .icon .gift-section .items ul li,
+.gift-section .items ul .designer-box .director-img .play .icon li {
   position: absolute;
   left: 50%;
   top: 50%;
@@ -13079,6 +13273,44 @@ textarea:valid {
 
 .gift-section .llt p:last-child {
   margin: 0;
+}
+
+.gift-section.interior {
+  padding: 4em 0 6em;
+  background-image: url(../img/man.png);
+  background-repeat: no-repeat;
+  background-position: 76% center;
+  -webkit-background-size: 25% 25%;
+  -moz-background-size: 25%;
+  -o-background-size: 25%;
+  background-size: 25%;
+}
+
+.gift-section .items {
+  margin: 0 0 2em;
+}
+
+.gift-section .items ul {
+  margin: 0;
+  padding: 0;
+}
+
+.gift-section .items ul li {
+  margin: 0 0 1.3em;
+  list-style-type: none;
+  padding-left: 4em;
+  position: relative;
+  position-font-size: 18px;
+}
+
+.gift-section .items ul li::before {
+  position: absolute;
+  left: 0;
+  top: 2px;
+  background: #2c2c2c;
+  padding: 12px;
+  color: #fff;
+  font-size: 9px;
 }
 
 .gift-section .btn-box {
@@ -13450,7 +13682,7 @@ textarea:valid {
     margin-bottom: 1em;
     width: 100%;
   }
-  .icon-boxes .item-box .icon .fi, .icon-boxes .item-box .icon .testimonials-section .testimonials-slider .owl-prev, .testimonials-section .testimonials-slider .icon-boxes .item-box .icon .owl-prev, .icon-boxes .item-box .icon .testimonials-section .testimonials-slider .owl-next, .testimonials-section .testimonials-slider .icon-boxes .item-box .icon .owl-next {
+  .icon-boxes .item-box .icon .fi, .icon-boxes .item-box .icon .success-prj-section .scs-prjcts .owl-prev, .success-prj-section .scs-prjcts .icon-boxes .item-box .icon .owl-prev, .icon-boxes .item-box .icon .success-prj-section .scs-prjcts .owl-next, .success-prj-section .scs-prjcts .icon-boxes .item-box .icon .owl-next, .icon-boxes .item-box .icon .our-prices-section .tarif-item .desc ul li, .our-prices-section .tarif-item .desc ul .icon-boxes .item-box .icon li, .icon-boxes .item-box .icon .testimonials-section .testimonials-slider .owl-prev, .testimonials-section .testimonials-slider .icon-boxes .item-box .icon .owl-prev, .icon-boxes .item-box .icon .testimonials-section .testimonials-slider .owl-next, .testimonials-section .testimonials-slider .icon-boxes .item-box .icon .owl-next, .icon-boxes .item-box .icon .gift-section .items ul li, .gift-section .items ul .icon-boxes .item-box .icon li {
     font-size: 50px;
   }
   .success-prj-section .scs-prjcts {

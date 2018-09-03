@@ -29,70 +29,98 @@
 	content: "\E002";
 }
 
-.fi-dialogs-4:before {
+.fi-check-small:before {
 	content: "\E003";
 }
 
-.fi-guarantee-6:before {
+.fi-clock:before {
 	content: "\E004";
 }
 
-.fi-guarantee-list:before {
+.fi-dialogs-4:before {
 	content: "\E005";
 }
 
-.fi-list-check:before {
+.fi-guarantee-6:before {
 	content: "\E006";
 }
 
-.fi-list-items:before {
+.fi-guarantee-list:before {
 	content: "\E007";
 }
 
-.fi-list-stamp-2:before {
+.fi-iks:before {
 	content: "\E008";
 }
 
-.fi-medal-3:before {
+.fi-list-check:before {
 	content: "\E009";
 }
 
-.fi-pdf:before {
+.fi-list-check2:before {
 	content: "\E00A";
 }
 
-.fi-pen-ruler:before {
+.fi-list-items:before {
 	content: "\E00B";
 }
 
-.fi-phone-fw:before {
+.fi-list-stamp-2:before {
 	content: "\E00C";
 }
 
-.fi-play-circle:before {
+.fi-medal-3:before {
 	content: "\E00D";
 }
 
-.fi-shield-check:before {
+.fi-money:before {
 	content: "\E00E";
 }
 
-.fi-specialist-5:before {
+.fi-monitor:before {
 	content: "\E00F";
 }
 
-.fi-two-commas:before {
+.fi-pdf:before {
 	content: "\E010";
 }
 
-.fi-valik:before {
+.fi-pen-ruler:before {
 	content: "\E011";
 }
 
-.fi-venec:before {
+.fi-phone-fw:before {
 	content: "\E012";
 }
 
-.fi-zoom-up:before {
+.fi-play-circle:before {
 	content: "\E013";
+}
+
+.fi-shield-check:before {
+	content: "\E014";
+}
+
+.fi-specialist-5:before {
+	content: "\E015";
+}
+
+.fi-thumb-up:before {
+	content: "\E016";
+}
+
+.fi-two-commas:before {
+	content: "\E017";
+}
+
+.fi-valik:before {
+	content: "\E018";
+}
+
+.fi-venec:before {
+	content: "\E019";
+}
+
+.fi-zoom-up:before {
+	content: "\E01A";
 }

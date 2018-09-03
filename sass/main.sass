@@ -623,6 +623,9 @@ textarea
 	&.nobg
 		&:before
 			display: none
+	&.graybg
+		padding: 4em 0
+		background: #f2f2f2
 	&:before
 		content: ""
 		position: absolute
@@ -641,6 +644,7 @@ textarea
 			margin: 20px 0 0
 			font-size: 30px
 			.first
+
 				position: relative
 				// margin-right: 55px
 			.line
@@ -676,27 +680,37 @@ textarea
 			position: absolute
 			top: 50%
 			transform: translate3d(0, -50%, 0)
+			transition: .2s
 			&:hover
 				background: $accent
-				&:after
-					background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABMAAAAWCAYAAAAinad/AAABNklEQVQ4T62U4VECUQyENxVoB9KBdiAdYAfYgViBWAFQAdiBdEAJ2oF2gBWss0xg3oU83oFm5v7c3fsuu8me4R+K5ADA0v7CInkN4AXARJyLYSQfAcwACLirs2Ekhw65i6p6w9wXdfJQs6YJc1+e3JeDpAx4Eua+yGBNK9YawKi8mcJIyg9Jkj+xPtWlmW1IsgpzSYJoUrG+AUzNbLV/UIWRnAKQN9GXHwBzXWa2Lb9wBPNRLyu+vLmkDqTamcPU+k0iTfdfzewrm15LpmJxFQ6qK8lcNGUGD+SXDo6TTtSdBiDpuzo5zeIlrYag9wn0A8BzczXiQV9aTTnz8z1Gq2+c5GXmZ+f7TVghXZGS9E6EmnHK1qCAKmKC3sb3endW8VPQwypdDPPV0CrtY3j+n7aSBPm5+gWuD4tAXF9JywAAAABJRU5ErkJggg==) no-repeat center
-					transform: translate3d(-50%, -50%, 0) rotate(180deg)
-			&:after
-				content: ""
-				width: 25px
-				height: 24px
-				display: block
-				background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABMAAAAWCAYAAAAinad/AAABbUlEQVQ4T62VQU7CQBSG//cWw1JuIFtBo96AJWlI5AbiCWxPYDmBcAO4ASa0sMQTiDHELd4AlnYxzwyZJk0ZKAUn6aYz7+v7//felJaeN2etu1ez2QpnLlp6nlhGmCg1uB+P16cyszDDWAuRfx1Fo1OAeVjKWGjm4GYymZeB7oOljCFr3TvWzyLYVjqA/jF+umBvAB4c8lYkEtSn0/E+6TuwRhzTV7vdZK37AG7zgSQyF6KgEceLnb1Ma2z3DCw9tPS8LoAQwKUjm2GiVJBtJWdm2cCPTqeqksQHYJ6LHHRNQFiP44F5XwhLg79brZoQhUL06PJTMz+VgmnmFwBGen79aOZuIczKfLYyqznKhojCehSZYh2WaQtgsqk5qjr6rVT8wgLY1ngFcOeQ9G6yPKo1bB81Xb6QiF+qaR2QjR2nftH1dHA2SWREIuG5g/6pmf1zryAjyZg7LHOPpWezMnuJUoW+HPqIgf3bD+UPj9LNbabQfGoAAAAASUVORK5CYII=) no-repeat center
+		.owl-prev
+			@extend .fi
+			@extend .fi-arrow-left
+			&:before
 				position: absolute
-				left: 50%
+				left: 46%
 				top: 50%
 				transform: translate3d(-50%, -50%, 0)
-		.owl-prev
+				font-size: 24px
+				color: $accent
+				transition: .2s
 			&:hover
-				&:after
-					transform: translate3d(-50%, -50%, 0) rotate(0)
-			&:after
-				transform: translate3d(-50%, -50%, 0) rotate(180deg)
+				&:before
+					color: #fff
+		.owl-next
+			@extend .fi
+			@extend .fi-arrow-right
+			&:before
+				position: absolute
+				right: 46%
+				top: 50%
+				transform: translate3d(50%, -50%, 0)
+				font-size: 24px
+				color: $accent
+				transition: .2s
+			&:hover
+				&:before
+					color: #fff
 		.owl-prev
 			right: 100%
 			margin-right: 4em
@@ -847,6 +861,15 @@ textarea
 	background-size: cover
 	color: #fff
 	position: relative
+	&.designer
+		padding: 5em 0 6em
+		.name
+			span
+				color: #fff
+		i
+			color: #fff
+		.section-title
+			margin-bottom: 5em
 	.tr-item
 		margin: 0 0 25px
 		font-size: 20px
@@ -1141,8 +1164,42 @@ textarea
 .smeta-section
 	margin: 0 0 7em
 	background: url(../img/smeta-section-bg.png) no-repeat 82% top
+	&.bg
+		padding: 4em 0
+		// background: #f2f2f2 url(../img/prj-bg.png) no-repeat 82% top
+		background: #f2f2f2
+	&.nobg
+		margin: 0 0 4em
+		background: none
 	.vertical-text
 		top: 10%
+	.description
+		margin: 0 0 2.5em
+		p
+			margin: 0 0 1em
+			font-size: 18px
+	.triggers
+		margin: 0 0 3.5em
+		display: flex
+		justify-content: space-between
+		.tr-item
+			display: inline-block
+			position: relative
+			padding-left: 3.8em
+			width: 30%
+			p
+				margin: 0
+				line-height: 16px
+				font-family: "ProximaNovaBold"
+			.icon-box
+				position: absolute
+				left: 0
+				height: 62px
+				top: 50%
+				transform: translate3d(0, -50%, 0)
+			.fi
+				font-size: 45px
+				color: $accent
 .chk-list
 	ul
 		margin: 0 0 2em
@@ -1186,11 +1243,31 @@ textarea
 			font-family: "ProximaNovaSemibold"
 			padding: 0 0 0.7em
 			border-bottom: 1px solid #E6E6E6
+			&.small
+				font-size: 16px
 		.desc
 			margin: 0 0 1.5em
 			p
 				margin: 0 0 1em
 				font-size: 16px
+			ul
+				margin: 0
+				padding: 0
+				li
+					margin: 0 0 1em
+					padding-left: 1.4em
+					list-style-type: none
+					font-size: 16px
+					position: relative
+					@extend .fi-check-small
+					@extend .fi
+					&::before
+						position: absolute
+						left: 0
+						top: 3px
+						font-size: 11px
+						color: $accent
+
 .testimonials-section
 	.tabs
 		margin: 0 0 3em
@@ -1266,7 +1343,7 @@ textarea
 			@extend .fi-arrow-left
 			&:before
 				position: absolute
-				left: 50%
+				left: 46%
 				top: 50%
 				transform: translate3d(-50%, -50%, 0)
 				font-size: 24px
@@ -1280,7 +1357,7 @@ textarea
 			@extend .fi-arrow-right
 			&:before
 				position: absolute
-				right: 50%
+				right: 46%
 				top: 50%
 				transform: translate3d(50%, -50%, 0)
 				font-size: 24px
@@ -1323,7 +1400,8 @@ textarea
 			margin: 0
 	.centered
 		margin: 4em 0 0
-.director-section
+.director-section,
+.designer-box
 	padding: 0 0 50px
 	.dw
 		margin: 2em 0 1.4em
@@ -1404,6 +1482,34 @@ textarea
 			font-size: 18px
 			&:last-child
 				margin: 0
+	&.interior
+		padding: 4em 0 6em
+		background-image: url(../img/man.png)
+		background-repeat: no-repeat
+		background-position: 76% center
+		background-size: 25%
+	.items
+		margin: 0 0 2em
+		ul
+			margin: 0
+			padding: 0
+			li
+				margin: 0 0 1.3em
+				list-style-type: none
+				padding-left: 4em
+				position: relative
+					font-size: 18px
+				@extend .fi-check-small
+				@extend .fi
+				&::before
+					position: absolute
+					left: 0
+					top: 2px
+					background: #2c2c2c
+					padding: 12px
+					color: #fff
+					font-size: 9px
+
 	.btn-box
 		margin: 0 0 1em
 .faq-section
