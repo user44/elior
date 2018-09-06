@@ -13708,6 +13708,13 @@ textarea:valid {
   .testimonials-section .testimonials-slider .owl-nav {
     display: none;
   }
+  .smeta-section .triggers {
+    display: block;
+  }
+  .smeta-section .triggers .tr-item {
+    margin: 0 0 2em;
+    width: 100%;
+  }
   .mpopup .inputs {
     display: block;
   }
