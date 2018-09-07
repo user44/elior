@@ -55,11 +55,23 @@ $(document).ready(function() {
 		return false;
 	});
 
-	//main slider navigation
+	//main slider navigation & autoplay
 	$('.header-slider .slider-counter .sn').click(function() {
 		$(this).parent().find('.sn').removeClass('active');
 		$(this).addClass('active');
-	})
+		var curIndex = $(this).index();
+		$(this).parents('.header-slider').find('.slides .item').fadeOut(600);
+		$(this).parents('.header-slider').find('.slides .item').eq(curIndex).fadeIn(600);
+	});
+	var iterate = 1;
+	var slideChange = setInterval(function() {
+		var allElem = $('.header-slider .slider-counter .sn').size();
+		(iterate > allElem) ? iterate=1 : '';
+		$('.header-slider .slider-counter .sn').eq(iterate-1).trigger('click');
+		console.log(allElem, iterate);
+		iterate++;
+		// (iterate > allElem) ? iterate = 1 : '';
+	}, 4000);
 
 	//mobile menu toggle
 	$(".navbutton").click(function() {

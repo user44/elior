@@ -408,6 +408,7 @@ textarea
 			.sn
 				margin: 0 0 1em
 				position: relative
+				cursor: pointer
 				&.active
 					.n
 						visibility: visible
@@ -417,31 +418,33 @@ textarea
 						box-shadow: 0 0 0 10px $accent
 						transition: .3s
 			.n
+				display: inline-block
 				position: relative
 				visibility: hidden
 				opacity: 0
 				transition: .3s
 				&::after
 					content: ""
-					display: block
+					display: inline-block
 					width: 46px
 					height: 2px
 					background: $accent
-					position: absolute
-					margin-left: 10px
-					left: 100%
-					top: 50%
-					transform: translate3d(0, -50%, 0)
+					position: relative
+					top: -5px
+					margin-left: 1em
 			.circle
-				display: block
+				display: inline-block
 				width: 5px
 				height: 5px
 				background: #fff
 				border-radius: 50%
-				position: absolute
-				right: -80px
-				top: 50%
-				transform: translate3d(0, -50%, 0)
+				position: relative
+				top: -3px
+				margin-left: 1em
+				// position: absolute
+				// right: -80px
+				// top: 50%
+				// transform: translate3d(0, -50%, 0)
 	.callback-box
 		margin: 20px 0 80px
 		padding-left: 85px

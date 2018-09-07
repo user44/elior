@@ -11527,6 +11527,7 @@ textarea:valid {
 .main-head .header-slider .slider-counter .sn {
   margin: 0 0 1em;
   position: relative;
+  cursor: pointer;
 }
 
 .main-head .header-slider .slider-counter .sn.active .n {
@@ -11546,6 +11547,7 @@ textarea:valid {
 }
 
 .main-head .header-slider .slider-counter .n {
+  display: inline-block;
   position: relative;
   visibility: hidden;
   opacity: 0;
@@ -11557,33 +11559,26 @@ textarea:valid {
 
 .main-head .header-slider .slider-counter .n::after {
   content: "";
-  display: block;
+  display: inline-block;
   width: 46px;
   height: 2px;
   background: #ce4e4e;
-  position: absolute;
-  margin-left: 10px;
-  left: 100%;
-  top: 50%;
-  -webkit-transform: translate3d(0, -50%, 0);
-  -moz-transform: translate3d(0, -50%, 0);
-  transform: translate3d(0, -50%, 0);
+  position: relative;
+  top: -5px;
+  margin-left: 1em;
 }
 
 .main-head .header-slider .slider-counter .circle {
-  display: block;
+  display: inline-block;
   width: 5px;
   height: 5px;
   background: #fff;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   border-radius: 50%;
-  position: absolute;
-  right: -80px;
-  top: 50%;
-  -webkit-transform: translate3d(0, -50%, 0);
-  -moz-transform: translate3d(0, -50%, 0);
-  transform: translate3d(0, -50%, 0);
+  position: relative;
+  top: -3px;
+  margin-left: 1em;
 }
 
 .main-head .callback-box {
