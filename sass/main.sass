@@ -398,6 +398,50 @@ textarea
 				object-fit: cover
 				width: 100%
 				height: 100%
+		.slider-counter
+			position: absolute
+			left: -3.3em
+			top: 50%
+			font-size: 16px
+			font-family: "ProximaNovaBold"
+			z-index: 10
+			.sn
+				margin: 0 0 1em
+				position: relative
+				&.active
+					.n
+						visibility: visible
+						opacity: 1
+					.circle
+						background-color: $accent
+						box-shadow: 0 0 0 10px $accent
+						transition: .3s
+			.n
+				position: relative
+				visibility: hidden
+				opacity: 0
+				transition: .3s
+				&::after
+					content: ""
+					display: block
+					width: 46px
+					height: 2px
+					background: $accent
+					position: absolute
+					margin-left: 10px
+					left: 100%
+					top: 50%
+					transform: translate3d(0, -50%, 0)
+			.circle
+				display: block
+				width: 5px
+				height: 5px
+				background: #fff
+				border-radius: 50%
+				position: absolute
+				right: -80px
+				top: 50%
+				transform: translate3d(0, -50%, 0)
 	.callback-box
 		margin: 20px 0 80px
 		padding-left: 85px

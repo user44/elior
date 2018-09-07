@@ -13,7 +13,7 @@ $(document).ready(function() {
 		// 	if($("html").hasClass("chrome")) {
 		// 		$.smoothScroll();
 		// 	}
-		// } catch(err) {};	
+		// } catch(err) {};
 
 	$("img, a").on("dragstart", function(event) { event.preventDefault(); });
 
@@ -54,6 +54,12 @@ $(document).ready(function() {
 		});
 		return false;
 	});
+
+	//main slider navigation
+	$('.header-slider .slider-counter .sn').click(function() {
+		$(this).parent().find('.sn').removeClass('active');
+		$(this).addClass('active');
+	})
 
 	//mobile menu toggle
 	$(".navbutton").click(function() {
@@ -166,7 +172,7 @@ $(document).ready(function() {
 
 			closeBtnInside: true,
 			preloader: false,
-			
+
 			midClick: true,
 			removalDelay: 300,
 			mainClass: 'my-mfp-slide-bottom'
@@ -199,7 +205,7 @@ $(document).ready(function() {
 	ymaps.ready(init);
 	var myMap;
 
-	function init(){     
+	function init(){
 	  myMap = new ymaps.Map("map", {
 	    center: [55.763523068996655,37.55254591531368],
 	    zoom: 16,
@@ -228,8 +234,8 @@ $(document).ready(function() {
 	// 	$('.order-box .price-box').matchHeight({byRow: false});
 	// }
 
-	
-	
+
+
 });
 
 $(window).scroll(function() {

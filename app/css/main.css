@@ -11515,6 +11515,77 @@ textarea:valid {
   height: 100%;
 }
 
+.main-head .header-slider .slider-counter {
+  position: absolute;
+  left: -3.3em;
+  top: 50%;
+  font-size: 16px;
+  font-family: "ProximaNovaBold";
+  z-index: 10;
+}
+
+.main-head .header-slider .slider-counter .sn {
+  margin: 0 0 1em;
+  position: relative;
+}
+
+.main-head .header-slider .slider-counter .sn.active .n {
+  visibility: visible;
+  opacity: 1;
+}
+
+.main-head .header-slider .slider-counter .sn.active .circle {
+  background-color: #ce4e4e;
+  -webkit-box-shadow: 0 0 0 10px #ce4e4e;
+  -moz-box-shadow: 0 0 0 10px #ce4e4e;
+  box-shadow: 0 0 0 10px #ce4e4e;
+  -webkit-transition: .3s;
+  -o-transition: .3s;
+  -moz-transition: .3s;
+  transition: .3s;
+}
+
+.main-head .header-slider .slider-counter .n {
+  position: relative;
+  visibility: hidden;
+  opacity: 0;
+  -webkit-transition: .3s;
+  -o-transition: .3s;
+  -moz-transition: .3s;
+  transition: .3s;
+}
+
+.main-head .header-slider .slider-counter .n::after {
+  content: "";
+  display: block;
+  width: 46px;
+  height: 2px;
+  background: #ce4e4e;
+  position: absolute;
+  margin-left: 10px;
+  left: 100%;
+  top: 50%;
+  -webkit-transform: translate3d(0, -50%, 0);
+  -moz-transform: translate3d(0, -50%, 0);
+  transform: translate3d(0, -50%, 0);
+}
+
+.main-head .header-slider .slider-counter .circle {
+  display: block;
+  width: 5px;
+  height: 5px;
+  background: #fff;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  position: absolute;
+  right: -80px;
+  top: 50%;
+  -webkit-transform: translate3d(0, -50%, 0);
+  -moz-transform: translate3d(0, -50%, 0);
+  transform: translate3d(0, -50%, 0);
+}
+
 .main-head .callback-box {
   margin: 20px 0 80px;
   padding-left: 85px;
@@ -13468,6 +13539,13 @@ textarea:valid {
   .testimonials-section .testimonials-slider .owl-nav {
     display: none;
   }
+  .gift-section.interior {
+    -webkit-background-size: 30% 30%;
+    -moz-background-size: 30%;
+    -o-background-size: 30%;
+    background-size: 30%;
+    background-position: 91% center;
+  }
 }
 
 /* Large Devices, Wide Screens */
@@ -13553,6 +13631,13 @@ textarea:valid {
   }
   .about-us-section .tr-box .t span {
     font-size: 27px;
+  }
+  .gift-section.interior {
+    -webkit-background-size: 42% 42%;
+    -moz-background-size: 42%;
+    -o-background-size: 42%;
+    background-size: 42%;
+    background-position: 93% center;
   }
 }
 
@@ -13708,12 +13793,26 @@ textarea:valid {
   .testimonials-section .testimonials-slider .owl-nav {
     display: none;
   }
+  .smeta-section {
+    margin-bottom: 3em;
+  }
+  .smeta-section.bg {
+    padding-bottom: 2em;
+  }
   .smeta-section .triggers {
     display: block;
+    margin: 0 0 1.5em;
   }
   .smeta-section .triggers .tr-item {
     margin: 0 0 2em;
     width: 100%;
+  }
+  .our-advantages-section.designer {
+    padding-top: 2em;
+    padding-bottom: 1em;
+  }
+  .gift-section.interior {
+    background-image: none;
   }
   .mpopup .inputs {
     display: block;
