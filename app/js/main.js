@@ -66,11 +66,15 @@ $(document).ready(function() {
 	var iterate = 1;
 	var slideChange = setInterval(function() {
 		var allElem = $('.header-slider .slider-counter .sn').size();
-		(iterate > allElem) ? iterate=1 : '';
-		$('.header-slider .slider-counter .sn').eq(iterate-1).trigger('click');
-		console.log(allElem, iterate);
+		var curActive = $('.header-slider .slider-counter .sn.active').index();
+		if (curActive == iterate-1) {
+			// console.log('Совпадение')
+		} else {
+			(iterate > allElem) ? iterate=1 : '';
+			$('.header-slider .slider-counter .sn').eq(iterate-1).trigger('click');
+		}
+		// console.log(allElem, iterate);
 		iterate++;
-		// (iterate > allElem) ? iterate = 1 : '';
 	}, 4000);
 
 	//mobile menu toggle
