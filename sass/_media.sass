@@ -66,6 +66,9 @@
 			ul
 				li
 					font-size: 14px
+		.footer-box
+			.title
+				font-size: 20px
 	.icon-boxes
 		.boxes
 			flex-wrap: wrap
@@ -116,6 +119,9 @@
 		&.interior
 			background-size: 42%
 			background-position: 93% center
+	.main-footer
+		.sub-info
+			font-size: 14px
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 767px)
@@ -214,6 +220,15 @@
 						padding-left: 37px
 	.main-footer
 		text-align: center
+		padding-bottom: 0
+		.cols
+			flex-direction: column
+			.footer-box
+				margin: 0 0 1em
+				&:last-child
+					margin-bottom: 0
+			.sub-info
+				display: none
 		.logo-box
 			margin: 0 0 1em
 		.info

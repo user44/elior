@@ -372,6 +372,22 @@ textarea
 	&:valid
 		border-color: lighten(green, 15%)
 
+.red-section
+	margin-bottom: 0
+	padding: 2em 0 3em
+	background: $accent
+	color: #fff
+	&.bottom
+		background: url(../img/red-section-bg.jpg) no-repeat center
+		background-size: cover
+	.title
+		font-family: "MyriadProBold"
+		font-size: 36px
+	.subtitle
+		font-size: 30px
+	.btn-box
+		margin: 30px 0 0
+
 //Custom Styles Here
 .main-head
 	// background: url(../img/header-bg.png) no-repeat right top
@@ -1129,7 +1145,14 @@ textarea
 						text-decoration: none
 
 .main-footer
-	padding: 50px 0 0
+	padding: 2em 0
+	.cols
+		display: flex
+		justify-content: space-between
+		.logo-box
+			align-self: center
+		.footer-box
+			// width: 19%
 	.logo-box
 		a
 			text-decoration: none
@@ -1149,35 +1172,40 @@ textarea
 			text-transform: none
 	.info
 		ul
-			margin: 0 0 1.5em
-			&:first-child
-				padding-bottom: 1.5em
-				border-bottom: 1px solid #DEDEDE
 			li
-
-				margin: 0
-				font-size: 15px
+				margin: 0 0 5px
+				font-size: 17px
+				font-family: "MyriadProRegular"
 				a
-					// text-decoration: underline
+					color: #000
+					text-decoration: none
 	ul
 		margin: 0
 		padding: 0
 		li
 			list-style-type: none
+	.footer-box
+		.title
+			margin: 0 0 0.2em
+			font-size: 24px
+			font-family: "MyriadProBold"
 	.footer-menu
-		padding: 0 5%
+		padding: 0
 		li
-			margin: 0 0 8px
+			margin: 0 0 5px
 		a
 			display: inline
 			color: #000
 			font-size: 17px
 			text-decoration: none
-			border-bottom: 1px solid #9A9A9A
-			font-family: "ProximaNovaSemibold"
+			font-family: "MyriadProRegular"
 			&:hover
 				border-color: transparent
 				color: #ce4e4e
+	.sub-info
+		margin-top: 0.7em
+		padding-top: 0.9em
+		border-top: 1px solid #c8c8c8
 .icon-boxes
 	.boxes
 		display: flex
