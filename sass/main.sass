@@ -926,13 +926,18 @@ textarea
 	position: relative
 	&.designer
 		padding: 5em 0 6em
+		.vertical-text
+			top: -36%
+			right: 0
+			font-size: 76px
 		.name
 			span
 				color: #fff
+				opacity: 0.58
 		i
-			color: #fff
+			color: #bfbfbf
 		.section-title
-			margin-bottom: 5em
+			// margin-bottom: 5em
 	.tr-item
 		margin: 0 0 25px
 		font-size: 20px
@@ -1249,6 +1254,8 @@ textarea
 	&.two
 		background: url(../img/smeta-section-bg-2.png) no-repeat 95% top
 		background-size: contain
+		.vertical-text
+			top: -100%
 	.vertical-text
 		top: 10%
 	.description
@@ -1562,31 +1569,31 @@ textarea
 				margin: 0
 	&.interior
 		padding: 4em 0 6em
-		background-image: url(../img/man.png)
+		background-image: url(../img/interior-bg.png)
 		background-repeat: no-repeat
-		background-position: 76% center
-		background-size: 25%
-	.items
-		margin: 0 0 2em
-		ul
-			margin: 0
-			padding: 0
-			li
-				margin: 0 0 1.3em
-				list-style-type: none
-				padding-left: 4em
-				position: relative
-					font-size: 18px
-				@extend .fi-check-small
-				@extend .fi
-				&::before
-					position: absolute
-					left: 0
-					top: 2px
-					background: #2c2c2c
-					padding: 12px
-					color: #fff
-					font-size: 9px
+		background-position: 76% 48%
+		background-size: 32%
+	// .items
+	// 	margin: 0 0 2em
+	// 	ul
+	// 		margin: 0
+	// 		padding: 0
+	// 		li
+	// 			margin: 0 0 1.3em
+	// 			list-style-type: none
+	// 			padding-left: 4em
+	// 			position: relative
+	// 				font-size: 18px
+	// 			@extend .fi-check-small
+	// 			@extend .fi
+	// 			&::before
+	// 				position: absolute
+	// 				left: 0
+	// 				top: 2px
+	// 				background: #2c2c2c
+	// 				padding: 12px
+	// 				color: #fff
+	// 				font-size: 9px
 
 	.btn-box
 		margin: 0 0 1em

@@ -1406,7 +1406,7 @@ hr {
   src: url("../fonts/owniconfont/owniconfont.eot?#iefix") format("eot"), url("../fonts/owniconfont/owniconfont.woff2") format("woff2"), url("../fonts/owniconfont/owniconfont.woff") format("woff"), url("../fonts/owniconfont/owniconfont.ttf") format("truetype"), url("../fonts/owniconfont/owniconfont.svg#owniconfont") format("svg");
 }
 
-.fi:before, .success-prj-section .scs-prjcts .owl-prev:before, .success-prj-section .scs-prjcts .owl-next:before, .our-prices-section .tarif-item .desc ul li:before, .testimonials-section .testimonials-slider .owl-prev:before, .testimonials-section .testimonials-slider .owl-next:before, .gift-section .items ul li:before {
+.fi:before, .success-prj-section .scs-prjcts .owl-prev:before, .success-prj-section .scs-prjcts .owl-next:before, .our-prices-section .tarif-item .desc ul li:before, .testimonials-section .testimonials-slider .owl-prev:before, .testimonials-section .testimonials-slider .owl-next:before {
   font-family: "owniconfont";
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -1430,7 +1430,7 @@ hr {
   content: "\E003";
 }
 
-.fi-check-small:before, .our-prices-section .tarif-item .desc ul li:before, .gift-section .items ul li:before {
+.fi-check-small:before, .our-prices-section .tarif-item .desc ul li:before {
   content: "\E004";
 }
 
@@ -11459,7 +11459,7 @@ section {
   transition: transform .2s,top .2s .3s,background-color .2s .7s,-webkit-transform .2s,-moz-transform .2s,-o-transform .2s;
 }
 
-.fi, .success-prj-section .scs-prjcts .owl-prev, .success-prj-section .scs-prjcts .owl-next, .our-prices-section .tarif-item .desc ul li, .testimonials-section .testimonials-slider .owl-prev, .testimonials-section .testimonials-slider .owl-next, .gift-section .items ul li {
+.fi, .success-prj-section .scs-prjcts .owl-prev, .success-prj-section .scs-prjcts .owl-next, .our-prices-section .tarif-item .desc ul li, .testimonials-section .testimonials-slider .owl-prev, .testimonials-section .testimonials-slider .owl-next {
   display: inline-block;
 }
 
@@ -11489,7 +11489,7 @@ section {
   top: 2px;
 }
 
-.secure .icon .fi, .secure .icon .success-prj-section .scs-prjcts .owl-prev, .success-prj-section .scs-prjcts .secure .icon .owl-prev, .secure .icon .success-prj-section .scs-prjcts .owl-next, .success-prj-section .scs-prjcts .secure .icon .owl-next, .secure .icon .our-prices-section .tarif-item .desc ul li, .our-prices-section .tarif-item .desc ul .secure .icon li, .secure .icon .testimonials-section .testimonials-slider .owl-prev, .testimonials-section .testimonials-slider .secure .icon .owl-prev, .secure .icon .testimonials-section .testimonials-slider .owl-next, .testimonials-section .testimonials-slider .secure .icon .owl-next, .secure .icon .gift-section .items ul li, .gift-section .items ul .secure .icon li {
+.secure .icon .fi, .secure .icon .success-prj-section .scs-prjcts .owl-prev, .success-prj-section .scs-prjcts .secure .icon .owl-prev, .secure .icon .success-prj-section .scs-prjcts .owl-next, .success-prj-section .scs-prjcts .secure .icon .owl-next, .secure .icon .our-prices-section .tarif-item .desc ul li, .our-prices-section .tarif-item .desc ul .secure .icon li, .secure .icon .testimonials-section .testimonials-slider .owl-prev, .testimonials-section .testimonials-slider .secure .icon .owl-prev, .secure .icon .testimonials-section .testimonials-slider .owl-next, .testimonials-section .testimonials-slider .secure .icon .owl-next {
   font-size: 35px;
   line-height: 35px;
 }
@@ -11780,7 +11780,7 @@ textarea:valid {
   fill: #ce4e4e;
 }
 
-.main-head .bt-item .bt-box .icon-box .fi, .main-head .bt-item .bt-box .icon-box .success-prj-section .scs-prjcts .owl-prev, .success-prj-section .scs-prjcts .main-head .bt-item .bt-box .icon-box .owl-prev, .main-head .bt-item .bt-box .icon-box .success-prj-section .scs-prjcts .owl-next, .success-prj-section .scs-prjcts .main-head .bt-item .bt-box .icon-box .owl-next, .main-head .bt-item .bt-box .icon-box .our-prices-section .tarif-item .desc ul li, .our-prices-section .tarif-item .desc ul .main-head .bt-item .bt-box .icon-box li, .main-head .bt-item .bt-box .icon-box .testimonials-section .testimonials-slider .owl-prev, .testimonials-section .testimonials-slider .main-head .bt-item .bt-box .icon-box .owl-prev, .main-head .bt-item .bt-box .icon-box .testimonials-section .testimonials-slider .owl-next, .testimonials-section .testimonials-slider .main-head .bt-item .bt-box .icon-box .owl-next, .main-head .bt-item .bt-box .icon-box .gift-section .items ul li, .gift-section .items ul .main-head .bt-item .bt-box .icon-box li {
+.main-head .bt-item .bt-box .icon-box .fi, .main-head .bt-item .bt-box .icon-box .success-prj-section .scs-prjcts .owl-prev, .success-prj-section .scs-prjcts .main-head .bt-item .bt-box .icon-box .owl-prev, .main-head .bt-item .bt-box .icon-box .success-prj-section .scs-prjcts .owl-next, .success-prj-section .scs-prjcts .main-head .bt-item .bt-box .icon-box .owl-next, .main-head .bt-item .bt-box .icon-box .our-prices-section .tarif-item .desc ul li, .our-prices-section .tarif-item .desc ul .main-head .bt-item .bt-box .icon-box li, .main-head .bt-item .bt-box .icon-box .testimonials-section .testimonials-slider .owl-prev, .testimonials-section .testimonials-slider .main-head .bt-item .bt-box .icon-box .owl-prev, .main-head .bt-item .bt-box .icon-box .testimonials-section .testimonials-slider .owl-next, .testimonials-section .testimonials-slider .main-head .bt-item .bt-box .icon-box .owl-next {
   color: #ce4e4e;
   font-size: 60px;
   position: relative;
@@ -11790,11 +11790,11 @@ textarea:valid {
   left: 30px;
 }
 
-.main-head .bt-item .bt-box .icon-box .fi.fi-venec, .main-head .bt-item .bt-box .icon-box .success-prj-section .scs-prjcts .fi-venec.owl-prev, .success-prj-section .scs-prjcts .main-head .bt-item .bt-box .icon-box .fi-venec.owl-prev, .main-head .bt-item .bt-box .icon-box .success-prj-section .scs-prjcts .fi-venec.owl-next, .success-prj-section .scs-prjcts .main-head .bt-item .bt-box .icon-box .fi-venec.owl-next, .main-head .bt-item .bt-box .icon-box .our-prices-section .tarif-item .desc ul li.fi-venec, .our-prices-section .tarif-item .desc ul .main-head .bt-item .bt-box .icon-box li.fi-venec, .main-head .bt-item .bt-box .icon-box .testimonials-section .testimonials-slider .fi-venec.owl-prev, .testimonials-section .testimonials-slider .main-head .bt-item .bt-box .icon-box .fi-venec.owl-prev, .main-head .bt-item .bt-box .icon-box .testimonials-section .testimonials-slider .fi-venec.owl-next, .testimonials-section .testimonials-slider .main-head .bt-item .bt-box .icon-box .fi-venec.owl-next, .main-head .bt-item .bt-box .icon-box .gift-section .items ul li.fi-venec, .gift-section .items ul .main-head .bt-item .bt-box .icon-box li.fi-venec {
+.main-head .bt-item .bt-box .icon-box .fi.fi-venec, .main-head .bt-item .bt-box .icon-box .success-prj-section .scs-prjcts .fi-venec.owl-prev, .success-prj-section .scs-prjcts .main-head .bt-item .bt-box .icon-box .fi-venec.owl-prev, .main-head .bt-item .bt-box .icon-box .success-prj-section .scs-prjcts .fi-venec.owl-next, .success-prj-section .scs-prjcts .main-head .bt-item .bt-box .icon-box .fi-venec.owl-next, .main-head .bt-item .bt-box .icon-box .our-prices-section .tarif-item .desc ul li.fi-venec, .our-prices-section .tarif-item .desc ul .main-head .bt-item .bt-box .icon-box li.fi-venec, .main-head .bt-item .bt-box .icon-box .testimonials-section .testimonials-slider .fi-venec.owl-prev, .testimonials-section .testimonials-slider .main-head .bt-item .bt-box .icon-box .fi-venec.owl-prev, .main-head .bt-item .bt-box .icon-box .testimonials-section .testimonials-slider .fi-venec.owl-next, .testimonials-section .testimonials-slider .main-head .bt-item .bt-box .icon-box .fi-venec.owl-next {
   font-size: 48px;
 }
 
-.main-head .bt-item .bt-box .icon-box .fi:before, .main-head .bt-item .bt-box .icon-box .success-prj-section .scs-prjcts .owl-prev:before, .success-prj-section .scs-prjcts .main-head .bt-item .bt-box .icon-box .owl-prev:before, .main-head .bt-item .bt-box .icon-box .success-prj-section .scs-prjcts .owl-next:before, .success-prj-section .scs-prjcts .main-head .bt-item .bt-box .icon-box .owl-next:before, .main-head .bt-item .bt-box .icon-box .our-prices-section .tarif-item .desc ul li:before, .our-prices-section .tarif-item .desc ul .main-head .bt-item .bt-box .icon-box li:before, .main-head .bt-item .bt-box .icon-box .testimonials-section .testimonials-slider .owl-prev:before, .testimonials-section .testimonials-slider .main-head .bt-item .bt-box .icon-box .owl-prev:before, .main-head .bt-item .bt-box .icon-box .testimonials-section .testimonials-slider .owl-next:before, .testimonials-section .testimonials-slider .main-head .bt-item .bt-box .icon-box .owl-next:before, .main-head .bt-item .bt-box .icon-box .gift-section .items ul li:before, .gift-section .items ul .main-head .bt-item .bt-box .icon-box li:before {
+.main-head .bt-item .bt-box .icon-box .fi:before, .main-head .bt-item .bt-box .icon-box .success-prj-section .scs-prjcts .owl-prev:before, .success-prj-section .scs-prjcts .main-head .bt-item .bt-box .icon-box .owl-prev:before, .main-head .bt-item .bt-box .icon-box .success-prj-section .scs-prjcts .owl-next:before, .success-prj-section .scs-prjcts .main-head .bt-item .bt-box .icon-box .owl-next:before, .main-head .bt-item .bt-box .icon-box .our-prices-section .tarif-item .desc ul li:before, .our-prices-section .tarif-item .desc ul .main-head .bt-item .bt-box .icon-box li:before, .main-head .bt-item .bt-box .icon-box .testimonials-section .testimonials-slider .owl-prev:before, .testimonials-section .testimonials-slider .main-head .bt-item .bt-box .icon-box .owl-prev:before, .main-head .bt-item .bt-box .icon-box .testimonials-section .testimonials-slider .owl-next:before, .testimonials-section .testimonials-slider .main-head .bt-item .bt-box .icon-box .owl-next:before {
   vertical-align: bottom;
 }
 
@@ -12404,16 +12404,19 @@ textarea:valid {
   padding: 5em 0 6em;
 }
 
+.our-advantages-section.designer .vertical-text {
+  top: -36%;
+  right: 0;
+  font-size: 76px;
+}
+
 .our-advantages-section.designer .name span {
   color: #fff;
+  opacity: 0.58;
 }
 
 .our-advantages-section.designer i {
-  color: #fff;
-}
-
-.our-advantages-section.designer .section-title {
-  margin-bottom: 5em;
+  color: #bfbfbf;
 }
 
 .our-advantages-section .tr-item {
@@ -12422,7 +12425,7 @@ textarea:valid {
   font-family: "ProximaNovaExtrabld";
 }
 
-.our-advantages-section .tr-item .icon .fi, .our-advantages-section .tr-item .icon .success-prj-section .scs-prjcts .owl-prev, .success-prj-section .scs-prjcts .our-advantages-section .tr-item .icon .owl-prev, .our-advantages-section .tr-item .icon .success-prj-section .scs-prjcts .owl-next, .success-prj-section .scs-prjcts .our-advantages-section .tr-item .icon .owl-next, .our-advantages-section .tr-item .icon .our-prices-section .tarif-item .desc ul li, .our-prices-section .tarif-item .desc ul .our-advantages-section .tr-item .icon li, .our-advantages-section .tr-item .icon .testimonials-section .testimonials-slider .owl-prev, .testimonials-section .testimonials-slider .our-advantages-section .tr-item .icon .owl-prev, .our-advantages-section .tr-item .icon .testimonials-section .testimonials-slider .owl-next, .testimonials-section .testimonials-slider .our-advantages-section .tr-item .icon .owl-next, .our-advantages-section .tr-item .icon .gift-section .items ul li, .gift-section .items ul .our-advantages-section .tr-item .icon li {
+.our-advantages-section .tr-item .icon .fi, .our-advantages-section .tr-item .icon .success-prj-section .scs-prjcts .owl-prev, .success-prj-section .scs-prjcts .our-advantages-section .tr-item .icon .owl-prev, .our-advantages-section .tr-item .icon .success-prj-section .scs-prjcts .owl-next, .success-prj-section .scs-prjcts .our-advantages-section .tr-item .icon .owl-next, .our-advantages-section .tr-item .icon .our-prices-section .tarif-item .desc ul li, .our-prices-section .tarif-item .desc ul .our-advantages-section .tr-item .icon li, .our-advantages-section .tr-item .icon .testimonials-section .testimonials-slider .owl-prev, .testimonials-section .testimonials-slider .our-advantages-section .tr-item .icon .owl-prev, .our-advantages-section .tr-item .icon .testimonials-section .testimonials-slider .owl-next, .testimonials-section .testimonials-slider .our-advantages-section .tr-item .icon .owl-next {
   color: #ce4e4e;
   font-size: 60px;
 }
@@ -12696,7 +12699,7 @@ textarea:valid {
   transform: translate3d(0, -50%, 0);
 }
 
-.contacts-section .map-section .contacts-box .get-contract .circle .fi, .contacts-section .map-section .contacts-box .get-contract .circle .success-prj-section .scs-prjcts .owl-prev, .success-prj-section .scs-prjcts .contacts-section .map-section .contacts-box .get-contract .circle .owl-prev, .contacts-section .map-section .contacts-box .get-contract .circle .success-prj-section .scs-prjcts .owl-next, .success-prj-section .scs-prjcts .contacts-section .map-section .contacts-box .get-contract .circle .owl-next, .contacts-section .map-section .contacts-box .get-contract .circle .our-prices-section .tarif-item .desc ul li, .our-prices-section .tarif-item .desc ul .contacts-section .map-section .contacts-box .get-contract .circle li, .contacts-section .map-section .contacts-box .get-contract .circle .testimonials-section .testimonials-slider .owl-prev, .testimonials-section .testimonials-slider .contacts-section .map-section .contacts-box .get-contract .circle .owl-prev, .contacts-section .map-section .contacts-box .get-contract .circle .testimonials-section .testimonials-slider .owl-next, .testimonials-section .testimonials-slider .contacts-section .map-section .contacts-box .get-contract .circle .owl-next, .contacts-section .map-section .contacts-box .get-contract .circle .gift-section .items ul li, .gift-section .items ul .contacts-section .map-section .contacts-box .get-contract .circle li {
+.contacts-section .map-section .contacts-box .get-contract .circle .fi, .contacts-section .map-section .contacts-box .get-contract .circle .success-prj-section .scs-prjcts .owl-prev, .success-prj-section .scs-prjcts .contacts-section .map-section .contacts-box .get-contract .circle .owl-prev, .contacts-section .map-section .contacts-box .get-contract .circle .success-prj-section .scs-prjcts .owl-next, .success-prj-section .scs-prjcts .contacts-section .map-section .contacts-box .get-contract .circle .owl-next, .contacts-section .map-section .contacts-box .get-contract .circle .our-prices-section .tarif-item .desc ul li, .our-prices-section .tarif-item .desc ul .contacts-section .map-section .contacts-box .get-contract .circle li, .contacts-section .map-section .contacts-box .get-contract .circle .testimonials-section .testimonials-slider .owl-prev, .testimonials-section .testimonials-slider .contacts-section .map-section .contacts-box .get-contract .circle .owl-prev, .contacts-section .map-section .contacts-box .get-contract .circle .testimonials-section .testimonials-slider .owl-next, .testimonials-section .testimonials-slider .contacts-section .map-section .contacts-box .get-contract .circle .owl-next {
   position: absolute;
   left: 46%;
   top: 50%;
@@ -12850,7 +12853,7 @@ textarea:valid {
   transition: 0.4s;
 }
 
-.icon-boxes .item-box:hover .icon .fi, .icon-boxes .item-box:hover .icon .success-prj-section .scs-prjcts .owl-prev, .success-prj-section .scs-prjcts .icon-boxes .item-box:hover .icon .owl-prev, .icon-boxes .item-box:hover .icon .success-prj-section .scs-prjcts .owl-next, .success-prj-section .scs-prjcts .icon-boxes .item-box:hover .icon .owl-next, .icon-boxes .item-box:hover .icon .our-prices-section .tarif-item .desc ul li, .our-prices-section .tarif-item .desc ul .icon-boxes .item-box:hover .icon li, .icon-boxes .item-box:hover .icon .testimonials-section .testimonials-slider .owl-prev, .testimonials-section .testimonials-slider .icon-boxes .item-box:hover .icon .owl-prev, .icon-boxes .item-box:hover .icon .testimonials-section .testimonials-slider .owl-next, .testimonials-section .testimonials-slider .icon-boxes .item-box:hover .icon .owl-next, .icon-boxes .item-box:hover .icon .gift-section .items ul li, .gift-section .items ul .icon-boxes .item-box:hover .icon li {
+.icon-boxes .item-box:hover .icon .fi, .icon-boxes .item-box:hover .icon .success-prj-section .scs-prjcts .owl-prev, .success-prj-section .scs-prjcts .icon-boxes .item-box:hover .icon .owl-prev, .icon-boxes .item-box:hover .icon .success-prj-section .scs-prjcts .owl-next, .success-prj-section .scs-prjcts .icon-boxes .item-box:hover .icon .owl-next, .icon-boxes .item-box:hover .icon .our-prices-section .tarif-item .desc ul li, .our-prices-section .tarif-item .desc ul .icon-boxes .item-box:hover .icon li, .icon-boxes .item-box:hover .icon .testimonials-section .testimonials-slider .owl-prev, .testimonials-section .testimonials-slider .icon-boxes .item-box:hover .icon .owl-prev, .icon-boxes .item-box:hover .icon .testimonials-section .testimonials-slider .owl-next, .testimonials-section .testimonials-slider .icon-boxes .item-box:hover .icon .owl-next {
   color: #fff;
   -webkit-transition: 0.4s;
   -o-transition: 0.4s;
@@ -12858,7 +12861,7 @@ textarea:valid {
   transition: 0.4s;
 }
 
-.icon-boxes .item-box .icon .fi, .icon-boxes .item-box .icon .success-prj-section .scs-prjcts .owl-prev, .success-prj-section .scs-prjcts .icon-boxes .item-box .icon .owl-prev, .icon-boxes .item-box .icon .success-prj-section .scs-prjcts .owl-next, .success-prj-section .scs-prjcts .icon-boxes .item-box .icon .owl-next, .icon-boxes .item-box .icon .our-prices-section .tarif-item .desc ul li, .our-prices-section .tarif-item .desc ul .icon-boxes .item-box .icon li, .icon-boxes .item-box .icon .testimonials-section .testimonials-slider .owl-prev, .testimonials-section .testimonials-slider .icon-boxes .item-box .icon .owl-prev, .icon-boxes .item-box .icon .testimonials-section .testimonials-slider .owl-next, .testimonials-section .testimonials-slider .icon-boxes .item-box .icon .owl-next, .icon-boxes .item-box .icon .gift-section .items ul li, .gift-section .items ul .icon-boxes .item-box .icon li {
+.icon-boxes .item-box .icon .fi, .icon-boxes .item-box .icon .success-prj-section .scs-prjcts .owl-prev, .success-prj-section .scs-prjcts .icon-boxes .item-box .icon .owl-prev, .icon-boxes .item-box .icon .success-prj-section .scs-prjcts .owl-next, .success-prj-section .scs-prjcts .icon-boxes .item-box .icon .owl-next, .icon-boxes .item-box .icon .our-prices-section .tarif-item .desc ul li, .our-prices-section .tarif-item .desc ul .icon-boxes .item-box .icon li, .icon-boxes .item-box .icon .testimonials-section .testimonials-slider .owl-prev, .testimonials-section .testimonials-slider .icon-boxes .item-box .icon .owl-prev, .icon-boxes .item-box .icon .testimonials-section .testimonials-slider .owl-next, .testimonials-section .testimonials-slider .icon-boxes .item-box .icon .owl-next {
   font-size: 65px;
   color: #ce4e4e;
 }
@@ -12895,6 +12898,10 @@ textarea:valid {
   -moz-background-size: contain;
   -o-background-size: contain;
   background-size: contain;
+}
+
+.smeta-section.two .vertical-text {
+  top: -100%;
 }
 
 .smeta-section .vertical-text {
@@ -12947,7 +12954,7 @@ textarea:valid {
   transform: translate3d(0, -50%, 0);
 }
 
-.smeta-section .triggers .tr-item .fi, .smeta-section .triggers .tr-item .success-prj-section .scs-prjcts .owl-prev, .success-prj-section .scs-prjcts .smeta-section .triggers .tr-item .owl-prev, .smeta-section .triggers .tr-item .success-prj-section .scs-prjcts .owl-next, .success-prj-section .scs-prjcts .smeta-section .triggers .tr-item .owl-next, .smeta-section .triggers .tr-item .our-prices-section .tarif-item .desc ul li, .our-prices-section .tarif-item .desc ul .smeta-section .triggers .tr-item li, .smeta-section .triggers .tr-item .testimonials-section .testimonials-slider .owl-prev, .testimonials-section .testimonials-slider .smeta-section .triggers .tr-item .owl-prev, .smeta-section .triggers .tr-item .testimonials-section .testimonials-slider .owl-next, .testimonials-section .testimonials-slider .smeta-section .triggers .tr-item .owl-next, .smeta-section .triggers .tr-item .gift-section .items ul li, .gift-section .items ul .smeta-section .triggers .tr-item li {
+.smeta-section .triggers .tr-item .fi, .smeta-section .triggers .tr-item .success-prj-section .scs-prjcts .owl-prev, .success-prj-section .scs-prjcts .smeta-section .triggers .tr-item .owl-prev, .smeta-section .triggers .tr-item .success-prj-section .scs-prjcts .owl-next, .success-prj-section .scs-prjcts .smeta-section .triggers .tr-item .owl-next, .smeta-section .triggers .tr-item .our-prices-section .tarif-item .desc ul li, .our-prices-section .tarif-item .desc ul .smeta-section .triggers .tr-item li, .smeta-section .triggers .tr-item .testimonials-section .testimonials-slider .owl-prev, .testimonials-section .testimonials-slider .smeta-section .triggers .tr-item .owl-prev, .smeta-section .triggers .tr-item .testimonials-section .testimonials-slider .owl-next, .testimonials-section .testimonials-slider .smeta-section .triggers .tr-item .owl-next {
   font-size: 45px;
   color: #ce4e4e;
 }
@@ -13272,7 +13279,7 @@ textarea:valid {
   margin: 0 0 1em;
 }
 
-.director-section .dw .icon .fi, .director-section .dw .icon .success-prj-section .scs-prjcts .owl-prev, .success-prj-section .scs-prjcts .director-section .dw .icon .owl-prev, .director-section .dw .icon .success-prj-section .scs-prjcts .owl-next, .success-prj-section .scs-prjcts .director-section .dw .icon .owl-next, .director-section .dw .icon .our-prices-section .tarif-item .desc ul li, .our-prices-section .tarif-item .desc ul .director-section .dw .icon li, .director-section .dw .icon .testimonials-section .testimonials-slider .owl-prev, .testimonials-section .testimonials-slider .director-section .dw .icon .owl-prev, .director-section .dw .icon .testimonials-section .testimonials-slider .owl-next, .testimonials-section .testimonials-slider .director-section .dw .icon .owl-next, .director-section .dw .icon .gift-section .items ul li, .gift-section .items ul .director-section .dw .icon li,
+.director-section .dw .icon .fi, .director-section .dw .icon .success-prj-section .scs-prjcts .owl-prev, .success-prj-section .scs-prjcts .director-section .dw .icon .owl-prev, .director-section .dw .icon .success-prj-section .scs-prjcts .owl-next, .success-prj-section .scs-prjcts .director-section .dw .icon .owl-next, .director-section .dw .icon .our-prices-section .tarif-item .desc ul li, .our-prices-section .tarif-item .desc ul .director-section .dw .icon li, .director-section .dw .icon .testimonials-section .testimonials-slider .owl-prev, .testimonials-section .testimonials-slider .director-section .dw .icon .owl-prev, .director-section .dw .icon .testimonials-section .testimonials-slider .owl-next, .testimonials-section .testimonials-slider .director-section .dw .icon .owl-next,
 .designer-box .dw .icon .fi,
 .designer-box .dw .icon .success-prj-section .scs-prjcts .owl-prev,
 .success-prj-section .scs-prjcts .designer-box .dw .icon .owl-prev,
@@ -13283,9 +13290,7 @@ textarea:valid {
 .designer-box .dw .icon .testimonials-section .testimonials-slider .owl-prev,
 .testimonials-section .testimonials-slider .designer-box .dw .icon .owl-prev,
 .designer-box .dw .icon .testimonials-section .testimonials-slider .owl-next,
-.testimonials-section .testimonials-slider .designer-box .dw .icon .owl-next,
-.designer-box .dw .icon .gift-section .items ul li,
-.gift-section .items ul .designer-box .dw .icon li {
+.testimonials-section .testimonials-slider .designer-box .dw .icon .owl-next {
   color: #ce4e4e;
 }
 
@@ -13374,7 +13379,7 @@ textarea:valid {
   line-height: 20px;
 }
 
-.director-section .director-img .play a:hover .icon .fi, .director-section .director-img .play a:hover .icon .success-prj-section .scs-prjcts .owl-prev, .success-prj-section .scs-prjcts .director-section .director-img .play a:hover .icon .owl-prev, .director-section .director-img .play a:hover .icon .success-prj-section .scs-prjcts .owl-next, .success-prj-section .scs-prjcts .director-section .director-img .play a:hover .icon .owl-next, .director-section .director-img .play a:hover .icon .our-prices-section .tarif-item .desc ul li, .our-prices-section .tarif-item .desc ul .director-section .director-img .play a:hover .icon li, .director-section .director-img .play a:hover .icon .testimonials-section .testimonials-slider .owl-prev, .testimonials-section .testimonials-slider .director-section .director-img .play a:hover .icon .owl-prev, .director-section .director-img .play a:hover .icon .testimonials-section .testimonials-slider .owl-next, .testimonials-section .testimonials-slider .director-section .director-img .play a:hover .icon .owl-next, .director-section .director-img .play a:hover .icon .gift-section .items ul li, .gift-section .items ul .director-section .director-img .play a:hover .icon li,
+.director-section .director-img .play a:hover .icon .fi, .director-section .director-img .play a:hover .icon .success-prj-section .scs-prjcts .owl-prev, .success-prj-section .scs-prjcts .director-section .director-img .play a:hover .icon .owl-prev, .director-section .director-img .play a:hover .icon .success-prj-section .scs-prjcts .owl-next, .success-prj-section .scs-prjcts .director-section .director-img .play a:hover .icon .owl-next, .director-section .director-img .play a:hover .icon .our-prices-section .tarif-item .desc ul li, .our-prices-section .tarif-item .desc ul .director-section .director-img .play a:hover .icon li, .director-section .director-img .play a:hover .icon .testimonials-section .testimonials-slider .owl-prev, .testimonials-section .testimonials-slider .director-section .director-img .play a:hover .icon .owl-prev, .director-section .director-img .play a:hover .icon .testimonials-section .testimonials-slider .owl-next, .testimonials-section .testimonials-slider .director-section .director-img .play a:hover .icon .owl-next,
 .designer-box .director-img .play a:hover .icon .fi,
 .designer-box .director-img .play a:hover .icon .success-prj-section .scs-prjcts .owl-prev,
 .success-prj-section .scs-prjcts .designer-box .director-img .play a:hover .icon .owl-prev,
@@ -13385,9 +13390,7 @@ textarea:valid {
 .designer-box .director-img .play a:hover .icon .testimonials-section .testimonials-slider .owl-prev,
 .testimonials-section .testimonials-slider .designer-box .director-img .play a:hover .icon .owl-prev,
 .designer-box .director-img .play a:hover .icon .testimonials-section .testimonials-slider .owl-next,
-.testimonials-section .testimonials-slider .designer-box .director-img .play a:hover .icon .owl-next,
-.designer-box .director-img .play a:hover .icon .gift-section .items ul li,
-.gift-section .items ul .designer-box .director-img .play a:hover .icon li {
+.testimonials-section .testimonials-slider .designer-box .director-img .play a:hover .icon .owl-next {
   color: #d97676;
 }
 
@@ -13404,7 +13407,7 @@ textarea:valid {
   line-height: normal;
 }
 
-.director-section .director-img .play .icon .fi, .director-section .director-img .play .icon .success-prj-section .scs-prjcts .owl-prev, .success-prj-section .scs-prjcts .director-section .director-img .play .icon .owl-prev, .director-section .director-img .play .icon .success-prj-section .scs-prjcts .owl-next, .success-prj-section .scs-prjcts .director-section .director-img .play .icon .owl-next, .director-section .director-img .play .icon .our-prices-section .tarif-item .desc ul li, .our-prices-section .tarif-item .desc ul .director-section .director-img .play .icon li, .director-section .director-img .play .icon .testimonials-section .testimonials-slider .owl-prev, .testimonials-section .testimonials-slider .director-section .director-img .play .icon .owl-prev, .director-section .director-img .play .icon .testimonials-section .testimonials-slider .owl-next, .testimonials-section .testimonials-slider .director-section .director-img .play .icon .owl-next, .director-section .director-img .play .icon .gift-section .items ul li, .gift-section .items ul .director-section .director-img .play .icon li,
+.director-section .director-img .play .icon .fi, .director-section .director-img .play .icon .success-prj-section .scs-prjcts .owl-prev, .success-prj-section .scs-prjcts .director-section .director-img .play .icon .owl-prev, .director-section .director-img .play .icon .success-prj-section .scs-prjcts .owl-next, .success-prj-section .scs-prjcts .director-section .director-img .play .icon .owl-next, .director-section .director-img .play .icon .our-prices-section .tarif-item .desc ul li, .our-prices-section .tarif-item .desc ul .director-section .director-img .play .icon li, .director-section .director-img .play .icon .testimonials-section .testimonials-slider .owl-prev, .testimonials-section .testimonials-slider .director-section .director-img .play .icon .owl-prev, .director-section .director-img .play .icon .testimonials-section .testimonials-slider .owl-next, .testimonials-section .testimonials-slider .director-section .director-img .play .icon .owl-next,
 .designer-box .director-img .play .icon .fi,
 .designer-box .director-img .play .icon .success-prj-section .scs-prjcts .owl-prev,
 .success-prj-section .scs-prjcts .designer-box .director-img .play .icon .owl-prev,
@@ -13415,9 +13418,7 @@ textarea:valid {
 .designer-box .director-img .play .icon .testimonials-section .testimonials-slider .owl-prev,
 .testimonials-section .testimonials-slider .designer-box .director-img .play .icon .owl-prev,
 .designer-box .director-img .play .icon .testimonials-section .testimonials-slider .owl-next,
-.testimonials-section .testimonials-slider .designer-box .director-img .play .icon .owl-next,
-.designer-box .director-img .play .icon .gift-section .items ul li,
-.gift-section .items ul .designer-box .director-img .play .icon li {
+.testimonials-section .testimonials-slider .designer-box .director-img .play .icon .owl-next {
   position: absolute;
   left: 50%;
   top: 50%;
@@ -13450,40 +13451,13 @@ textarea:valid {
 
 .gift-section.interior {
   padding: 4em 0 6em;
-  background-image: url(../img/man.png);
+  background-image: url(../img/interior-bg.png);
   background-repeat: no-repeat;
-  background-position: 76% center;
-  -webkit-background-size: 25% 25%;
-  -moz-background-size: 25%;
-  -o-background-size: 25%;
-  background-size: 25%;
-}
-
-.gift-section .items {
-  margin: 0 0 2em;
-}
-
-.gift-section .items ul {
-  margin: 0;
-  padding: 0;
-}
-
-.gift-section .items ul li {
-  margin: 0 0 1.3em;
-  list-style-type: none;
-  padding-left: 4em;
-  position: relative;
-  position-font-size: 18px;
-}
-
-.gift-section .items ul li::before {
-  position: absolute;
-  left: 0;
-  top: 2px;
-  background: #2c2c2c;
-  padding: 12px;
-  color: #fff;
-  font-size: 9px;
+  background-position: 76% 48%;
+  -webkit-background-size: 32% 32%;
+  -moz-background-size: 32%;
+  -o-background-size: 32%;
+  background-size: 32%;
 }
 
 .gift-section .btn-box {
@@ -13890,14 +13864,15 @@ textarea:valid {
   .main-footer .info ul:first-child {
     padding-bottom: 0.6em;
   }
-  .director-section .director-img .play-box {
+  .director-section .director-img .play-box,
+  .designer-box .director-img .play-box {
     width: 90%;
   }
   .icon-boxes .item-box {
     margin-bottom: 1em;
     width: 100%;
   }
-  .icon-boxes .item-box .icon .fi, .icon-boxes .item-box .icon .success-prj-section .scs-prjcts .owl-prev, .success-prj-section .scs-prjcts .icon-boxes .item-box .icon .owl-prev, .icon-boxes .item-box .icon .success-prj-section .scs-prjcts .owl-next, .success-prj-section .scs-prjcts .icon-boxes .item-box .icon .owl-next, .icon-boxes .item-box .icon .our-prices-section .tarif-item .desc ul li, .our-prices-section .tarif-item .desc ul .icon-boxes .item-box .icon li, .icon-boxes .item-box .icon .testimonials-section .testimonials-slider .owl-prev, .testimonials-section .testimonials-slider .icon-boxes .item-box .icon .owl-prev, .icon-boxes .item-box .icon .testimonials-section .testimonials-slider .owl-next, .testimonials-section .testimonials-slider .icon-boxes .item-box .icon .owl-next, .icon-boxes .item-box .icon .gift-section .items ul li, .gift-section .items ul .icon-boxes .item-box .icon li {
+  .icon-boxes .item-box .icon .fi, .icon-boxes .item-box .icon .success-prj-section .scs-prjcts .owl-prev, .success-prj-section .scs-prjcts .icon-boxes .item-box .icon .owl-prev, .icon-boxes .item-box .icon .success-prj-section .scs-prjcts .owl-next, .success-prj-section .scs-prjcts .icon-boxes .item-box .icon .owl-next, .icon-boxes .item-box .icon .our-prices-section .tarif-item .desc ul li, .our-prices-section .tarif-item .desc ul .icon-boxes .item-box .icon li, .icon-boxes .item-box .icon .testimonials-section .testimonials-slider .owl-prev, .testimonials-section .testimonials-slider .icon-boxes .item-box .icon .owl-prev, .icon-boxes .item-box .icon .testimonials-section .testimonials-slider .owl-next, .testimonials-section .testimonials-slider .icon-boxes .item-box .icon .owl-next {
     font-size: 50px;
   }
   .success-prj-section .scs-prjcts {
