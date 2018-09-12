@@ -1384,22 +1384,24 @@ hr {
   font-weight: normal;
 }
 
-@font-face {
-  font-family: "MyriadProBold";
-  src: url("../fonts/MyriadProBold/MyriadProBold.eot");
-  src: url("../fonts/MyriadProBold/MyriadProBold.eot?#iefix") format("embedded-opentype"), url("../fonts/MyriadProBold/MyriadProBold.woff") format("woff"), url("../fonts/MyriadProBold/MyriadProBold.ttf") format("truetype");
-  font-style: normal;
-  font-weight: normal;
+/* @font-face {
+	font-family: "MyriadProBold";
+	src: url("../fonts/MyriadProBold/MyriadProBold.eot");
+	src: url("../fonts/MyriadProBold/MyriadProBold.eot?#iefix") format("embedded-opentype"),
+			 url("../fonts/MyriadProBold/MyriadProBold.woff") format("woff"),
+			 url("../fonts/MyriadProBold/MyriadProBold.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
 }
-
 @font-face {
-  font-family: "MyriadProRegular";
-  src: url("../fonts/MyriadProRegular/MyriadProRegular.eot");
-  src: url("../fonts/MyriadProRegular/MyriadProRegular.eot?#iefix") format("embedded-opentype"), url("../fonts/MyriadProRegular/MyriadProRegular.woff") format("woff"), url("../fonts/MyriadProRegular/MyriadProRegular.ttf") format("truetype");
-  font-style: normal;
-  font-weight: normal;
-}
-
+	font-family: "MyriadProRegular";
+	src: url("../fonts/MyriadProRegular/MyriadProRegular.eot");
+	src: url("../fonts/MyriadProRegular/MyriadProRegular.eot?#iefix") format("embedded-opentype"),
+			 url("../fonts/MyriadProRegular/MyriadProRegular.woff") format("woff"),
+			 url("../fonts/MyriadProRegular/MyriadProRegular.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+} */
 @font-face {
   font-family: "owniconfont";
   src: url("../fonts/owniconfont/owniconfont.eot");
@@ -1418,136 +1420,168 @@ hr {
   text-transform: none;
 }
 
-.fi-arrow-aim:before {
+.fi-alarm-clock:before {
   content: "\E001";
 }
 
-.fi-arrow-left:before, .success-prj-section .scs-prjcts .owl-prev:before, .testimonials-section .testimonials-slider .owl-prev:before {
+.fi-arrow-aim:before {
   content: "\E002";
 }
 
-.fi-arrow-right:before, .success-prj-section .scs-prjcts .owl-next:before, .testimonials-section .testimonials-slider .owl-next:before {
+.fi-arrow-left:before, .success-prj-section .scs-prjcts .owl-prev:before, .testimonials-section .testimonials-slider .owl-prev:before {
   content: "\E003";
 }
 
-.fi-check-small:before, .our-prices-section .tarif-item .desc ul li:before {
+.fi-arrow-right:before, .success-prj-section .scs-prjcts .owl-next:before, .testimonials-section .testimonials-slider .owl-next:before {
   content: "\E004";
 }
 
-.fi-clock:before {
+.fi-check-small:before, .our-prices-section .tarif-item .desc ul li:before {
   content: "\E005";
 }
 
-.fi-dialogs-4:before {
+.fi-clock:before {
   content: "\E006";
 }
 
-.fi-eye-globe:before {
+.fi-dialogs-4:before {
   content: "\E007";
 }
 
-.fi-guarantee-6:before {
+.fi-eye-globe:before {
   content: "\E008";
 }
 
-.fi-guarantee-list:before {
+.fi-globe-to-top:before {
   content: "\E009";
 }
 
-.fi-heart-medal:before {
+.fi-guarantee-6:before {
   content: "\E00A";
 }
 
-.fi-iks:before {
+.fi-guarantee-list:before {
   content: "\E00B";
 }
 
-.fi-light-bulb:before {
+.fi-hands-money:before {
   content: "\E00C";
 }
 
-.fi-list-check:before {
+.fi-heart-medal:before {
   content: "\E00D";
 }
 
-.fi-list-check2:before {
+.fi-iks:before {
   content: "\E00E";
 }
 
-.fi-list-items:before {
+.fi-light-bulb:before {
   content: "\E00F";
 }
 
-.fi-list-stamp-2:before {
+.fi-list-check:before {
   content: "\E010";
 }
 
-.fi-medal-3:before {
+.fi-list-check2:before {
   content: "\E011";
 }
 
-.fi-money:before {
+.fi-list-items:before {
   content: "\E012";
 }
 
-.fi-monitor:before {
+.fi-list-stamp-2:before {
   content: "\E013";
 }
 
-.fi-pdf:before {
+.fi-list-zoom:before {
   content: "\E014";
 }
 
-.fi-pen-ruler:before {
+.fi-man-check:before {
   content: "\E015";
 }
 
-.fi-phone-fw:before {
+.fi-man-zoom:before {
   content: "\E016";
 }
 
-.fi-play-circle:before {
+.fi-medal-3:before {
   content: "\E017";
 }
 
-.fi-portmone:before {
+.fi-money:before {
   content: "\E018";
 }
 
-.fi-rocket:before {
+.fi-monitor:before {
   content: "\E019";
 }
 
-.fi-shield-check:before {
+.fi-pdf:before {
   content: "\E01A";
 }
 
-.fi-shield-check2:before {
+.fi-pen-ruler:before {
   content: "\E01B";
 }
 
-.fi-specialist-5:before {
+.fi-phone-fw:before {
   content: "\E01C";
 }
 
-.fi-thumb-up:before {
+.fi-play-circle:before {
   content: "\E01D";
 }
 
-.fi-two-commas:before {
+.fi-portmone:before {
   content: "\E01E";
 }
 
-.fi-valik:before {
+.fi-rocket:before {
   content: "\E01F";
 }
 
-.fi-venec:before {
+.fi-rubin-hand:before {
   content: "\E020";
 }
 
-.fi-zoom-up:before {
+.fi-shield-check:before {
   content: "\E021";
+}
+
+.fi-shield-check2:before {
+  content: "\E022";
+}
+
+.fi-specialist-5:before {
+  content: "\E023";
+}
+
+.fi-team-check:before {
+  content: "\E024";
+}
+
+.fi-thumb-up:before {
+  content: "\E025";
+}
+
+.fi-two-commas:before {
+  content: "\E026";
+}
+
+.fi-valik:before {
+  content: "\E027";
+}
+
+.fi-venec:before {
+  content: "\E028";
+}
+
+.fi-zoom-up:before {
+  content: "\E029";
 }
 
 /*======== sprite =========*/
@@ -11542,7 +11576,7 @@ textarea:valid {
 }
 
 .red-section .title {
-  font-family: "MyriadProBold";
+  font-family: "ProximaNovaBold";
   font-size: 36px;
 }
 
@@ -12400,6 +12434,26 @@ textarea:valid {
   position: relative;
 }
 
+.our-advantages-section .cols {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -moz-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.our-advantages-section .cols .tr-item {
+  width: 23%;
+}
+
 .our-advantages-section.designer {
   padding: 5em 0 6em;
 }
@@ -12417,6 +12471,66 @@ textarea:valid {
 
 .our-advantages-section.designer i {
   color: #bfbfbf;
+}
+
+.our-advantages-section.repair {
+  padding-bottom: 4em;
+}
+
+.our-advantages-section.repair .vertical-text {
+  top: 10%;
+  font-size: 76px;
+}
+
+.our-advantages-section.repair ul.steps {
+  margin: 0;
+  padding: 0;
+}
+
+.our-advantages-section.repair ul.steps li {
+  margin: 0 0 1.5em;
+  position: relative;
+  list-style-type: none;
+  padding-left: 5em;
+  font-size: 16px;
+}
+
+.our-advantages-section.repair ul.steps .n {
+  color: #ce4e4e;
+  font-size: 49px;
+  position: absolute;
+  left: 0;
+  top: -23px;
+  font-family: "ProximaNovaBold";
+}
+
+.our-advantages-section.repair .ib {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -moz-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.our-advantages-section.repair .ib .box {
+  width: 32%;
+}
+
+.our-advantages-section.repair .ib .box p {
+  font-size: 15px;
+}
+
+.our-advantages-section.principles .vertical-text {
+  right: 5%;
+  top: -65%;
 }
 
 .our-advantages-section .tr-item {
@@ -12771,7 +12885,7 @@ textarea:valid {
 .main-footer .info ul li {
   margin: 0 0 5px;
   font-size: 17px;
-  font-family: "MyriadProRegular";
+  font-family: "ProximaNovaRegular";
 }
 
 .main-footer .info ul li a {
@@ -12791,7 +12905,7 @@ textarea:valid {
 .main-footer .footer-box .title {
   margin: 0 0 0.2em;
   font-size: 24px;
-  font-family: "MyriadProBold";
+  font-family: "ProximaNovaBold";
 }
 
 .main-footer .footer-menu {
@@ -12807,7 +12921,7 @@ textarea:valid {
   color: #000;
   font-size: 17px;
   text-decoration: none;
-  font-family: "MyriadProRegular";
+  font-family: "ProximaNovaRegular";
 }
 
 .main-footer .footer-menu a:hover {
@@ -12902,6 +13016,30 @@ textarea:valid {
 
 .smeta-section.two .vertical-text {
   top: -100%;
+}
+
+.smeta-section.fourth {
+  background: url(../img/smeta-bg-4.png) no-repeat 95% center;
+  -webkit-background-size: 52% 52%;
+  -moz-background-size: 52%;
+  -o-background-size: 52%;
+  background-size: 52%;
+}
+
+.smeta-section.fourth .vertical-text {
+  top: -20%;
+}
+
+.smeta-section.principles {
+  background: url(../img/crazy-woman.png) no-repeat 77% center;
+  -webkit-background-size: 33% 33%;
+  -moz-background-size: 33%;
+  -o-background-size: 33%;
+  background-size: 33%;
+}
+
+.smeta-section.principles .vertical-text {
+  top: -80%;
 }
 
 .smeta-section .vertical-text {
@@ -13458,6 +13596,15 @@ textarea:valid {
   -moz-background-size: 32%;
   -o-background-size: 32%;
   background-size: 32%;
+}
+
+.gift-section.guarantee {
+  margin-bottom: 0;
+  background: url(../img/guarantee-bg.png) no-repeat 70% 64%;
+  -webkit-background-size: 30% 30%;
+  -moz-background-size: 30%;
+  -o-background-size: 30%;
+  background-size: 30%;
 }
 
 .gift-section .btn-box {

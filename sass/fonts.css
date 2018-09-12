@@ -34,7 +34,7 @@
 	font-style: normal;
 	font-weight: normal;
 }
-@font-face {
+/* @font-face {
 	font-family: "MyriadProBold";
 	src: url("../fonts/MyriadProBold/MyriadProBold.eot");
 	src: url("../fonts/MyriadProBold/MyriadProBold.eot?#iefix") format("embedded-opentype"),
@@ -51,4 +51,4 @@
 			 url("../fonts/MyriadProRegular/MyriadProRegular.ttf") format("truetype");
 	font-style: normal;
 	font-weight: normal;
-}
+} */

@@ -381,7 +381,7 @@ textarea
 		background: url(../img/red-section-bg.jpg) no-repeat center
 		background-size: cover
 	.title
-		font-family: "MyriadProBold"
+		font-family: "ProximaNovaBold"
 		font-size: 36px
 	.subtitle
 		font-size: 30px
@@ -924,6 +924,12 @@ textarea
 	background-size: cover
 	color: #fff
 	position: relative
+	.cols
+		display: flex
+		justify-content: space-between
+		flex-wrap: wrap
+		.tr-item
+			width: 23%
 	&.designer
 		padding: 5em 0 6em
 		.vertical-text
@@ -938,6 +944,39 @@ textarea
 			color: #bfbfbf
 		.section-title
 			// margin-bottom: 5em
+	&.repair
+		padding-bottom: 4em
+		.vertical-text
+			top: 10%
+			font-size: 76px
+		ul.steps
+			margin: 0
+			padding: 0
+			li
+				margin: 0 0 1.5em
+				position: relative
+				list-style-type: none
+				padding-left: 5em
+				font-size: 16px
+			.n
+				color: $accent
+				font-size: 49px
+				position: absolute
+				left: 0
+				top: -23px
+				font-family: "ProximaNovaBold"
+		.ib
+			display: flex
+			justify-content: space-between
+			flex-wrap: wrap
+			.box
+				width: 32%
+				p
+					font-size: 15px
+	&.principles
+		.vertical-text
+			right: 5%
+			top: -65%
 	.tr-item
 		margin: 0 0 25px
 		font-size: 20px
@@ -1180,7 +1219,7 @@ textarea
 			li
 				margin: 0 0 5px
 				font-size: 17px
-				font-family: "MyriadProRegular"
+				font-family: "ProximaNovaRegular"
 				a
 					color: #000
 					text-decoration: none
@@ -1193,7 +1232,7 @@ textarea
 		.title
 			margin: 0 0 0.2em
 			font-size: 24px
-			font-family: "MyriadProBold"
+			font-family: "ProximaNovaBold"
 	.footer-menu
 		padding: 0
 		li
@@ -1203,7 +1242,7 @@ textarea
 			color: #000
 			font-size: 17px
 			text-decoration: none
-			font-family: "MyriadProRegular"
+			font-family: "ProximaNovaRegular"
 			&:hover
 				border-color: transparent
 				color: #ce4e4e
@@ -1256,6 +1295,16 @@ textarea
 		background-size: contain
 		.vertical-text
 			top: -100%
+	&.fourth
+		background: url(../img/smeta-bg-4.png) no-repeat 95% center
+		background-size: 52%
+		.vertical-text
+			top: -20%
+	&.principles
+		background: url(../img/crazy-woman.png) no-repeat 77% center
+		background-size: 33%
+		.vertical-text
+			top: -80%
 	.vertical-text
 		top: 10%
 	.description
@@ -1594,7 +1643,10 @@ textarea
 	// 				padding: 12px
 	// 				color: #fff
 	// 				font-size: 9px
-
+	&.guarantee
+		margin-bottom: 0
+		background: url(../img/guarantee-bg.png) no-repeat 70% 64%
+		background-size: 30%
 	.btn-box
 		margin: 0 0 1em
 .faq-section
