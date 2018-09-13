@@ -11590,14 +11590,13 @@ textarea:valid {
 
 .main-head {
   position: relative;
-  overflow: hidden;
 }
 
 .main-head .header-slider {
   position: absolute;
   right: 0;
   top: 0;
-  width: 55%;
+  width: 50%;
   height: 100%;
 }
 
@@ -11873,9 +11872,9 @@ textarea:valid {
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   border-radius: 50%;
-  -webkit-box-shadow: 4px 17px 62px rgba(68, 68, 67, 0.14), 0 0 0 50px rgba(255, 255, 255, 0.3);
-  -moz-box-shadow: 4px 17px 62px rgba(68, 68, 67, 0.14), 0 0 0 50px rgba(255, 255, 255, 0.3);
-  box-shadow: 4px 17px 62px rgba(68, 68, 67, 0.14), 0 0 0 50px rgba(255, 255, 255, 0.3);
+  -webkit-box-shadow: 4px 17px 62px rgba(68, 68, 67, 0.14), 0 0 0 50px rgba(255, 255, 255, 0.7);
+  -moz-box-shadow: 4px 17px 62px rgba(68, 68, 67, 0.14), 0 0 0 50px rgba(255, 255, 255, 0.7);
+  box-shadow: 4px 17px 62px rgba(68, 68, 67, 0.14), 0 0 0 50px rgba(255, 255, 255, 0.7);
   position: relative;
 }
 
