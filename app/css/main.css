@@ -11988,6 +11988,7 @@ textarea:valid {
 }
 
 .our-services-section {
+  margin: 0 0 5em;
   background: url(../img/our-services-bg.png) no-repeat right 47%;
   position: relative;
 }
@@ -12480,6 +12481,7 @@ textarea:valid {
 .our-advantages-section.repair .vertical-text {
   top: 10%;
   font-size: 76px;
+  right: 0;
 }
 
 .our-advantages-section.repair ul.steps {
@@ -13019,11 +13021,7 @@ textarea:valid {
 }
 
 .smeta-section.fourth {
-  background: url(../img/smeta-bg-4.png) no-repeat 95% center;
-  -webkit-background-size: 52% 52%;
-  -moz-background-size: 52%;
-  -o-background-size: 52%;
-  background-size: 52%;
+  background: url(../img/smeta-bg-4.png) no-repeat 86% center;
 }
 
 .smeta-section.fourth .vertical-text {
@@ -13769,6 +13767,12 @@ textarea:valid {
     background-size: 30%;
     background-position: 91% center;
   }
+  .smeta-section.fourth {
+    -webkit-background-size: 45% 45%;
+    -moz-background-size: 45%;
+    -o-background-size: 45%;
+    background-size: 45%;
+  }
 }
 
 /* Large Devices, Wide Screens */
@@ -13820,6 +13824,25 @@ textarea:valid {
   .smeta-section {
     background: none;
   }
+  .red-section .title {
+    font-size: 30px;
+  }
+  .red-section .subtitle {
+    font-size: 24px;
+  }
+  .gift-section.guarantee {
+    background-position: 86% 64%;
+  }
+  .smeta-section.principles {
+    background-image: none;
+  }
+  .smeta-section.principles .vertical-text {
+    top: -110%;
+  }
+  .our-advantages-section.repair .ib .box {
+    text-align: center;
+    width: 48%;
+  }
 }
 
 /* Medium Devices, Desktops */
@@ -13870,6 +13893,15 @@ textarea:valid {
   }
   .main-footer .sub-info {
     font-size: 14px;
+  }
+  .smeta-section.fourth {
+    background-image: none;
+  }
+  .smeta-section.fourth .vertical-text {
+    display: none;
+  }
+  .gift-section.guarantee {
+    background-image: none;
   }
 }
 
@@ -14065,6 +14097,27 @@ textarea:valid {
   }
   .gift-section.interior {
     background-image: none;
+  }
+  .red-section {
+    text-align: center;
+  }
+  .red-section .title {
+    font-size: 26px;
+  }
+  .red-section .subtitle {
+    font-size: 22px;
+  }
+  .our-advantages-section .vertical-text {
+    display: none;
+  }
+  .our-advantages-section .cols {
+    text-align: center;
+  }
+  .our-advantages-section .cols .tr-item {
+    width: 49%;
+  }
+  .smeta-section.principles .vertical-text {
+    display: none;
   }
   .mpopup .inputs {
     display: block;
