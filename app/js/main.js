@@ -68,7 +68,7 @@ $(document).ready(function() {
 		var allElem = $('.header-slider .slider-counter .sn').size();
 		var curActive = $('.header-slider .slider-counter .sn.active').index();
 		if (curActive == iterate-1) {
-			// console.log('Совпадение')
+
 		} else {
 			(iterate > allElem) ? iterate=1 : '';
 			$('.header-slider .slider-counter .sn').eq(iterate-1).trigger('click');
@@ -93,15 +93,26 @@ $(document).ready(function() {
 	})
 
 	//waypoints
-	var waypoints = $('.lfbtitle').waypoint(function(e, direction) {
-    var index = $(this.element).data('index')-1;
+	var waypoints = $('.lfbtitle').waypoint(function(direction) {
+		if(direction === 'down') {
+			var index = $(this.element).data('index')-1;
 
-		$('.lbar .lbar-title ul li').hide();
-		$('.lbar .lbar-title ul li').eq(index).show();
-
-    // console.log(index);
+			$('.lbar .lbar-title ul li').hide();
+			$('.lbar .lbar-title ul li').eq(index).show();
+		}
 	}, {
-		offset: 70,
+		offset: '50%',
+	});
+
+	var waypoints = $('.lfbtitle').waypoint(function(direction) {
+		if(direction === 'up') {
+			var index = $(this.element).data('index')-1;
+
+			$('.lbar .lbar-title ul li').hide();
+			$('.lbar .lbar-title ul li').eq(index).show();
+		}
+	}, {
+		offset: '-50%',
 	});
 
 	//owl-carousel
