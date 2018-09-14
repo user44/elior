@@ -13027,6 +13027,14 @@ textarea:valid {
   top: -20%;
 }
 
+.smeta-section.five {
+  background: url(../img/smeta-bg-5.png) no-repeat 86% center;
+}
+
+.smeta-section.five .vertical-text {
+  top: -20%;
+}
+
 .smeta-section.principles {
   background: url(../img/crazy-woman.png) no-repeat 77% center;
   -webkit-background-size: 33% 33%;
@@ -13036,7 +13044,7 @@ textarea:valid {
 }
 
 .smeta-section.principles .vertical-text {
-  top: -80%;
+  top: -110%;
 }
 
 .smeta-section .vertical-text {
@@ -13604,6 +13612,14 @@ textarea:valid {
   background-size: 30%;
 }
 
+.gift-section.five {
+  background: url(../img/guarantee-bg-five.png) no-repeat 100% 64%;
+  -webkit-background-size: 45% 45%;
+  -moz-background-size: 45%;
+  -o-background-size: 45%;
+  background-size: 45%;
+}
+
 .gift-section .btn-box {
   margin: 0 0 1em;
 }
@@ -13766,7 +13782,8 @@ textarea:valid {
     background-size: 30%;
     background-position: 91% center;
   }
-  .smeta-section.fourth {
+  .smeta-section.fourth,
+  .smeta-section.five {
     -webkit-background-size: 45% 45%;
     -moz-background-size: 45%;
     -o-background-size: 45%;
@@ -13893,10 +13910,12 @@ textarea:valid {
   .main-footer .sub-info {
     font-size: 14px;
   }
-  .smeta-section.fourth {
+  .smeta-section.fourth,
+  .smeta-section.five {
     background-image: none;
   }
-  .smeta-section.fourth .vertical-text {
+  .smeta-section.fourth .vertical-text,
+  .smeta-section.five .vertical-text {
     display: none;
   }
   .gift-section.guarantee {
