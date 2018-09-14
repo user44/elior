@@ -55,6 +55,21 @@ $(document).ready(function() {
 		return false;
 	});
 
+	//isotope sorting
+	var $container = $('.projects-box .pr-items').imagesLoaded(function() {
+		$container.isotope({
+		  itemSelector: '.js-filter',
+		  layoutMode: 'fitRows'
+		});
+		$('.projects-box .cats').on( 'click', 'a', function(e) {
+			e.preventDefault();
+			$(".projects-box .cats a").removeClass("active");
+			$(this).addClass("active");
+			var filterValue = $(this).attr('data-filter');
+		  $container.isotope({ filter: filterValue });
+		});
+	});
+
 	//main slider navigation & autoplay
 	$('.header-slider .slider-counter .sn').click(function() {
 		$(this).parent().find('.sn').removeClass('active');
