@@ -21,166 +21,206 @@
 }
 
 
-.fi-alarm-clock:before {
+.fi-adv1:before {
 	content: "\E001";
 }
 
-.fi-arrow-aim:before {
+.fi-adv2:before {
 	content: "\E002";
 }
 
-.fi-arrow-left:before {
+.fi-adv3:before {
 	content: "\E003";
 }
 
-.fi-arrow-right:before {
+.fi-adv4:before {
 	content: "\E004";
 }
 
-.fi-check-small:before {
+.fi-adv5:before {
 	content: "\E005";
 }
 
-.fi-clock:before {
+.fi-adv6:before {
 	content: "\E006";
 }
 
-.fi-dialogs-4:before {
+.fi-alarm-clock:before {
 	content: "\E007";
 }
 
-.fi-eye-globe:before {
+.fi-arrow-aim:before {
 	content: "\E008";
 }
 
-.fi-globe-to-top:before {
+.fi-arrow-left:before {
 	content: "\E009";
 }
 
-.fi-guarantee-6:before {
+.fi-arrow-right:before {
 	content: "\E00A";
 }
 
-.fi-guarantee-list:before {
+.fi-carcas:before {
 	content: "\E00B";
 }
 
-.fi-hands-money:before {
+.fi-check-small:before {
 	content: "\E00C";
 }
 
-.fi-heart-medal:before {
+.fi-clock:before {
 	content: "\E00D";
 }
 
-.fi-iks:before {
+.fi-dialogs-4:before {
 	content: "\E00E";
 }
 
-.fi-light-bulb:before {
+.fi-eye-globe:before {
 	content: "\E00F";
 }
 
-.fi-list-check:before {
+.fi-globe-to-top:before {
 	content: "\E010";
 }
 
-.fi-list-check2:before {
+.fi-guarantee-6:before {
 	content: "\E011";
 }
 
-.fi-list-items:before {
+.fi-guarantee-list:before {
 	content: "\E012";
 }
 
-.fi-list-stamp-2:before {
+.fi-hands-money:before {
 	content: "\E013";
 }
 
-.fi-list-zoom:before {
+.fi-heart-medal:before {
 	content: "\E014";
 }
 
-.fi-man-check:before {
+.fi-iks:before {
 	content: "\E015";
 }
 
-.fi-man-zoom:before {
+.fi-light-bulb:before {
 	content: "\E016";
 }
 
-.fi-medal-3:before {
+.fi-list-check:before {
 	content: "\E017";
 }
 
-.fi-money:before {
+.fi-list-check2:before {
 	content: "\E018";
 }
 
-.fi-monitor:before {
+.fi-list-items:before {
 	content: "\E019";
 }
 
-.fi-pdf:before {
+.fi-list-stamp-2:before {
 	content: "\E01A";
 }
 
-.fi-pen-ruler:before {
+.fi-list-zoom:before {
 	content: "\E01B";
 }
 
-.fi-phone-fw:before {
+.fi-man-check:before {
 	content: "\E01C";
 }
 
-.fi-play-circle:before {
+.fi-man-zoom:before {
 	content: "\E01D";
 }
 
-.fi-portmone:before {
+.fi-medal-3:before {
 	content: "\E01E";
 }
 
-.fi-rocket:before {
+.fi-money:before {
 	content: "\E01F";
 }
 
-.fi-rubin-hand:before {
+.fi-monitor:before {
 	content: "\E020";
 }
 
-.fi-shield-check:before {
+.fi-pdf:before {
 	content: "\E021";
 }
 
-.fi-shield-check2:before {
+.fi-pen-ruler:before {
 	content: "\E022";
 }
 
-.fi-specialist-5:before {
+.fi-phone-fw:before {
 	content: "\E023";
 }
 
-.fi-team-check:before {
+.fi-play-circle:before {
 	content: "\E024";
 }
 
-.fi-thumb-up:before {
+.fi-portmone:before {
 	content: "\E025";
 }
 
-.fi-two-commas:before {
+.fi-pro-team:before {
 	content: "\E026";
 }
 
-.fi-valik:before {
+.fi-rocket:before {
 	content: "\E027";
 }
 
-.fi-venec:before {
+.fi-rubin-hand:before {
 	content: "\E028";
 }
 
-.fi-zoom-up:before {
+.fi-settings-aim:before {
 	content: "\E029";
+}
+
+.fi-sheild-globe:before {
+	content: "\E02A";
+}
+
+.fi-shield-check:before {
+	content: "\E02B";
+}
+
+.fi-shield-check2:before {
+	content: "\E02C";
+}
+
+.fi-specialist-5:before {
+	content: "\E02D";
+}
+
+.fi-team-check:before {
+	content: "\E02E";
+}
+
+.fi-thumb-up:before {
+	content: "\E02F";
+}
+
+.fi-two-commas:before {
+	content: "\E030";
+}
+
+.fi-valik:before {
+	content: "\E031";
+}
+
+.fi-venec:before {
+	content: "\E032";
+}
+
+.fi-zoom-up:before {
+	content: "\E033";
 }

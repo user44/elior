@@ -144,6 +144,20 @@ $(document).ready(function() {
 		mouseDrag: false,
 	});
 
+	//abous slider
+	$('.about-slider').owlCarousel({
+		loop:true,
+		items:1,
+		margin:10,
+		nav:true,
+		smartSpeed: 1000,
+		autoplaySpeed: 1000,
+		navSpeed: 1000,
+		dragEndSpeed: 1000,
+		navText: ['', ''],
+		// mouseDrag: false,
+	});
+
 	//testimonials slider
 	$('.testimonials-slider').owlCarousel({
 		loop:true,

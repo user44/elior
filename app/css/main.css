@@ -1420,168 +1420,208 @@ hr {
   text-transform: none;
 }
 
-.fi-alarm-clock:before {
+.fi-adv1:before {
   content: "\E001";
 }
 
-.fi-arrow-aim:before {
+.fi-adv2:before {
   content: "\E002";
 }
 
-.fi-arrow-left:before, .success-prj-section .scs-prjcts .owl-prev:before, .testimonials-section .testimonials-slider .owl-prev:before {
+.fi-adv3:before {
   content: "\E003";
 }
 
-.fi-arrow-right:before, .success-prj-section .scs-prjcts .owl-next:before, .testimonials-section .testimonials-slider .owl-next:before {
+.fi-adv4:before {
   content: "\E004";
 }
 
-.fi-check-small:before, .our-prices-section .tarif-item .desc ul li:before {
+.fi-adv5:before {
   content: "\E005";
 }
 
-.fi-clock:before {
+.fi-adv6:before {
   content: "\E006";
 }
 
-.fi-dialogs-4:before {
+.fi-alarm-clock:before {
   content: "\E007";
 }
 
-.fi-eye-globe:before {
+.fi-arrow-aim:before {
   content: "\E008";
 }
 
-.fi-globe-to-top:before {
+.fi-arrow-left:before, .success-prj-section .scs-prjcts .owl-prev:before, .testimonials-section .testimonials-slider .owl-prev:before {
   content: "\E009";
 }
 
-.fi-guarantee-6:before {
+.fi-arrow-right:before, .success-prj-section .scs-prjcts .owl-next:before, .testimonials-section .testimonials-slider .owl-next:before {
   content: "\E00A";
 }
 
-.fi-guarantee-list:before {
+.fi-carcas:before {
   content: "\E00B";
 }
 
-.fi-hands-money:before {
+.fi-check-small:before, .our-prices-section .tarif-item .desc ul li:before {
   content: "\E00C";
 }
 
-.fi-heart-medal:before {
+.fi-clock:before {
   content: "\E00D";
 }
 
-.fi-iks:before {
+.fi-dialogs-4:before {
   content: "\E00E";
 }
 
-.fi-light-bulb:before {
+.fi-eye-globe:before {
   content: "\E00F";
 }
 
-.fi-list-check:before {
+.fi-globe-to-top:before {
   content: "\E010";
 }
 
-.fi-list-check2:before {
+.fi-guarantee-6:before {
   content: "\E011";
 }
 
-.fi-list-items:before {
+.fi-guarantee-list:before {
   content: "\E012";
 }
 
-.fi-list-stamp-2:before {
+.fi-hands-money:before {
   content: "\E013";
 }
 
-.fi-list-zoom:before {
+.fi-heart-medal:before {
   content: "\E014";
 }
 
-.fi-man-check:before {
+.fi-iks:before {
   content: "\E015";
 }
 
-.fi-man-zoom:before {
+.fi-light-bulb:before {
   content: "\E016";
 }
 
-.fi-medal-3:before {
+.fi-list-check:before {
   content: "\E017";
 }
 
-.fi-money:before {
+.fi-list-check2:before {
   content: "\E018";
 }
 
-.fi-monitor:before {
+.fi-list-items:before {
   content: "\E019";
 }
 
-.fi-pdf:before {
+.fi-list-stamp-2:before {
   content: "\E01A";
 }
 
-.fi-pen-ruler:before {
+.fi-list-zoom:before {
   content: "\E01B";
 }
 
-.fi-phone-fw:before {
+.fi-man-check:before {
   content: "\E01C";
 }
 
-.fi-play-circle:before {
+.fi-man-zoom:before {
   content: "\E01D";
 }
 
-.fi-portmone:before {
+.fi-medal-3:before {
   content: "\E01E";
 }
 
-.fi-rocket:before {
+.fi-money:before {
   content: "\E01F";
 }
 
-.fi-rubin-hand:before {
+.fi-monitor:before {
   content: "\E020";
 }
 
-.fi-shield-check:before {
+.fi-pdf:before {
   content: "\E021";
 }
 
-.fi-shield-check2:before {
+.fi-pen-ruler:before {
   content: "\E022";
 }
 
-.fi-specialist-5:before {
+.fi-phone-fw:before {
   content: "\E023";
 }
 
-.fi-team-check:before {
+.fi-play-circle:before {
   content: "\E024";
 }
 
-.fi-thumb-up:before {
+.fi-portmone:before {
   content: "\E025";
 }
 
-.fi-two-commas:before {
+.fi-pro-team:before {
   content: "\E026";
 }
 
-.fi-valik:before {
+.fi-rocket:before {
   content: "\E027";
 }
 
-.fi-venec:before {
+.fi-rubin-hand:before {
   content: "\E028";
 }
 
-.fi-zoom-up:before {
+.fi-settings-aim:before {
   content: "\E029";
+}
+
+.fi-sheild-globe:before {
+  content: "\E02A";
+}
+
+.fi-shield-check:before {
+  content: "\E02B";
+}
+
+.fi-shield-check2:before {
+  content: "\E02C";
+}
+
+.fi-specialist-5:before {
+  content: "\E02D";
+}
+
+.fi-team-check:before {
+  content: "\E02E";
+}
+
+.fi-thumb-up:before {
+  content: "\E02F";
+}
+
+.fi-two-commas:before {
+  content: "\E030";
+}
+
+.fi-valik:before {
+  content: "\E031";
+}
+
+.fi-venec:before {
+  content: "\E032";
+}
+
+.fi-zoom-up:before {
+  content: "\E033";
 }
 
 /*======== sprite =========*/
@@ -11103,6 +11143,14 @@ a:hover {
   margin-top: 0.3em;
 }
 
+.llt.about {
+  font-size: 16px;
+}
+
+.llt.about p {
+  margin: 0 0 1em;
+}
+
 .img-box img {
   max-width: 100%;
 }
@@ -11855,6 +11903,10 @@ textarea:valid {
   font-size: 48px;
 }
 
+.main-head .bt-item .bt-box .icon-box .fi.fi-carcas, .main-head .bt-item .bt-box .icon-box .success-prj-section .scs-prjcts .fi-carcas.owl-prev, .success-prj-section .scs-prjcts .main-head .bt-item .bt-box .icon-box .fi-carcas.owl-prev, .main-head .bt-item .bt-box .icon-box .success-prj-section .scs-prjcts .fi-carcas.owl-next, .success-prj-section .scs-prjcts .main-head .bt-item .bt-box .icon-box .fi-carcas.owl-next, .main-head .bt-item .bt-box .icon-box .our-prices-section .tarif-item .desc ul li.fi-carcas, .our-prices-section .tarif-item .desc ul .main-head .bt-item .bt-box .icon-box li.fi-carcas, .main-head .bt-item .bt-box .icon-box .testimonials-section .testimonials-slider .fi-carcas.owl-prev, .testimonials-section .testimonials-slider .main-head .bt-item .bt-box .icon-box .fi-carcas.owl-prev, .main-head .bt-item .bt-box .icon-box .testimonials-section .testimonials-slider .fi-carcas.owl-next, .testimonials-section .testimonials-slider .main-head .bt-item .bt-box .icon-box .fi-carcas.owl-next {
+  font-size: 35px;
+}
+
 .main-head .bt-item .bt-box .icon-box .fi:before, .main-head .bt-item .bt-box .icon-box .success-prj-section .scs-prjcts .owl-prev:before, .success-prj-section .scs-prjcts .main-head .bt-item .bt-box .icon-box .owl-prev:before, .main-head .bt-item .bt-box .icon-box .success-prj-section .scs-prjcts .owl-next:before, .success-prj-section .scs-prjcts .main-head .bt-item .bt-box .icon-box .owl-next:before, .main-head .bt-item .bt-box .icon-box .our-prices-section .tarif-item .desc ul li:before, .our-prices-section .tarif-item .desc ul .main-head .bt-item .bt-box .icon-box li:before, .main-head .bt-item .bt-box .icon-box .testimonials-section .testimonials-slider .owl-prev:before, .testimonials-section .testimonials-slider .main-head .bt-item .bt-box .icon-box .owl-prev:before, .main-head .bt-item .bt-box .icon-box .testimonials-section .testimonials-slider .owl-next:before, .testimonials-section .testimonials-slider .main-head .bt-item .bt-box .icon-box .owl-next:before {
   vertical-align: bottom;
 }
@@ -12068,7 +12120,7 @@ textarea:valid {
 .our-services-section .bt-item {
   margin: 0 0 40px;
   position: relative;
-  padding-left: 82px;
+  padding-left: 100px;
 }
 
 .our-services-section .bt-item .bt-box {
@@ -12081,11 +12133,16 @@ textarea:valid {
 
 .our-services-section .bt-item .icon-box {
   position: absolute;
-  left: 0;
+  left: 35px;
   top: 50%;
-  -webkit-transform: translate3d(0, -50%, 0);
-  -moz-transform: translate3d(0, -50%, 0);
-  transform: translate3d(0, -50%, 0);
+  -webkit-transform: translate3d(-50%, -50%, 0);
+  -moz-transform: translate3d(-50%, -50%, 0);
+  transform: translate3d(-50%, -50%, 0);
+}
+
+.our-services-section .bt-item .icon-box .fi, .our-services-section .bt-item .icon-box .success-prj-section .scs-prjcts .owl-prev, .success-prj-section .scs-prjcts .our-services-section .bt-item .icon-box .owl-prev, .our-services-section .bt-item .icon-box .success-prj-section .scs-prjcts .owl-next, .success-prj-section .scs-prjcts .our-services-section .bt-item .icon-box .owl-next, .our-services-section .bt-item .icon-box .our-prices-section .tarif-item .desc ul li, .our-prices-section .tarif-item .desc ul .our-services-section .bt-item .icon-box li, .our-services-section .bt-item .icon-box .testimonials-section .testimonials-slider .owl-prev, .testimonials-section .testimonials-slider .our-services-section .bt-item .icon-box .owl-prev, .our-services-section .bt-item .icon-box .testimonials-section .testimonials-slider .owl-next, .testimonials-section .testimonials-slider .our-services-section .bt-item .icon-box .owl-next {
+  color: #ce4e4e;
+  font-size: 40px;
 }
 
 .our-services-section .bt-item p {
@@ -12581,6 +12638,15 @@ textarea:valid {
   font-size: 60px;
 }
 
+.our-advantages-section .tr-item .icon .fi.fi-adv3, .our-advantages-section .tr-item .icon .success-prj-section .scs-prjcts .fi-adv3.owl-prev, .success-prj-section .scs-prjcts .our-advantages-section .tr-item .icon .fi-adv3.owl-prev, .our-advantages-section .tr-item .icon .success-prj-section .scs-prjcts .fi-adv3.owl-next, .success-prj-section .scs-prjcts .our-advantages-section .tr-item .icon .fi-adv3.owl-next, .our-advantages-section .tr-item .icon .our-prices-section .tarif-item .desc ul li.fi-adv3, .our-prices-section .tarif-item .desc ul .our-advantages-section .tr-item .icon li.fi-adv3, .our-advantages-section .tr-item .icon .testimonials-section .testimonials-slider .fi-adv3.owl-prev, .testimonials-section .testimonials-slider .our-advantages-section .tr-item .icon .fi-adv3.owl-prev, .our-advantages-section .tr-item .icon .testimonials-section .testimonials-slider .fi-adv3.owl-next, .testimonials-section .testimonials-slider .our-advantages-section .tr-item .icon .fi-adv3.owl-next {
+  font-size: 30px;
+}
+
+.our-advantages-section .tr-item .icon .fi.fi-adv3::before, .our-advantages-section .tr-item .icon .success-prj-section .scs-prjcts .fi-adv3.owl-prev::before, .success-prj-section .scs-prjcts .our-advantages-section .tr-item .icon .fi-adv3.owl-prev::before, .our-advantages-section .tr-item .icon .success-prj-section .scs-prjcts .fi-adv3.owl-next::before, .success-prj-section .scs-prjcts .our-advantages-section .tr-item .icon .fi-adv3.owl-next::before, .our-advantages-section .tr-item .icon .our-prices-section .tarif-item .desc ul li.fi-adv3::before, .our-prices-section .tarif-item .desc ul .our-advantages-section .tr-item .icon li.fi-adv3::before, .our-advantages-section .tr-item .icon .testimonials-section .testimonials-slider .fi-adv3.owl-prev::before, .testimonials-section .testimonials-slider .our-advantages-section .tr-item .icon .fi-adv3.owl-prev::before, .our-advantages-section .tr-item .icon .testimonials-section .testimonials-slider .fi-adv3.owl-next::before, .testimonials-section .testimonials-slider .our-advantages-section .tr-item .icon .fi-adv3.owl-next::before {
+  display: block;
+  line-height: 96px;
+}
+
 .our-advantages-section .tr-item .title {
   margin: 0 0 10px;
 }
@@ -12972,6 +13038,10 @@ textarea:valid {
   border-top: 1px solid #c8c8c8;
 }
 
+.icon-boxes.about {
+  margin: 0 0 6em;
+}
+
 .icon-boxes .boxes {
   display: -webkit-box;
   display: -webkit-flex;
@@ -12983,6 +13053,24 @@ textarea:valid {
   -moz-box-pack: justify;
   -ms-flex-pack: justify;
   justify-content: space-between;
+}
+
+.icon-boxes .boxes.about .item-box {
+  padding-bottom: 3em;
+}
+
+.icon-boxes .boxes.about .item-box .title {
+  font-size: 28px;
+  font-family: "ProximaNovaSemibold";
+  padding-bottom: 0.2em;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.icon-boxes .boxes.about .item-box .title span {
+  display: block;
+  font-size: 30px;
+  color: #ce4e4e;
+  font-family: "ProximaNovaExtrabld";
 }
 
 .icon-boxes .item-box {
@@ -13995,6 +14083,33 @@ textarea:valid {
 
 .testimonial-single .st-box .text p {
   margin: 0;
+}
+
+.about-slider .owl-item {
+  cursor: move;
+}
+
+.about-slider .owl-dots {
+  margin: 0.4em 0 0;
+  text-align: center;
+}
+
+.about-slider .owl-dots .owl-dot {
+  margin: 0 0.4em;
+  width: 5px;
+  height: 5px;
+  background: #000;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.about-slider .owl-dots .owl-dot.active {
+  background: #ce4e4e;
+  -webkit-box-shadow: 0 0 0 4px #ce4e4e;
+  -moz-box-shadow: 0 0 0 4px #ce4e4e;
+  box-shadow: 0 0 0 4px #ce4e4e;
 }
 
 .mfp-bg {

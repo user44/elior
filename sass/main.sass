@@ -134,6 +134,10 @@ a
 	position: relative
 	&.mt
 		margin-top: 0.3em
+	&.about
+		font-size: 16px
+		p
+			margin: 0 0 1em
 
 .img-box
 	img
@@ -573,6 +577,8 @@ textarea
 					left: 30px
 					&.fi-venec
 						font-size: 48px
+					&.fi-carcas
+						font-size: 35px
 					&:before
 						vertical-align: bottom
 		.icon-box
@@ -678,7 +684,7 @@ textarea
 	.bt-item
 		margin: 0 0 40px
 		position: relative
-		padding-left: 82px
+		padding-left: 100px
 		.bt-box
 			display: inline-block
 			// &:hover
@@ -688,9 +694,12 @@ textarea
 					fill: #ce4e4e
 		.icon-box
 			position: absolute
-			left: 0
+			left: 35px
 			top: 50%
-			transform: translate3d(0, -50%, 0)
+			transform: translate3d(-50%, -50%, 0)
+			.fi
+				color: $accent
+				font-size: 40px
 		p
 			font-size: 24px
 			margin: 0
@@ -1008,6 +1017,11 @@ textarea
 			.fi
 				color: $accent
 				font-size: 60px
+				&.fi-adv3
+					font-size: 30px
+					&::before
+						display: block
+						line-height: 96px
 		.title
 			margin: 0 0 10px
 		p
@@ -1273,9 +1287,24 @@ textarea
 		padding-top: 0.9em
 		border-top: 1px solid #c8c8c8
 .icon-boxes
+	&.about
+		margin: 0 0 6em
 	.boxes
 		display: flex
 		justify-content: space-between
+		&.about
+			.item-box
+				padding-bottom: 3em
+				.title
+					font-size: 28px
+					font-family: "ProximaNovaSemibold"
+					padding-bottom: 0.2em
+					border-bottom: 1px solid rgba(0,0,0, .1)
+					span
+						display: block
+						font-size: 30px
+						color: $accent
+						font-family: "ProximaNovaExtrabld"
 	.item-box
 		margin: 0 0.5em
 		padding: 1.4em 1.5em
@@ -1365,6 +1394,7 @@ textarea
 			.fi
 				font-size: 45px
 				color: $accent
+
 .chk-list
 	ul
 		margin: 0 0 2em
@@ -1867,8 +1897,22 @@ textarea
 					color: $accent
 			p
 				margin: 0
-
-
+.about-slider
+	.owl-item
+		cursor: move
+	.owl-dots
+		margin: 0.4em 0 0
+		text-align: center
+		.owl-dot
+			margin: 0 0.4em
+			width: 5px
+			height: 5px
+			background: #000
+			border-radius: 50%
+			display: inline-block
+			&.active
+				background: $accent
+				box-shadow: 0 0 0 4px $accent
 
 
 
