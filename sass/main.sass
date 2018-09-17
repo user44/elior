@@ -394,9 +394,21 @@ textarea
 .main-head
 	// background: url(../img/header-bg.png) no-repeat right top
 	position: relative
-	// overflow: hidden
-	// &.two
-		// background-image: url(../img/header-bg-2.jpg)
+	.desc-prj
+		p
+			margin: 0 0 15px
+			span
+				margin: 0
+				display: block
+				font-size: 15px
+				font-family: "ProximaNovaExtrabld"
+				text-transform: uppercase
+		.twice
+			display: flex
+			// justify-content: space-between
+			p
+				&:first-child
+					margin-right: 12%
 	.header-slider
 		position: absolute
 		right: 0
@@ -577,6 +589,8 @@ textarea
 		margin: 150px 0 0
 		position: relative
 		z-index: 10
+		&.single
+			margin: 24em 0 0
 		&:after
 			content: ""
 			display: block
@@ -694,6 +708,8 @@ textarea
 		background: #f2f2f2
 	&.projects
 		// margin-bottom: 7em
+	&.single
+		margin: 0 0 6em
 	&:before
 		content: ""
 		position: absolute
@@ -1310,6 +1326,11 @@ textarea
 		background: url(../img/smeta-bg-5.png) no-repeat 86% center
 		.vertical-text
 			top: -20%
+	&.single
+		background: url(../img/smeta-single-bg.png) no-repeat 80% center
+		background-size: 40%
+		.vertical-text
+			top: -50%
 	&.principles
 		background: url(../img/crazy-woman.png) no-repeat 77% center
 		background-size: 33%
@@ -1782,6 +1803,70 @@ textarea
 					position: relative
 					transform: translate3d(0, 30%, 0)
 
+.single-gallery-box
+	.tabs
+		margin: 0 0 1em
+		display: flex
+		// justify-content: center
+		flex-wrap: wrap
+		a
+			margin: 0 0.1em 0.4em
+			padding: 1em 2em
+			display: inline-block
+			border: 2px solid $accent
+			border-radius: 8px
+			text-decoration: none
+			color: #000
+			font-size: 16px
+			font-family: "ProximaNovaBold"
+			transition: .2s
+			&:hover,
+			&:active,
+			&:focus
+				text-decoration: none
+			&:hover,
+			&.active
+				background: $accent
+				color: #fff
+	.single-gallery
+		display: flex
+		flex-wrap: wrap
+		.gallery-item
+			width: 33.33333%
+			img
+				width: 100%
+
+.testimonial-single
+	margin: 0 0 8em
+	.st-box
+		padding: 2em
+		display: flex
+		justify-content: space-between
+		background: #fff
+		align-items: center
+		.info
+			width: 40%
+			text-align: center
+			.img-box
+				margin: 0 0 1em
+			.name
+				font-size: 20px
+				font-family: "ProximaNovaBold"
+				span
+					display: block
+					font-size: 16px
+					font-family: "ProximaNovaRegular"
+					color: #7b7b7b
+		.text
+			margin: -2em 0 0
+			width: 50%
+			font-size: 16px
+			.icon
+				margin: 0 0 0.4em
+				.fi
+					color: $accent
+			p
+				margin: 0
 
 
 

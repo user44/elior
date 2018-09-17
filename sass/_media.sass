@@ -43,6 +43,9 @@
 	/**/
 	.main-head
 		background-size: cover
+		.mouse-down-box.single
+			// margin-top: 0
+			display: none
 		.header-slider
 			width: 100%
 			.item
@@ -93,6 +96,11 @@
 		background-image: none
 		.vertical-text
 			top: -110%
+	.smeta-section.single
+		// background: none
+		background-position: 100%
+		.vertical-text
+			display: none
 	.our-advantages-section.repair
 		.ib
 			.box
@@ -148,7 +156,8 @@
 		.sub-info
 			font-size: 14px
 	.smeta-section.fourth,
-	.smeta-section.five
+	.smeta-section.five,
+	.smeta-section.single
 		background-image: none
 		.vertical-text
 			display: none
@@ -211,6 +220,12 @@
 			padding-left: 72px
 		.icon-circle.vk
 			display: none
+		.desc-prj
+			.twice
+				display: block
+				p
+					&:first-child
+						margin-right: 0
 	.our-services-section
 		.elior
 			font-size: 79px
@@ -346,6 +361,21 @@
 		.pr-items
 			.item
 				width: 100%
+	.single-gallery-box
+		.single-gallery
+			.gallery-item
+				width: 50%
+	.testimonial-single
+		.st-box
+			padding: 1em 1.5em
+			flex-wrap: wrap
+			.info
+				margin: 0 0 2.4em
+				width: 100%
+			.text
+				width: 100%
+				.icon
+					margin: 0
 
 	//popups
 	.mpopup
