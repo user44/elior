@@ -1060,6 +1060,9 @@ textarea
 .our-team-section
 	margin: 0 0 80px
 	position: relative
+	&.about
+		.vertical-text
+			top: 0%
 	&:before
 		content: ""
 		display: block
@@ -1086,34 +1089,49 @@ textarea
 		background: #444142 url(../img/tabs-bg.png) no-repeat center
 		background-size: cover
 		color: #fff
+		display: flex
+		flex-wrap: wrap
+		align-items: center
+		justify-content: center
 		.tab-desc
-			padding: 0 8%
 			position: relative
-			padding-left: 100px
 			font-size: 13px
 			display: inline-block
 			font-family: "ProximaNovaExtrabld"
+			display: flex
+			justify-content: flex-start
+			align-items: center
+			.img-box,
+			p
+			p
+				margin: 0 0 0 8%
+				text-transform: none
+				font-size: 20px
 			span
-					display: block
-					font-size: 16px
-					font-family: "ProximaNovaRegular"
-					text-transform: none
+				display: block
+				font-size: 16px
+				font-family: "ProximaNovaRegular"
+				text-transform: none
 		.tab
-			padding: 45px 34px
+			width: 100%
+			padding: 0.9em 1em
 			display: block
 			position: relative
 			text-transform: uppercase
+			border-bottom: 2px solid rgba(255,255,255, .23)
 			cursor: pointer
 			transition: .3s
+			&:last-child
+				border-color: transparent
 			&:hover,
 			&.active
 				background: $accent
+			.img-box
+				align-content: center
+				flex-shrink: 0
 			img
-				// margin-right: 20px
-				position: absolute
-				left: 0
-				top: 50%
-				transform: translate3d(0, -50%, 0)
+				width: 97px
+				height: 97px
 	.tab_content
 		padding: 20px 2%
 		padding-right: 12%
@@ -1131,18 +1149,22 @@ textarea
 			margin: 20px 0 20px
 			padding: 25px 0
 			padding-right: 8%
-			border-top: 1px solid #000
-			border-bottom: 1px solid #000
 			font-size: 18px
-			font-family: "ProximaNovaExtrabld"
-			font-style: italic
 			position: relative
-			.icon
-				padding: 5px 15px 5px 0
+			&::after
+				content: ""
+				display: block
 				position: absolute
-				background: #fff
+				left: 0
+				bottom: 0
+				width: 45%
+				height: 2px
+				background: $accent
+			.icon
+				position: absolute
 				left: 0
 				top: -15px
+				color: $accent
 		.text
 			color: #555555
 			font-size: 17px
@@ -1289,6 +1311,11 @@ textarea
 .icon-boxes
 	&.about
 		margin: 0 0 6em
+		.item-box
+			&:hover
+				background: #fff
+				box-shadow: none
+				color: #000
 	.boxes
 		display: flex
 		justify-content: space-between
@@ -1683,6 +1710,22 @@ textarea
 		background-repeat: no-repeat
 		background-position: 76% 48%
 		background-size: 32%
+	&.about
+		ul.steps
+			margin: 0
+			padding: 0
+			li
+				list-style-type: none
+				position: relative
+				padding-left: 5.3em
+				font-size: 16px
+				.n
+					font-size: 28px
+					font-family: "ProximaNovaBold"
+					color: $accent
+					position: absolute
+					left: 0
+					top: -12px
 	// .items
 	// 	margin: 0 0 2em
 	// 	ul
@@ -1718,6 +1761,9 @@ textarea
 		margin: 0 0 1em
 .faq-section
 	position: relative
+	&.about
+		.vertical-text
+			top: -70%
 	.vertical-text
 		top: -165%
 	.faq-box
@@ -1901,10 +1947,10 @@ textarea
 	.owl-item
 		cursor: move
 	.owl-dots
-		margin: 0.4em 0 0
+		margin: 0.6em 0 0
 		text-align: center
 		.owl-dot
-			margin: 0 0.4em
+			margin: 0 0.5em
 			width: 5px
 			height: 5px
 			background: #000
@@ -1912,7 +1958,7 @@ textarea
 			display: inline-block
 			&.active
 				background: $accent
-				box-shadow: 0 0 0 4px $accent
+				box-shadow: 0 0 0 5px $accent
 
 
 

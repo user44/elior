@@ -12700,6 +12700,10 @@ textarea:valid {
   position: relative;
 }
 
+.our-team-section.about .vertical-text {
+  top: 0%;
+}
+
 .our-team-section:before {
   content: "";
   display: block;
@@ -12735,15 +12739,52 @@ textarea:valid {
   -o-background-size: cover;
   background-size: cover;
   color: #fff;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -moz-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -moz-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
 
 .our-team-section .tabs .tab-desc {
-  padding: 0 8%;
   position: relative;
-  padding-left: 100px;
   font-size: 13px;
   display: inline-block;
   font-family: "ProximaNovaExtrabld";
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -moz-box-pack: start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -moz-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.our-team-section .tabs .tab-desc p {
+  margin: 0 0 0 8%;
+  text-transform: none;
+  font-size: 20px;
 }
 
 .our-team-section .tabs .tab-desc span {
@@ -12754,10 +12795,12 @@ textarea:valid {
 }
 
 .our-team-section .tabs .tab {
-  padding: 45px 34px;
+  width: 100%;
+  padding: 0.9em 1em;
   display: block;
   position: relative;
   text-transform: uppercase;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.23);
   cursor: pointer;
   -webkit-transition: .3s;
   -o-transition: .3s;
@@ -12765,17 +12808,26 @@ textarea:valid {
   transition: .3s;
 }
 
+.our-team-section .tabs .tab:last-child {
+  border-color: transparent;
+}
+
 .our-team-section .tabs .tab:hover, .our-team-section .tabs .tab.active {
   background: #ce4e4e;
 }
 
+.our-team-section .tabs .tab .img-box {
+  -webkit-align-content: center;
+  -ms-flex-line-pack: center;
+  align-content: center;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+}
+
 .our-team-section .tabs .tab img {
-  position: absolute;
-  left: 0;
-  top: 50%;
-  -webkit-transform: translate3d(0, -50%, 0);
-  -moz-transform: translate3d(0, -50%, 0);
-  transform: translate3d(0, -50%, 0);
+  width: 97px;
+  height: 97px;
 }
 
 .our-team-section .tab_content {
@@ -12804,20 +12856,26 @@ textarea:valid {
   margin: 20px 0 20px;
   padding: 25px 0;
   padding-right: 8%;
-  border-top: 1px solid #000;
-  border-bottom: 1px solid #000;
   font-size: 18px;
-  font-family: "ProximaNovaExtrabld";
-  font-style: italic;
   position: relative;
 }
 
-.our-team-section .tab_item .quote .icon {
-  padding: 5px 15px 5px 0;
+.our-team-section .tab_item .quote::after {
+  content: "";
+  display: block;
   position: absolute;
-  background: #fff;
+  left: 0;
+  bottom: 0;
+  width: 45%;
+  height: 2px;
+  background: #ce4e4e;
+}
+
+.our-team-section .tab_item .quote .icon {
+  position: absolute;
   left: 0;
   top: -15px;
+  color: #ce4e4e;
 }
 
 .our-team-section .tab_item .text {
@@ -13040,6 +13098,14 @@ textarea:valid {
 
 .icon-boxes.about {
   margin: 0 0 6em;
+}
+
+.icon-boxes.about .item-box:hover {
+  background: #fff;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  color: #000;
 }
 
 .icon-boxes .boxes {
@@ -13739,6 +13805,27 @@ textarea:valid {
   background-size: 32%;
 }
 
+.gift-section.about ul.steps {
+  margin: 0;
+  padding: 0;
+}
+
+.gift-section.about ul.steps li {
+  list-style-type: none;
+  position: relative;
+  padding-left: 5.3em;
+  font-size: 16px;
+}
+
+.gift-section.about ul.steps li .n {
+  font-size: 28px;
+  font-family: "ProximaNovaBold";
+  color: #ce4e4e;
+  position: absolute;
+  left: 0;
+  top: -12px;
+}
+
 .gift-section.guarantee {
   margin-bottom: 0;
   background: url(../img/guarantee-bg.png) no-repeat 70% 64%;
@@ -13766,6 +13853,10 @@ textarea:valid {
 
 .faq-section {
   position: relative;
+}
+
+.faq-section.about .vertical-text {
+  top: -70%;
 }
 
 .faq-section .vertical-text {
@@ -14090,12 +14181,12 @@ textarea:valid {
 }
 
 .about-slider .owl-dots {
-  margin: 0.4em 0 0;
+  margin: 0.6em 0 0;
   text-align: center;
 }
 
 .about-slider .owl-dots .owl-dot {
-  margin: 0 0.4em;
+  margin: 0 0.5em;
   width: 5px;
   height: 5px;
   background: #000;
@@ -14107,9 +14198,9 @@ textarea:valid {
 
 .about-slider .owl-dots .owl-dot.active {
   background: #ce4e4e;
-  -webkit-box-shadow: 0 0 0 4px #ce4e4e;
-  -moz-box-shadow: 0 0 0 4px #ce4e4e;
-  box-shadow: 0 0 0 4px #ce4e4e;
+  -webkit-box-shadow: 0 0 0 5px #ce4e4e;
+  -moz-box-shadow: 0 0 0 5px #ce4e4e;
+  box-shadow: 0 0 0 5px #ce4e4e;
 }
 
 .mfp-bg {
