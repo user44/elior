@@ -36,6 +36,7 @@ body textarea:required:valid
 @import ../app/libs/magnific-popup/magnific-popup
 @import ../app/libs/sweetalert-master/animate
 @import ../app/libs/sweetalert-master/dist/sweetalert
+@import ../app/libs/rangeslider/rangeslider
 
 /*======================= Styles ==========================*/
 $accent: #ce4e4e
@@ -103,6 +104,8 @@ a
 				opacity: 0.1
 		.llt
 			color: #fff
+	&.calc
+		margin-bottom: 0
 	.section-title
 		margin: 0 0 30px
 		position: relative
@@ -398,6 +401,8 @@ textarea
 .main-head
 	// background: url(../img/header-bg.png) no-repeat right top
 	position: relative
+	&.calc
+		margin: 0 0 9em
 	.desc-prj
 		p
 			margin: 0 0 15px
@@ -419,6 +424,10 @@ textarea
 		top: 0
 		width: 50%
 		height: 100%
+		&.calc
+			max-height: 700px
+			.slider-counter
+				display: none
 		.item
 			display: none
 			position: absolute
@@ -1959,6 +1968,71 @@ textarea
 			&.active
 				background: $accent
 				box-shadow: 0 0 0 5px $accent
+.calc-box
+	background: #fff
+	padding: 2em 3em
+	box-shadow: 3px 14px 40px rgba(237, 77, 77, 0.2)
+	position: relative
+	z-index: 15
+	.option-box
+		font-size: 22px
+		margin: 0 0 1em
+	.t
+		margin: 0 0 0.5em
+		font-size: 27px
+		font-family: "ProximaNovaExtrabld"
+	.inputs-line
+		label
+			display: inline-block
+			margin-right: 0.2em
+			input
+				display: inline-block
+				width: auto
+			span
+				margin: 0 0.3em
+				vertical-align: middle
+				display: inline-block
+	.inputs
+		label
+			margin: 0 0 0.3em
+			display: block
+			input
+				width: auto
+				margin-right: 0.8em
+	.slider-range
+		output
+			display: inline-block
+			width: 10%
+			vertical-align: middle
+		.rangeslider
+			display: inline-block
+			width: 88%
+			height: 5px
+			border-radius: 0
+			box-shadow: none
+			top: -3px
+			.rangeslider__fill
+				background-color: #ff8787
+			.rangeslider__handle
+				width: 20px
+				height: 20px
+				box-shadow: none
+				top: -8px
+				// right: -20px
+				&::after
+					width: 8px
+					height: 8px
+	.line-form
+		margin: 2em 0 0
+		button
+			width: 100%
+		input
+			border-color: #969696
+	.secure
+		margin: 0.5em 0 0
+		display: inline-block
+		.icon
+			top: 5px
 
 
 

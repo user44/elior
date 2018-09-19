@@ -80,7 +80,6 @@ $(document).ready(function() {
 	});
 	var iterate = 1;
 	var slideChange = setInterval(function() {
-		if($('.header-slider').hasClass('calc')) return false;
 		var allElem = $('.header-slider .slider-counter .sn').size();
 		var curActive = $('.header-slider .slider-counter .sn.active').index();
 		if (curActive == iterate-1) {

@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="ru"> <!--<![endif]-->
+
+<head>
+
+	<meta charset="utf-8">
+
+	<title>Elior - строительная компания</title>
+	<meta name="description" content="">
+
+	<link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
+	<link rel="apple-touch-icon" href="img/favicon/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-touch-icon-114x114.png">
+
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<link rel="stylesheet" href="css/main.css">
+
+</head>
+
+<body>
+
+	<div class="lbar">
+		<div class="logo">
+			<img src="img/logo.png" alt="">
+			<p>Строительная компания</p>
+		</div>
+		<div class="lbar-menu">
+			<span class="navbutton" title="Главное меню"><em></em> <em></em> <em></em></span>
+			<ul>
+				<li><a href="#">Главная</a></li>
+				<li><a href="#">Link 2</a></li>
+				<li><a href="#">Link 3</a></li>
+				<li><a href="#">Link 4</a></li>
+				<li><a href="#">Link 5</a></li>
+				<li><a href="#">Link 6</a></li>
+				<li><a href="#">Link link 7</a></li>
+				<li><a href="#">Link link 8</a></li>
+			</ul>
+		</div>
+		<div class="lbar-title">
+			<ul>
+				<!-- <li><a class="popup-with-move-anim" href="#callback-popup">Заказать консультацию</a></li> -->
+				<li><p>Калькулятор стоимости</p></li>
+        <li><p>Контакты</p></li>
+			</ul>
+		</div>
+	</div>
+
+  <header class="main-head calc">
+		<div class="icon-circle vk">
+			<a href="#" target="_blank"><i class="fab fa-vk"></i></a>
+		</div>
+		<div class="header-slider calc">
+			<div class="slider-counter">
+				<div class="sn active"><div class="n">01</div> <div class="circle"></div></div>
+			</div>
+			<div class="slides">
+				<div class="item"><img src="img/header-slider/calc/slide1.jpg" alt=""></div>
+			</div>
+		</div>
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-6">
+					<div class="callback-box">
+						<div class="icon-circle">
+							<i class="fas fa-phone"></i>
+						</div>
+							<p class="phone">8 (812) 929-29-93</p>
+							<a class="popup-with-move-anim" href="#callback-popup">Заказать звонок</a>
+					</div>
+				</div>
+				<div class="col-sm-6"></div>
+			</div>
+
+      <div class="row">
+				<div class="col-sm-12">
+					<div class="section-title-box calc">
+						<div class="section-title lfbtitle" data-index="1">
+							<div class="n">01</div>
+							<h3>Калькулятор<br> стоимости</h3>
+						</div>
+            <div class="llt">Введите данные вашего жилья и рассчитайте<br> предварительную стомость вашего ремонта прямо сейчас. </div>
+					</div>
+				</div>
+			</div>
+
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="calc-box">
+            <div class="row">
+              <div class="col-sm-6">
+                <div class="option-box">
+                  <div class="t">Количество комнат</div>
+                  <div class="inputs-line">
+                    <label><input name="Количество комнат" type="radio" value="1"><span>1</span></label>
+                    <label><input name="Количество комнат" type="radio" value="2"><span>2</span></label>
+                    <label><input name="Количество комнат" type="radio" value="3"><span>3</span></label>
+                    <label><input name="Количество комнат" type="radio" value="4"><span>4</span></label>
+                    <label><input name="Количество комнат" type="radio" value="5"><span>5</span></label>
+                  </div>
+                </div>
+                <div class="option-box">
+                  <div class="t">Тип жилья</div>
+                  <div class="inputs">
+                    <label><input name="Тип жилья" type="radio" value="Квартира">Квартира</label>
+                    <label><input name="Тип жилья" type="radio" value="Дом или коттедж">Дом или коттедж</label>
+                    <label><input name="Тип жилья" type="radio" value="Коммерческое помещение">Коммерческое помещение</label>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6">
+                <div class="option-box">
+                  <div class="t">Площадь помещения в м<sup>2</sup></div>
+                  <div class="slider-range">
+                    <output></output>
+                    <input name="Площадь помещения м2" type="range" min="10" max="450" step="5" value="40">
+                  </div>
+                </div>
+                <div class="option-box">
+                  <div class="t">Тип ремонта</div>
+                  <div class="inputs">
+                    <label><input name="Тип ремонта" type="radio" value="Косметический">Косметический</label>
+                    <label><input name="Тип ремонта" type="radio" value="Капитальный">Капитальный</label>
+                    <label><input name="Тип ремонта" type="radio" value="Под ключ">Под ключ</label>
+                    <label><input name="Тип ремонта" type="radio" value="Дизайнерский">Дизайнерский</label>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="line-form">
+              <div class="row">
+                <div class="col-lg-4">
+                  <input name="Имя" type="text" placeholder="Ваше имя" required>
+                </div>
+                <div class="col-lg-4">
+                  <input name="Ваш телефон" type="tel" placeholder="Ваш телефон" required>
+                </div>
+                <div class="col-lg-4">
+                  <button class="btn-accent middle" type="submit">Заказать расчет</button>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-sm-12">
+                  <div class="secure">
+      							<div class="icon">
+      								<div class="fi fi-shield-check"></div>
+      							</div>
+      							<p>*Ваши данные не будут переданы третьим лицам</p>
+      						</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+		</div>
+	</header>
+
+	<section class="contacts-section lfbtitle" data-index="2">
+		<div class="container">
+
+			<div class="row">
+				<div class="col-sm-12">
+					<div class="section-title-box">
+						<div class="section-title">
+							<div class="n">02</div>
+							<h3>Контакты</h3>
+              <div class="llt mt">Свяжитесь с нами любым удобным способом<br> или оставьте завяку и мы сами Вам перезвоним!</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</div>
+
+		<div class="map-section">
+
+			<div class="contacts-container">
+				<span class="navbutton active"> <em></em> <em></em> <em></em> </span>
+				<div class="contacts-box">
+					<ul>
+						<li>
+							<div class="icon">
+								<i class="fas fa-phone"></i>
+							</div>
+							<p><span><a href="tel:74991003225">+7 (499)-100-32-25</a></span></p>
+						</li>
+						<li>
+							<div class="icon">
+								<i class="fas fa-map-marker-alt"></i>
+							</div>
+							<p>Москва, Звенигородское<br> шоссе, 3</p>
+						</li>
+						<li>
+							<div class="icon">
+								<i class="fas fa-envelope"></i>
+							</div>
+							<p><a href="mailto:info@domain.ru">info@domain.ru</a></p>
+						</li>
+						<li>
+							<div class="icon">
+								<i class="far fa-clock"></i>
+							</div>
+							<p>Время работы: 10:00-20:00<br> (в выходные 10:00-17:00)</p>
+						</li>
+					</ul>
+					<div class="btn-box">
+						<a href="#callback-popup" class="btn-accent white popup-with-move-anim">Перезвонить мне</a>
+					</div>
+					<div class="get-contract">
+						<div class="circle">
+							<div class="fi fi-pdf"></div>
+						</div>
+						<a href="#">Скачать договор</a>
+					</div>
+				</div>
+			</div>
+
+			<div class="map" id="map">
+				<script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
+			</div>
+		</div>
+
+	</section>
+
+	<footer class="main-footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-12">
+					<div class="cols">
+
+						<div class="logo-box">
+							<a href="/">
+								<div class="logo">
+									elior
+								</div>
+								<p>Строительная компания</p>
+							</a>
+						</div>
+
+						<div class="footer-box">
+							<div class="title">Услуги</div>
+							<ul class="footer-menu">
+								<li><a href="#">Ремонт Квартир</a></li>
+								<li><a href="#">Ремонт коттеджей</a></li>
+								<li><a href="#">Коммерческие помещения</a></li>
+								<li><a href="#">Дизайн помещений</a></li>
+							</ul>
+							<div class="sub-info">ИНН: 34448881075008</div>
+						</div>
+
+						<div class="footer-box">
+							<div class="title">О Компании</div>
+							<ul class="footer-menu">
+								<li><a href="#">Дизайн помещений</a></li>
+								<li><a href="#">Наши проекты (кейсы)</a></li>
+								<li><a href="#">О компании</a></li>
+								<li><a href="#">Контакты</a></li>
+							</ul>
+							<div class="sub-info">ОГРН 200040052336787</div>
+						</div>
+
+						<div class="footer-box">
+							<div class="title">Контакты</div>
+							<div class="info">
+								<ul>
+									<li><a href="tel:88129292993">8 (812) 929-29-93</a></li>
+									<li><a href="mailto:info@elior-spb.ru">info@elior-spb.ru</a></li>
+									<li>Санкт-Петербург,<br> наб. Канала Грибоедова, д. 126</li>
+								</ul>
+							</div>
+						</div>
+
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+	<!-- <section class="red-section bottom">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-12">
+					<div class="title">Узнайте точную стоимость вашего ремонта</div>
+					<div class="subtitle">Получите расчет стоимости, исходя из типа и метража вашего объекта</div>
+					<div class="btn-box">
+						<a href="#" class="btn-accent white">Перейти в калькулятор</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section> -->
+
+	<!-- popups -->
+	<div id="callback-popup" class="zoom-anim-dialog mfp-hide mpopup">
+		<div class="title">Заказать звонок</div>
+		<form class="form">
+			<input name="form_subject" type="hidden" value="Заказ звонка">
+			<input name="Имя" type="text" placeholder="Имя" required>
+			<input name="Телефон" type="tel" placeholder="Телефон" required>
+			<button class="btn-accent middle" type="submit">Отправить</button>
+		</form>
+	</div>
+
+	<div id="smetacalc-popup" class="zoom-anim-dialog mfp-hide mpopup long">
+		<div class="title">Заказать расчет сметы</div>
+		<form class="form">
+			<input name="form_subject" type="hidden" value="Расчет сметы">
+			<span class="inputs">
+				<input name="Имя" type="text" placeholder="Имя" required>
+				<input name="Телефон" type="tel" placeholder="Телефон" required>
+				<input name="E-mail" type="email" placeholder="E-mail" required>
+			</span>
+			<textarea name="Комментарий" placeholder="Комментарий" required></textarea>
+			<button class="btn-accent middle" type="submit">Отправить</button>
+		</form>
+	</div>
+
+	<!-- 	[if lt IE 9]>
+		<script src="js/html5shiv/es5-shim.min.js"></script>
+		<script src="js/html5shiv/html5shiv.min.js"></script>
+		<script src="js/html5shiv/html5shiv-printshiv.min.js"></script>
+		<script src="js/respond/respond.min.js"></script>
+		<![endif] -->
+
+	<script src="libs/jquery/jquery-2.2.4.min.js"></script>
+	<script src="libs/carousel/owl.carousel.min.js"></script>
+	<script src="libs/slick/slick.min.js"></script>
+	<script src="libs/magnific-popup/jquery.magnific-popup.min.js"></script>
+	<script src="libs/waypoints/lib/jquery.waypoints.min.js"></script>
+	<script src="libs/sweetalert-master/dist/sweetalert.min.js"></script>
+	<script src="libs/maskedinput/jquery.maskedinput.min.js"></script>
+	<script src="libs/isotope/imagesloaded.min.js"></script>
+	<script src="libs/isotope/isotope.pkgd.min.js"></script>
+  <script src="libs/rangeslider/rangeslider.min.js"></script>
+	<script src="js/main.js"></script>
+
+  <script>
+    $(document).ready(function() {
+      $('input[type="range"]').rangeslider({
+        polyfill: false,
+      });
+
+      $('.slider-range input').on('input', function() {
+        var curValue = $(this).val();
+        $('.slider-range output').text(curValue);
+      })
+
+      $('input[type="range"]').val($('input[type="range"]').val()).trigger('input');
+
+    })
+  </script>
+
+
+</body>
+</html>
