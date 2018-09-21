@@ -11150,6 +11150,35 @@ body {
   color: #000;
   font-size: 16px;
   background: #F7F7F7;
+  position: relative;
+}
+
+body .v-lines {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+
+body .v-lines span {
+  display: block;
+  width: 1px;
+  height: 100%;
+  background: #ebeaea;
+  position: absolute;
+}
+
+body .v-lines span:nth-child(1) {
+  left: 22%;
+}
+
+body .v-lines span:nth-child(2) {
+  left: 37%;
+}
+
+body .v-lines span:nth-child(3) {
+  left: 51%;
 }
 
 a {
@@ -12233,6 +12262,7 @@ textarea:valid {
   text-transform: uppercase;
   text-shadow: 3px 11px 43px rgba(139, 123, 86, 0.09);
   font-family: "ProximaNovaExtrabld";
+  letter-spacing: 28px;
 }
 
 .our-services-section .our-services-box {
