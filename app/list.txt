@@ -6,3 +6,5 @@ http://antoha1p.beget.tech/5.html
 http://antoha1p.beget.tech/about.html
 http://antoha1p.beget.tech/cases.html
 http://antoha1p.beget.tech/single.html
+http://antoha1p.beget.tech/contacts.html
+http://antoha1p.beget.tech/calc.html

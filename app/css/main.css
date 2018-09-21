@@ -11171,7 +11171,7 @@ a:hover {
   font-size: 20px;
   text-align: center;
   border: none;
-  background-color: #ce4e4e;
+  background-color: #ED4D4D;
   color: #fff;
   font-family: "ProximaNovaRegular";
   font-weight: 700;
@@ -11192,7 +11192,7 @@ a:hover {
 }
 
 .btn-accent:hover {
-  background: #d66a6a;
+  background: #f06d6d;
   -webkit-transition: .2s;
   -o-transition: .2s;
   -moz-transition: .2s;
@@ -11270,7 +11270,7 @@ a:hover {
   margin: 0 0 25px;
   color: #2c2c2c;
   padding-left: 20px;
-  border-left: 3px solid #ce4e4e;
+  border-left: 3px solid #ED4D4D;
   font-size: 22px;
   vertical-align: bottom;
   position: relative;
@@ -11324,7 +11324,7 @@ section {
   -ms-transform: rotate(-90deg);
   -o-transform: rotate(-90deg);
   transform: rotate(-90deg);
-  border-left: 3px solid #ce4e4e;
+  border-left: 3px solid #ED4D4D;
   padding-left: 10px;
 }
 
@@ -11378,7 +11378,7 @@ section {
   -ms-transform: rotate(-90deg);
   -o-transform: rotate(-90deg);
   transform: rotate(-90deg);
-  border-left: 3px solid #ce4e4e;
+  border-left: 3px solid #ED4D4D;
   padding-left: 10px;
 }
 
@@ -11585,7 +11585,7 @@ section {
 }
 
 .lbar .lbar-menu ul li a:hover {
-  color: #ce4e4e;
+  color: #ED4D4D;
 }
 
 .navbutton {
@@ -11752,7 +11752,7 @@ textarea:valid {
 .red-section {
   margin-bottom: 0;
   padding: 2em 0 3em;
-  background: #ce4e4e;
+  background: #ED4D4D;
   color: #fff;
 }
 
@@ -11866,10 +11866,10 @@ textarea:valid {
 }
 
 .main-head .header-slider .slider-counter .sn.active .circle {
-  background-color: #ce4e4e;
-  -webkit-box-shadow: 0 0 0 10px #ce4e4e;
-  -moz-box-shadow: 0 0 0 10px #ce4e4e;
-  box-shadow: 0 0 0 10px #ce4e4e;
+  background-color: #ED4D4D;
+  -webkit-box-shadow: 0 0 0 10px #ED4D4D;
+  -moz-box-shadow: 0 0 0 10px #ED4D4D;
+  box-shadow: 0 0 0 10px #ED4D4D;
   -webkit-transition: .3s;
   -o-transition: .3s;
   -moz-transition: .3s;
@@ -11892,7 +11892,7 @@ textarea:valid {
   display: inline-block;
   width: 46px;
   height: 2px;
-  background: #ce4e4e;
+  background: #ED4D4D;
   position: relative;
   top: -5px;
   margin-left: 1em;
@@ -12001,7 +12001,7 @@ textarea:valid {
 .main-head .llt {
   margin: 0 0 25px;
   padding-left: 20px;
-  border-left: 3px solid #ce4e4e;
+  border-left: 3px solid #ED4D4D;
   font-family: "ProximaNovaSemibold";
   font-size: 22px;
 }
@@ -12035,7 +12035,7 @@ textarea:valid {
 }
 
 .main-head .bt-item .bt-box .icon-box svg path {
-  fill: #ce4e4e;
+  fill: #ED4D4D;
 }
 
 .main-head .bt-item .bt-box .icon-box .fi, .main-head .bt-item .bt-box .icon-box .success-prj-section .scs-prjcts .owl-prev, .success-prj-section .scs-prjcts .main-head .bt-item .bt-box .icon-box .owl-prev, .main-head .bt-item .bt-box .icon-box .success-prj-section .scs-prjcts .owl-next, .success-prj-section .scs-prjcts .main-head .bt-item .bt-box .icon-box .owl-next, .main-head .bt-item .bt-box .icon-box .our-prices-section .tarif-item .desc ul li, .our-prices-section .tarif-item .desc ul .main-head .bt-item .bt-box .icon-box li, .main-head .bt-item .bt-box .icon-box .testimonials-section .testimonials-slider .owl-prev, .testimonials-section .testimonials-slider .main-head .bt-item .bt-box .icon-box .owl-prev, .main-head .bt-item .bt-box .icon-box .testimonials-section .testimonials-slider .owl-next, .testimonials-section .testimonials-slider .main-head .bt-item .bt-box .icon-box .owl-next {
@@ -12101,7 +12101,7 @@ textarea:valid {
   margin: 0 auto;
   width: 74px;
   height: 74px;
-  background: #ce4e4e;
+  background: #ED4D4D;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   border-radius: 50%;
@@ -12290,7 +12290,7 @@ textarea:valid {
 }
 
 .our-services-section .bt-item .icon-box .fi, .our-services-section .bt-item .icon-box .success-prj-section .scs-prjcts .owl-prev, .success-prj-section .scs-prjcts .our-services-section .bt-item .icon-box .owl-prev, .our-services-section .bt-item .icon-box .success-prj-section .scs-prjcts .owl-next, .success-prj-section .scs-prjcts .our-services-section .bt-item .icon-box .owl-next, .our-services-section .bt-item .icon-box .our-prices-section .tarif-item .desc ul li, .our-prices-section .tarif-item .desc ul .our-services-section .bt-item .icon-box li, .our-services-section .bt-item .icon-box .testimonials-section .testimonials-slider .owl-prev, .testimonials-section .testimonials-slider .our-services-section .bt-item .icon-box .owl-prev, .our-services-section .bt-item .icon-box .testimonials-section .testimonials-slider .owl-next, .testimonials-section .testimonials-slider .our-services-section .bt-item .icon-box .owl-next {
-  color: #ce4e4e;
+  color: #ED4D4D;
   font-size: 40px;
 }
 
@@ -12351,7 +12351,7 @@ textarea:valid {
   margin: 0 10px;
   width: 42px;
   height: 2px;
-  background: #ce4e4e;
+  background: #ED4D4D;
   position: relative;
   top: -8px;
 }
@@ -12381,10 +12381,10 @@ textarea:valid {
 }
 
 .success-prj-section .scs-prjcts .owl-dots .owl-dot.active {
-  background: #ce4e4e;
-  -webkit-box-shadow: 0 0 0 5px #ce4e4e;
-  -moz-box-shadow: 0 0 0 5px #ce4e4e;
-  box-shadow: 0 0 0 5px #ce4e4e;
+  background: #ED4D4D;
+  -webkit-box-shadow: 0 0 0 5px #ED4D4D;
+  -moz-box-shadow: 0 0 0 5px #ED4D4D;
+  box-shadow: 0 0 0 5px #ED4D4D;
 }
 
 .success-prj-section .scs-prjcts .owl-prev,
@@ -12408,7 +12408,7 @@ textarea:valid {
 
 .success-prj-section .scs-prjcts .owl-prev:hover,
 .success-prj-section .scs-prjcts .owl-next:hover {
-  background: #ce4e4e;
+  background: #ED4D4D;
 }
 
 .success-prj-section .scs-prjcts .owl-prev:before {
@@ -12419,7 +12419,7 @@ textarea:valid {
   -moz-transform: translate3d(-50%, -50%, 0);
   transform: translate3d(-50%, -50%, 0);
   font-size: 24px;
-  color: #ce4e4e;
+  color: #ED4D4D;
   -webkit-transition: .2s;
   -o-transition: .2s;
   -moz-transition: .2s;
@@ -12438,7 +12438,7 @@ textarea:valid {
   -moz-transform: translate3d(50%, -50%, 0);
   transform: translate3d(50%, -50%, 0);
   font-size: 24px;
-  color: #ce4e4e;
+  color: #ED4D4D;
   -webkit-transition: .2s;
   -o-transition: .2s;
   -moz-transition: .2s;
@@ -12475,9 +12475,9 @@ textarea:valid {
   top: 0;
   width: 100%;
   height: 100%;
-  -webkit-box-shadow: inset 0 0 0 6px #ce4e4e;
-  -moz-box-shadow: inset 0 0 0 6px #ce4e4e;
-  box-shadow: inset 0 0 0 6px #ce4e4e;
+  -webkit-box-shadow: inset 0 0 0 6px #ED4D4D;
+  -moz-box-shadow: inset 0 0 0 6px #ED4D4D;
+  box-shadow: inset 0 0 0 6px #ED4D4D;
 }
 
 .success-prj-section .desc-prj .title {
@@ -12555,7 +12555,7 @@ textarea:valid {
   display: block;
   font-size: 44px;
   font-family: "ProximaNovaExtrabld";
-  color: #ce4e4e;
+  color: #ED4D4D;
   text-transform: none;
 }
 
@@ -12588,9 +12588,9 @@ textarea:valid {
 .about-us-section .certs .owl-dots .owl-dot.active {
   margin: 0 6px;
   background: transparent;
-  -webkit-box-shadow: 0 0 0px 2px #F7F7F7, 0 0 0 4px #ce4e4e;
-  -moz-box-shadow: 0 0 0px 2px #F7F7F7, 0 0 0 4px #ce4e4e;
-  box-shadow: 0 0 0px 2px #F7F7F7, 0 0 0 4px #ce4e4e;
+  -webkit-box-shadow: 0 0 0px 2px #F7F7F7, 0 0 0 4px #ED4D4D;
+  -moz-box-shadow: 0 0 0px 2px #F7F7F7, 0 0 0 4px #ED4D4D;
+  box-shadow: 0 0 0px 2px #F7F7F7, 0 0 0 4px #ED4D4D;
 }
 
 .about-us-section .video-box {
@@ -12627,7 +12627,7 @@ textarea:valid {
   margin: 0 auto;
   width: 73px;
   height: 73px;
-  background: #ce4e4e;
+  background: #ED4D4D;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   border-radius: 50%;
@@ -12739,7 +12739,7 @@ textarea:valid {
 }
 
 .our-advantages-section.repair ul.steps .n {
-  color: #ce4e4e;
+  color: #ED4D4D;
   font-size: 49px;
   position: absolute;
   left: 0;
@@ -12783,7 +12783,7 @@ textarea:valid {
 }
 
 .our-advantages-section .tr-item .icon .fi, .our-advantages-section .tr-item .icon .success-prj-section .scs-prjcts .owl-prev, .success-prj-section .scs-prjcts .our-advantages-section .tr-item .icon .owl-prev, .our-advantages-section .tr-item .icon .success-prj-section .scs-prjcts .owl-next, .success-prj-section .scs-prjcts .our-advantages-section .tr-item .icon .owl-next, .our-advantages-section .tr-item .icon .our-prices-section .tarif-item .desc ul li, .our-prices-section .tarif-item .desc ul .our-advantages-section .tr-item .icon li, .our-advantages-section .tr-item .icon .testimonials-section .testimonials-slider .owl-prev, .testimonials-section .testimonials-slider .our-advantages-section .tr-item .icon .owl-prev, .our-advantages-section .tr-item .icon .testimonials-section .testimonials-slider .owl-next, .testimonials-section .testimonials-slider .our-advantages-section .tr-item .icon .owl-next {
-  color: #ce4e4e;
+  color: #ED4D4D;
   font-size: 60px;
 }
 
@@ -12962,7 +12962,7 @@ textarea:valid {
 }
 
 .our-team-section .tabs .tab:hover, .our-team-section .tabs .tab.active {
-  background: #ce4e4e;
+  background: #ED4D4D;
 }
 
 .our-team-section .tabs .tab .img-box {
@@ -13017,14 +13017,14 @@ textarea:valid {
   bottom: 0;
   width: 45%;
   height: 2px;
-  background: #ce4e4e;
+  background: #ED4D4D;
 }
 
 .our-team-section .tab_item .quote .icon {
   position: absolute;
   left: 0;
   top: -15px;
-  color: #ce4e4e;
+  color: #ED4D4D;
 }
 
 .our-team-section .tab_item .text {
@@ -13131,7 +13131,7 @@ textarea:valid {
   -webkit-transform: translate3d(-50%, -50%, 0);
   -moz-transform: translate3d(-50%, -50%, 0);
   transform: translate3d(-50%, -50%, 0);
-  color: #ce4e4e;
+  color: #ED4D4D;
   font-size: 35px;
 }
 
@@ -13176,7 +13176,7 @@ textarea:valid {
 
 .main-footer .logo-box .logo {
   font-size: 43px;
-  color: #ce4e4e;
+  color: #ED4D4D;
   text-transform: uppercase;
   font-family: "ProximaNovaExtrabld";
   letter-spacing: 8px;
@@ -13284,7 +13284,7 @@ textarea:valid {
 .icon-boxes .boxes.about .item-box .title span {
   display: block;
   font-size: 30px;
-  color: #ce4e4e;
+  color: #ED4D4D;
   font-family: "ProximaNovaExtrabld";
 }
 
@@ -13296,7 +13296,7 @@ textarea:valid {
 }
 
 .icon-boxes .item-box:hover {
-  background: #ce4e4e;
+  background: #ED4D4D;
   -webkit-box-shadow: 3px 14px 68px rgba(206, 78, 78, 0.6);
   -moz-box-shadow: 3px 14px 68px rgba(206, 78, 78, 0.6);
   box-shadow: 3px 14px 68px rgba(206, 78, 78, 0.6);
@@ -13317,7 +13317,7 @@ textarea:valid {
 
 .icon-boxes .item-box .icon .fi, .icon-boxes .item-box .icon .success-prj-section .scs-prjcts .owl-prev, .success-prj-section .scs-prjcts .icon-boxes .item-box .icon .owl-prev, .icon-boxes .item-box .icon .success-prj-section .scs-prjcts .owl-next, .success-prj-section .scs-prjcts .icon-boxes .item-box .icon .owl-next, .icon-boxes .item-box .icon .our-prices-section .tarif-item .desc ul li, .our-prices-section .tarif-item .desc ul .icon-boxes .item-box .icon li, .icon-boxes .item-box .icon .testimonials-section .testimonials-slider .owl-prev, .testimonials-section .testimonials-slider .icon-boxes .item-box .icon .owl-prev, .icon-boxes .item-box .icon .testimonials-section .testimonials-slider .owl-next, .testimonials-section .testimonials-slider .icon-boxes .item-box .icon .owl-next {
   font-size: 65px;
-  color: #ce4e4e;
+  color: #ED4D4D;
 }
 
 .icon-boxes .item-box .title {
@@ -13450,7 +13450,7 @@ textarea:valid {
 
 .smeta-section .triggers .tr-item .fi, .smeta-section .triggers .tr-item .success-prj-section .scs-prjcts .owl-prev, .success-prj-section .scs-prjcts .smeta-section .triggers .tr-item .owl-prev, .smeta-section .triggers .tr-item .success-prj-section .scs-prjcts .owl-next, .success-prj-section .scs-prjcts .smeta-section .triggers .tr-item .owl-next, .smeta-section .triggers .tr-item .our-prices-section .tarif-item .desc ul li, .our-prices-section .tarif-item .desc ul .smeta-section .triggers .tr-item li, .smeta-section .triggers .tr-item .testimonials-section .testimonials-slider .owl-prev, .testimonials-section .testimonials-slider .smeta-section .triggers .tr-item .owl-prev, .smeta-section .triggers .tr-item .testimonials-section .testimonials-slider .owl-next, .testimonials-section .testimonials-slider .smeta-section .triggers .tr-item .owl-next {
   font-size: 45px;
-  color: #ce4e4e;
+  color: #ED4D4D;
 }
 
 .chk-list ul {
@@ -13471,7 +13471,7 @@ textarea:valid {
   display: block;
   width: 30px;
   height: 30px;
-  background: #ce4e4e;
+  background: #ED4D4D;
   color: #fff;
   vertical-align: middle;
   text-align: center;
@@ -13508,7 +13508,7 @@ textarea:valid {
 .our-prices-section .tarif-item .price {
   margin: 0 0 1em;
   font-size: 20px;
-  color: #ce4e4e;
+  color: #ED4D4D;
   font-family: "ProximaNovaSemibold";
   padding: 0 0 0.7em;
   border-bottom: 1px solid #E6E6E6;
@@ -13545,7 +13545,7 @@ textarea:valid {
   left: 0;
   top: 3px;
   font-size: 11px;
-  color: #ce4e4e;
+  color: #ED4D4D;
 }
 
 .testimonials-section .tabs {
@@ -13559,7 +13559,7 @@ textarea:valid {
   padding: 1em 2em;
   background: #fff;
   font-size: 18px;
-  border: 2px solid #ce4e4e;
+  border: 2px solid #ED4D4D;
   text-decoration: underline;
   font-family: "ProximaNovaBold";
 }
@@ -13577,7 +13577,7 @@ textarea:valid {
 }
 
 .testimonials-section .tabs .tab.active {
-  background: #ce4e4e;
+  background: #ED4D4D;
   color: #fff;
   text-decoration: none;
 }
@@ -13641,10 +13641,10 @@ textarea:valid {
 }
 
 .testimonials-section .testimonials-slider .owl-dots .owl-dot.active {
-  background: #ce4e4e;
-  -webkit-box-shadow: 0 0 0 5px #ce4e4e;
-  -moz-box-shadow: 0 0 0 5px #ce4e4e;
-  box-shadow: 0 0 0 5px #ce4e4e;
+  background: #ED4D4D;
+  -webkit-box-shadow: 0 0 0 5px #ED4D4D;
+  -moz-box-shadow: 0 0 0 5px #ED4D4D;
+  box-shadow: 0 0 0 5px #ED4D4D;
 }
 
 .testimonials-section .testimonials-slider .owl-prev,
@@ -13668,7 +13668,7 @@ textarea:valid {
 
 .testimonials-section .testimonials-slider .owl-prev:hover,
 .testimonials-section .testimonials-slider .owl-next:hover {
-  background: #ce4e4e;
+  background: #ED4D4D;
 }
 
 .testimonials-section .testimonials-slider .owl-prev:before {
@@ -13679,7 +13679,7 @@ textarea:valid {
   -moz-transform: translate3d(-50%, -50%, 0);
   transform: translate3d(-50%, -50%, 0);
   font-size: 24px;
-  color: #ce4e4e;
+  color: #ED4D4D;
   -webkit-transition: .2s;
   -o-transition: .2s;
   -moz-transition: .2s;
@@ -13698,7 +13698,7 @@ textarea:valid {
   -moz-transform: translate3d(50%, -50%, 0);
   transform: translate3d(50%, -50%, 0);
   font-size: 24px;
-  color: #ce4e4e;
+  color: #ED4D4D;
   -webkit-transition: .2s;
   -o-transition: .2s;
   -moz-transition: .2s;
@@ -13740,7 +13740,7 @@ textarea:valid {
 .work-steps-section .st-item .n {
   font-size: 68px;
   font-family: "ProximaNovaBold";
-  color: #ce4e4e;
+  color: #ED4D4D;
 }
 
 .work-steps-section .st-item .title {
@@ -13785,7 +13785,7 @@ textarea:valid {
 .testimonials-section .testimonials-slider .designer-box .dw .icon .owl-prev,
 .designer-box .dw .icon .testimonials-section .testimonials-slider .owl-next,
 .testimonials-section .testimonials-slider .designer-box .dw .icon .owl-next {
-  color: #ce4e4e;
+  color: #ED4D4D;
 }
 
 .director-section .dw p,
@@ -13800,8 +13800,8 @@ textarea:valid {
   padding: 0.6em 0;
   display: inline-block;
   font-size: 20px;
-  border-top: 2px solid #ce4e4e;
-  border-bottom: 2px solid #ce4e4e;
+  border-top: 2px solid #ED4D4D;
+  border-bottom: 2px solid #ED4D4D;
   font-family: "ProximaNovaBold";
 }
 
@@ -13885,7 +13885,7 @@ textarea:valid {
 .testimonials-section .testimonials-slider .designer-box .director-img .play a:hover .icon .owl-prev,
 .designer-box .director-img .play a:hover .icon .testimonials-section .testimonials-slider .owl-next,
 .testimonials-section .testimonials-slider .designer-box .director-img .play a:hover .icon .owl-next {
-  color: #d97676;
+  color: #f27b7b;
 }
 
 .director-section .director-img .play .icon,
@@ -13919,7 +13919,7 @@ textarea:valid {
   width: 35px;
   height: 35px;
   font-size: 35px;
-  color: #ce4e4e;
+  color: #ED4D4D;
   -webkit-transform: translate3d(-50%, -50%, 0);
   -moz-transform: translate3d(-50%, -50%, 0);
   transform: translate3d(-50%, -50%, 0);
@@ -13969,7 +13969,7 @@ textarea:valid {
 .gift-section.about ul.steps li .n {
   font-size: 28px;
   font-family: "ProximaNovaBold";
-  color: #ce4e4e;
+  color: #ED4D4D;
   position: absolute;
   left: 0;
   top: -12px;
@@ -14055,7 +14055,7 @@ textarea:valid {
 }
 
 .faq-section .faq-box ul li.active .toggle {
-  background: #ce4e4e;
+  background: #ED4D4D;
 }
 
 .faq-section .faq-box ul li.active .toggle:before {
@@ -14090,7 +14090,7 @@ textarea:valid {
   margin: 0 0.1em 0.4em;
   padding: 1em 2em;
   display: inline-block;
-  border: 2px solid #ce4e4e;
+  border: 2px solid #ED4D4D;
   -webkit-border-radius: 8px;
   -moz-border-radius: 8px;
   border-radius: 8px;
@@ -14109,7 +14109,7 @@ textarea:valid {
 }
 
 .projects-box .cats a:hover, .projects-box .cats a.active {
-  background: #ce4e4e;
+  background: #ED4D4D;
   color: #fff;
 }
 
@@ -14131,7 +14131,7 @@ textarea:valid {
 }
 
 .projects-box .pr-items .item:hover .desc {
-  background: #ce4e4e;
+  background: #ED4D4D;
 }
 
 .projects-box .pr-items .item:hover .desc p {
@@ -14220,7 +14220,7 @@ textarea:valid {
   margin: 0 0.1em 0.4em;
   padding: 1em 2em;
   display: inline-block;
-  border: 2px solid #ce4e4e;
+  border: 2px solid #ED4D4D;
   -webkit-border-radius: 8px;
   -moz-border-radius: 8px;
   border-radius: 8px;
@@ -14239,7 +14239,7 @@ textarea:valid {
 }
 
 .single-gallery-box .tabs a:hover, .single-gallery-box .tabs a.active {
-  background: #ce4e4e;
+  background: #ED4D4D;
   color: #fff;
 }
 
@@ -14318,7 +14318,7 @@ textarea:valid {
 }
 
 .testimonial-single .st-box .text .icon .fi, .testimonial-single .st-box .text .icon .success-prj-section .scs-prjcts .owl-prev, .success-prj-section .scs-prjcts .testimonial-single .st-box .text .icon .owl-prev, .testimonial-single .st-box .text .icon .success-prj-section .scs-prjcts .owl-next, .success-prj-section .scs-prjcts .testimonial-single .st-box .text .icon .owl-next, .testimonial-single .st-box .text .icon .our-prices-section .tarif-item .desc ul li, .our-prices-section .tarif-item .desc ul .testimonial-single .st-box .text .icon li, .testimonial-single .st-box .text .icon .testimonials-section .testimonials-slider .owl-prev, .testimonials-section .testimonials-slider .testimonial-single .st-box .text .icon .owl-prev, .testimonial-single .st-box .text .icon .testimonials-section .testimonials-slider .owl-next, .testimonials-section .testimonials-slider .testimonial-single .st-box .text .icon .owl-next {
-  color: #ce4e4e;
+  color: #ED4D4D;
 }
 
 .testimonial-single .st-box .text p {
@@ -14346,10 +14346,10 @@ textarea:valid {
 }
 
 .about-slider .owl-dots .owl-dot.active {
-  background: #ce4e4e;
-  -webkit-box-shadow: 0 0 0 5px #ce4e4e;
-  -moz-box-shadow: 0 0 0 5px #ce4e4e;
-  box-shadow: 0 0 0 5px #ce4e4e;
+  background: #ED4D4D;
+  -webkit-box-shadow: 0 0 0 5px #ED4D4D;
+  -moz-box-shadow: 0 0 0 5px #ED4D4D;
+  box-shadow: 0 0 0 5px #ED4D4D;
 }
 
 .calc-box {

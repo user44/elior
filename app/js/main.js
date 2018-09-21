@@ -309,8 +309,8 @@ $(window).scroll(function() {
 	});
 
 	$(".prlx_vertical").css({
-		"transform" : "translate3d(0px, " + st  + "%, .01px) rotate(-90deg)",
-		"-webkit-transform" : "translate3d(0px, " + st  + "%, .01px) rotate(-90deg)"
+		"transform" : "translate3d(0px, " + st  + "%, .1px) rotate(-90deg)",
+		"-webkit-transform" : "translate3d(0px, " + st  + "%, .1px) rotate(-90deg)"
 	});
 
 });
