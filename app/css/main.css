@@ -14550,6 +14550,30 @@ textarea:valid {
 
 /*==========  Desktop First Method  ==========*/
 /* own-Large Devices, Wide Screens */
+@media only screen and (max-width: 1700px) {
+  /**/
+  .success-prj-section .scs-prjcts,
+  .success-prj-section .testimonials-slider,
+  .testimonials-section .scs-prjcts,
+  .testimonials-section .testimonials-slider {
+    padding: 0 80px;
+  }
+  .success-prj-section .scs-prjcts .owl-prev,
+  .success-prj-section .testimonials-slider .owl-prev,
+  .testimonials-section .scs-prjcts .owl-prev,
+  .testimonials-section .testimonials-slider .owl-prev {
+    left: 0;
+    right: auto;
+  }
+  .success-prj-section .scs-prjcts .owl-next,
+  .success-prj-section .testimonials-slider .owl-next,
+  .testimonials-section .scs-prjcts .owl-next,
+  .testimonials-section .testimonials-slider .owl-next {
+    right: 0;
+    left: auto;
+  }
+}
+
 @media only screen and (max-width: 1430px) {
   /**/
   .container {
@@ -14586,6 +14610,12 @@ textarea:valid {
     -moz-background-size: 45%;
     -o-background-size: 45%;
     background-size: 45%;
+  }
+  .success-prj-section .scs-prjcts,
+  .success-prj-section .testimonials-slider,
+  .testimonials-section .scs-prjcts,
+  .testimonials-section .testimonials-slider {
+    padding: 0;
   }
 }
 
@@ -14918,6 +14948,9 @@ textarea:valid {
   }
   .testimonials-section .testimonials-slider .owl-nav {
     display: none;
+  }
+  .testimonials-section .testimonials-slider .owl-dots .owl-dot {
+    padding: 5px;
   }
   .smeta-section {
     margin-bottom: 3em;

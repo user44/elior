@@ -1,6 +1,20 @@
 
 /*==========  Desktop First Method  ==========*/
 /* own-Large Devices, Wide Screens */
+@media only screen and (max-width : 1700px)
+	/**/
+	.success-prj-section,
+	.testimonials-section
+		.scs-prjcts,
+		.testimonials-slider
+			padding: 0 80px
+			.owl-prev
+				left: 0
+				right: auto
+			.owl-next
+				right: 0
+				left: auto
+
 @media only screen and (max-width : 1430px)
 	/**/
 	.container
@@ -37,6 +51,11 @@
 	.smeta-section.fourth,
 	.smeta-section.five,
 		background-size: 45%
+	.success-prj-section,
+	.testimonials-section
+		.scs-prjcts,
+		.testimonials-slider
+			padding: 0
 
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1199px)
@@ -325,6 +344,9 @@
 			padding: 0
 			.owl-nav
 				display: none
+			.owl-dots
+				.owl-dot
+					padding: 5px
 	.smeta-section
 		margin-bottom: 3em
 		&.bg
