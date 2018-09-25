@@ -12921,6 +12921,10 @@ textarea:valid {
   border-color: transparent;
 }
 
+.our-team-section .team-box-mobile .tab:first-child .tab_content {
+  display: block;
+}
+
 .our-team-section .team-box-mobile .tab.active .tab-desc {
   background: #ED4D4D;
 }
