@@ -55,6 +55,15 @@ $(document).ready(function() {
 		return false;
 	});
 
+	//team members mobile
+	$('.team-box-mobile .tab').click(function() {
+		$(this).toggleClass('active');
+		// $('.team-box-mobile .tab_content').hide();
+
+		// $(this).addClass('active');
+		$(this).find('.tab_content').slideToggle();
+	})
+
 	//isotope sorting
 	var $container = $('.projects-box .pr-items').imagesLoaded(function() {
 		$container.isotope({

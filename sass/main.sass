@@ -1111,6 +1111,94 @@ textarea
 		top: 0
 		top: -90%
 		margin-left: 0%
+	.team-box-mobile
+		.tab
+			width: 100%
+			display: block
+			position: relative
+			text-transform: uppercase
+			border-bottom: 2px solid rgb(115, 112, 113)
+			cursor: pointer
+			-webkit-transition: .3s
+			-o-transition: .3s
+			-moz-transition: .3s
+			transition: .3s
+			&:last-child,
+			&.active
+				border-color: transparent
+			&.active
+				.tab-desc
+					background: $accent
+			.img-box
+				flex-shrink: 0
+				img
+					width: 54px
+					height: 54px
+			.tab_content
+				display: none
+		.tab-desc
+			padding: 0.9em 1em
+			position: relative
+			font-size: 13px
+			display: inline-block
+			font-family: "ProximaNovaExtrabld"
+			display: flex
+			justify-content: flex-start
+			align-items: center
+			background: #444142 url(../img/tabs-bg.png) no-repeat center
+			color: #fff
+			background-size: cover
+			// border-bottom: 2px solid rgba(255, 255, 255, 0.23)
+			.img-box,
+			p
+			p
+				margin: 0 0 0 8%
+				text-transform: none
+				font-size: 20px
+			span
+				display: block
+				font-size: 16px
+				font-family: "ProximaNovaRegular"
+				text-transform: none
+		.tab_content
+			text-transform: none
+			padding: 20px 2%
+			padding: 0
+			.member
+				padding-top: 15px
+				text-align: center
+			.img-box
+				img
+					width: auto
+					max-width: 100%
+					height: auto
+			.name
+				font-size: 22px
+				font-family: "ProximaNovaBold"
+			.role
+			.quote
+				margin: 20px 0 20px
+				padding: 25px 0
+				// padding-right: 8%
+				font-size: 18px
+				position: relative
+				.icon
+					position: absolute
+					left: 0
+					top: -15px
+					color: #ED4D4D
+				&:after
+					content: ""
+					display: block
+					position: absolute
+					left: 0
+					bottom: 0
+					width: 45%
+					height: 2px
+					background: #ED4D4D
+			.text
+				color: #555555
+				font-size: 17px
 	.team-box
 		box-shadow: 2px 8px 62px rgba(68, 68, 67, 0.07)
 		background-color: #ffffff
