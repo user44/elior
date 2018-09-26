@@ -11948,8 +11948,13 @@ textarea:valid {
 
 .main-head .callback-box .phone {
   margin: 0;
+}
+
+.main-head .callback-box .phone a {
   font-size: 20px;
   font-family: "ProximaNovaBold";
+  color: #000;
+  text-decoration: none;
 }
 
 .main-head .callback-box a {
